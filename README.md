@@ -25,7 +25,7 @@ anti# TCT MD
 
 ## 🏃‍♂️ Quick Start  on VPS
 
-### 1.  First, you need to get a session id  or scan on terminal later
+### 1.  First, you need to get a session id
 
 👇 click here 
   
