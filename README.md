@@ -183,12 +183,12 @@ pm2 stop {bot name}
 
 > Thisnmodule lets a user list all members who are in common groups
 
-> > Example, listing innall groups the bot is in
+> Example, listing innall groups the bot is in
 
 ```bash
 common list
 ```
-> > listing specific groups only
+> listing specific groups only
 
 ```bash
 common list
@@ -205,13 +205,13 @@ common list
 
 ### How to use active module
 
-> > This module lets admin list all active and inactive members
-> > can list within  days(d), weeks(w) months(m) year(y)
+> This module lets admin list all active and inactive members
+> can list within  days(d), weeks(w) months(m) year(y)
 
 ```bash
 active 1d
 ```
-> > see inactive memebers in 5days range
+> see inactive memebers in 5days range
 
 ```bash
 inactive 5d
@@ -240,7 +240,7 @@ menu
 
 #### ➡️ `additiongroup <group_jid> [...]`
 
-> > This command tells the bot to **start monitoring** one or more groups for new additions. You can add multiple groups at once by separating their JIDs with a space or by providing them on separate lines.
+> This command tells the bot to **start monitoring** one or more groups for new additions. You can add multiple groups at once by separating their JIDs with a space or by providing them on separate lines.
 
 > Turn on or off
 
@@ -279,7 +279,7 @@ removeadditiongroup <group_jid|index> [...]
 
 #### ➡️ `listadditiongroups` / `additiongroups`
 
-> > This command shows you all the groups the bot is currently monitoring, with a number next to each one for easy removal.
+> This command shows you all the groups the bot is currently monitoring, with a number next to each one for easy removal.
 
 * **Usage**: Simply type `listadditiongroups` or `additiongroups`.
 * **Example**: `listadditiongroups`
@@ -292,7 +292,7 @@ additions on
 additions off
 ```
 
-> >This command is a global toggle to **enable or disable** the entire additions notification system.
+>This command is a global toggle to **enable or disable** the entire additions notification system.
 
 * **Usage**: Type `additions on` to turn it on or `additions off` to turn it off.
 * **Example**: 
@@ -304,7 +304,7 @@ additions off
 
 #### ➡️ `additiontarget <target_jid|clear>`
 
-> > This command sets a specific chat or group where **all** additions notifications will be sent. By default, notifications are sent to the group where the addition happened.
+> This command sets a specific chat or group where **all** additions notifications will be sent. By default, notifications are sent to the group where the addition happened.
 
 * **Usage**: Type `additiontarget` followed by the JID of the target chat. Use `clear` to revert to the default behavior.
 * **Example**: `additiontarget 120300987654321012@g.us`
@@ -343,7 +343,7 @@ This module has two ways to use commands:
 
 #### ➡️ `alive`
 
-> > Manually sends the alive message.
+> Manually sends the alive message.
 
 * **Group Usage**:
     * `alive`: Sends the alive message to the current group.
@@ -356,7 +356,7 @@ This module has two ways to use commands:
 
 #### ➡️ `setalive`
 
-> > Sets a custom message that will appear in the alive broadcast for a specific group. This supports multi-line text.
+> Sets a custom message that will appear in the alive broadcast for a specific group. This supports multi-line text.
 
 * **Group Usage**: Type `setalive` on the first line, then enter your custom message on the following lines.
 * **Example (in a group)**:
@@ -379,7 +379,7 @@ This module has two ways to use commands:
 
 #### ➡️ `delalive`
 
-> > Deletes the custom alive message for a group, reverting to the default look.
+> Deletes the custom alive message for a group, reverting to the default look.
 
 * **Group Usage**: `delalive`
 * **PM Usage**: `delalive gp:my_group_alias`
@@ -388,7 +388,7 @@ This module has two ways to use commands:
 
 #### ➡️ `alivedaily`
 
-> > Manages the automatic daily sending of the alive message for a group.
+> Manages the automatic daily sending of the alive message for a group.
 
 * **Group Usage**:
     * `alivedaily`: Shows the current daily status for this group.
@@ -409,7 +409,7 @@ alivedaily on 09:00 gp:all
 
 #### ➡️ `listquote`
 
-> > Displays a sample list of the globally available quotes that are rotated in the alive message.
+> Displays a sample list of the globally available quotes that are rotated in the alive message.
 
 * **Usage**: Simply type `listquote`. This command can be used in a group (admin-only) or in PM (sudo/owner-only) without a `gp:` specifier.
 * **Example**: 
@@ -445,7 +445,7 @@ listquote
 
 # Antilink Module (v3) Guide
 
-> > Automatically detects and deletes messages containing links sent by non-admin members. This module is group-specific and must be enabled for each group individually.
+> Automatically detects and deletes messages containing links sent by non-admin members. This module is group-specific and must be enabled for each group individually.
 
 ## Features
 - Auto-detects and deletes link messages from non-admin members
@@ -455,7 +455,7 @@ listquote
 
 ## For Group Admins
 
-> > Control antilink settings for your default connection group(s).
+> Control antilink settings for your default connection group(s).
 
 **Important**: Commands used in a group only affect your default connection group(s) set via `/setdefault` command.
 
@@ -464,12 +464,12 @@ listquote
 antilink on
 ```
 
-> > > Disable antilink for default group(s)
+> > Disable antilink for default group(s)
 ```bash
 antilink off
 ```
 
-> > > Check antilink wstatus for default group(s)
+> > Check antilink wstatus for default group(s)
 
 ```bash
 antilink status
@@ -478,26 +478,26 @@ antilink status
 ## for sudo or pm
 
 
-> > > Enable for specific group (alias or JID)
+> > Enable for specific group (alias or JID)
 
 ```bash
 antilink on gp:mycoolgroup
 antilink on gp:1234567890@g.us
 ```
 
-> > > Enable for ALL groups
+> > Enable for ALL groups
 
 ```bash
 antilink on gp:all
 ```
 
-> > > Disable for specific group
+> > Disable for specific group
 
 ```bash
 antilink off gp:mycoolgroup
 ```
 
-> > > Check status for specific group
+> > Check status for specific group
 ```bash
 antilink status gp:mycoolgroup
 ```
@@ -506,7 +506,7 @@ antilink status gp:mycoolgroup
   <summary>antistatusdelete</summary>
 
 ### ➡️ **How to Use the  status_recovery**
-> > >  save statuses and resend when deleted (robust deletion detection)
+> >  save statuses and resend when deleted (robust deletion detection)
 
 - Saves statuses (status@broadcast) to disk (data/status/tmp) when enabled.
 - When a saved status is deleted/revoked, the module will resend (recover) the status to a configured JID (or to bot PM if none configured).
@@ -552,13 +552,13 @@ This module helps you save "view-once" images and videos. It has two main functi
 
 #### Commands
 
-> > Commands are used to configure where the notifications and recovered media are sent.
+> Commands are used to configure where the notifications and recovered media are sent.
 
 **Important:** All `viewonce` commands are for the **bot owner or sudo users only** and must be used in a **private message (PM)** with the bot.
 
 #### ➡️ `viewonce`
 
-> > This is the main command for managing settings.
+> This is the main command for managing settings.
 
 * **Check Status**:
     * **Usage**: `viewonce`
@@ -686,16 +686,16 @@ Commands are used to turn the feature on or off and to check its current status.
 
 #### How to Use
 
-> > There are two ways to use this command:
+> There are two ways to use this command:
 
 **1. Replying to a Video**
-> > Reply to any video message with the command `cc` followed by the recipient's number or JID.
+> Reply to any video message with the command `cc` followed by the recipient's number or JID.
 
 * **Example**: Reply to a video with `cc 254712345678`
 
 **2. Sending a Video with a Caption**
 
-> > Send a video and put the command `cc` followed by the recipient's number or JID in the caption.
+> Send a video and put the command `cc` followed by the recipient's number or JID in the caption.
 
 * **Example**: Send a video with the caption `cc 120363041234567890@g.us`
 
@@ -703,7 +703,7 @@ Commands are used to turn the feature on or off and to check its current status.
 
 #### Permissions
 
-> > The rules for using this command depend on where you use it:
+> The rules for using this command depend on where you use it:
 
 * **In Private Chat (PM):** Anyone can use the command.
 * **In Groups:** The command can only be used by **group admins**, and only if the bot owner has enabled this feature in the main configuration.
@@ -720,7 +720,7 @@ Commands are used to turn the feature on or off and to check its current status.
 
 ### ➡️ `getdb`
 
-> > Downloads the bot's database file as a document. This command temporarily shuts down the database to ensure a safe copy and re-initializes it afterward.
+> Downloads the bot's database file as a document. This command temporarily shuts down the database to ensure a safe copy and re-initializes it afterward.
 
 * **Usage**: `getdb [optional_filename]`
 * **Example**: `getdb`
@@ -729,7 +729,7 @@ Commands are used to turn the feature on or off and to check its current status.
 
 ### ➡️ `setdb`
 
-> > Restores the bot's database using an uploaded file. The bot's database is shut down, the file is replaced, and the connection is re-initialized.
+> Restores the bot's database using an uploaded file. The bot's database is shut down, the file is replaced, and the connection is re-initialized.
 
 * **Usage**: Attach a `.db` or `.sqlite` file with the caption `setdb`, or reply to the file with the command.
 * **Note**: A backup of the old database is created before it's replaced.
@@ -738,7 +738,7 @@ Commands are used to turn the feature on or off and to check its current status.
 
 ### ➡️ `getconfig`
 
-> > Downloads the bot's active configuration file (e.g., `config.yml`) as a document.
+> Downloads the bot's active configuration file (e.g., `config.yml`) as a document.
 
 * **Usage**: `getconfig`
 
@@ -746,7 +746,7 @@ Commands are used to turn the feature on or off and to check its current status.
 
 ### ➡️ `setconfig`
 
-> > Restores the bot's configuration using an uploaded file.
+> Restores the bot's configuration using an uploaded file.
 
 * **Usage**: Attach a `.yml`, `.yaml`, or `.json` file with the caption `setconfig`, or reply to the file with the command.
 * **Note**: A bot restart may be required for some changes to take full effect.
@@ -763,15 +763,15 @@ Commands are used to turn the feature on or off and to check its current status.
 
 #### How to Use
 
-> > There are two ways to use this command:
+> There are two ways to use this command:
 
 **1. Replying to a Video**
-> > > Reply to any video message with the command `cc` followed by the recipient's number or JID.
+> > Reply to any video message with the command `cc` followed by the recipient's number or JID.
 
 * **Example**: Reply to a video with `cc 254712345678`
 
 **2. Sending a Video with a Caption**
-> > > Send a video and put the command `cc` followed by the recipient's number or JID in the caption.
+> > Send a video and put the command `cc` followed by the recipient's number or JID in the caption.
 
 * **Example**: Send a video with the caption `cc 120363041234567890@g.us`
 
@@ -816,7 +816,7 @@ This command removes a specific connection or multiple connections from a group.
 
 ### ➡️ `listconnection`
 
-> > This command shows you all the connections currently saved for the group. It lists the names of the connections only, not the JIDs.
+> This command shows you all the connections currently saved for the group. It lists the names of the connections only, not the JIDs.
 
 * **Usage** : `listconnection`
 * **Example** : `listconnection`
@@ -825,7 +825,7 @@ This command removes a specific connection or multiple connections from a group.
 
 ### ➡️ `setdefault`
 
-> > This command sets the default connection(s) for the group. Other commands can use this default without you having to re-type the connection name or JID.
+> This command sets the default connection(s) for the group. Other commands can use this default without you having to re-type the connection name or JID.
 
 * **Usage** : `setdefault <name>` or `setdefault name1,name2,...` or `setdefault all`
 * **Example** : `setdefault groupA`
@@ -836,7 +836,7 @@ This command removes a specific connection or multiple connections from a group.
 
 ### ➡️ `getdefault`
 
-> > This command shows you the default connection(s) that have been set for the group.
+> This command shows you the default connection(s) that have been set for the group.
 
 * **Usage** : `getdefault`
 * **Example** : `getdefault`
@@ -853,7 +853,7 @@ This command removes a specific connection or multiple connections from a group.
 
 ### ➡️ `tomp3`
 
-> > This command extracts the audio from a video and converts it into an MP3 file.
+> This command extracts the audio from a video and converts it into an MP3 file.
 
 * **Usage**: Reply to a video message with the command. You can optionally provide a filename for the output audio.
 * **Example**: Reply to a video and type `tomp3 My Converted Song`.
@@ -862,7 +862,7 @@ This command removes a specific connection or multiple connections from a group.
 
 ### ➡️ `cutmp3`
 
-> > This command trims or cuts an audio file or a voice note.
+> This command trims or cuts an audio file or a voice note.
 
 * **Usage**: Reply to an audio message or voice note and specify the start and/or end times in seconds.
 * **Usage Examples**:
@@ -883,7 +883,7 @@ This command removes a specific connection or multiple connections from a group.
 
 #### Commands
 
-> > Commands are used to configure where the recovered messages and media are sent.
+> Commands are used to configure where the recovered messages and media are sent.
 
 **Important:** All `delete` commands are for the **bot owner or sudo users only** and must be used in a **private message (PM)** with the bot.
 
@@ -924,7 +924,7 @@ This is the main command for managing settings.
 
 #### Permissions
 
-> > The rules for using these commands depend on who you are and where you use them:
+> The rules for using these commands depend on who you are and where you use them:
 
 * **Bot Owner**: The bot owner can use all commands in any chat.
 * **Group Admins**: In a group chat, only group admins can use the commands. The downloaded media will be sent directly to the group.
@@ -934,7 +934,7 @@ This is the main command for managing settings.
 
 #### Commands
 
-> > This module has two main commands: `dla` for downloading from URLs and `ringtone` for finding ringtones.
+> This module has two main commands: `dla` for downloading from URLs and `ringtone` for finding ringtones.
 
 #### ➡️ `dla <URL>`
 
@@ -955,7 +955,7 @@ This is a universal downloader that supports several platforms.
 
 #### ➡️ `ringtone <search_query>`
 
-> > This command searches for and downloads a ringtone based on your search term.
+> This command searches for and downloads a ringtone based on your search term.
 
 * **Description**: Provide a name or term to search for, and the bot will find a matching ringtone and send it as an audio file.
 * **Usage**: `ringtone <search_term>`
@@ -986,7 +986,7 @@ This command fetches content from a public URL and sends it back as the appropri
 
 #### How It Works & Permissions
 
-> > The behavior of the commands changes depending on who uses them and where.
+> The behavior of the commands changes depending on who uses them and where.
 
 * **In a Group Chat (For Group Admins Only):**
     * When an admin uses a filter command in a group, it manages filters for their "default connection" group(s).
@@ -1002,7 +1002,7 @@ This command fetches content from a public URL and sends it back as the appropri
 
 #### ➡️ `gfilter` (Create or Update a Filter)
 
-> >This command sets up a new filter or overwrites an existing one.
+>This command sets up a new filter or overwrites an existing one.
 
 * **Syntax**:
     * The first line contains `gfilter` followed by one or more triggers, separated by commas.
@@ -1032,7 +1032,7 @@ This command fetches content from a public URL and sends it back as the appropri
 
 #### ➡️ `glistfilter` (List All Filters)
 
-> > This command shows all the active filter triggers.
+> This command shows all the active filter triggers.
 
 * **Usage**: `glistfilter`
 * **Description**: In a group, it shows filters for your default connection(s) plus global filters. In PM, it shows global filters by default.
@@ -1042,7 +1042,7 @@ This command fetches content from a public URL and sends it back as the appropri
 
 #### ➡️ `gdelfilter` (Delete a Filter)
 
-> > This command removes one or more filters.
+> This command removes one or more filters.
 *Aliases: `gdelfilters`, `gdelf`*
 
 * **Usage**: `gdelfilter <trigger1,trigger2,...>`
@@ -1057,7 +1057,7 @@ This command fetches content from a public URL and sends it back as the appropri
 
 #### Advanced Matching
 
-> > Besides exact words, you can use advanced patterns for triggers.
+> Besides exact words, you can use advanced patterns for triggers.
 
 * **Wildcard (`*`)**: The `*` acts as a placeholder for any characters.
     * **Example**: A trigger of `go*d` would match "good", "gold", and "goood".
@@ -1077,7 +1077,7 @@ This command fetches content from a public URL and sends it back as the appropri
 
 ### ➡️ `.sportshelp`
 
-> > Shows a list of all available football commands.
+> Shows a list of all available football commands.
 
 * **Usage**: `.sportshelp`
 
@@ -1085,7 +1085,7 @@ This command fetches content from a public URL and sends it back as the appropri
 
 ### ➡️ `.team`
 
-> > Fetches detailed information about a specific football team, including their crest, venue, and year founded.
+> Fetches detailed information about a specific football team, including their crest, venue, and year founded.
 
 * **Usage**: `.team <team name>`
 * **Example**: `.team Manchester United`
@@ -1094,7 +1094,7 @@ This command fetches content from a public URL and sends it back as the appropri
 
 ### ➡️ `.standings`
 
-> > Displays the current league table for a competition. You must provide the league's official code, which you can find using the `.league` command.
+> Displays the current league table for a competition. You must provide the league's official code, which you can find using the `.league` command.
 
 * **Usage**: `.standings <code>`
 * **Example**: `.standings PL`
@@ -1103,7 +1103,7 @@ This command fetches content from a public URL and sends it back as the appropri
 
 ### ➡️ `.today`
 
-> > Shows a list of major football matches scheduled for the current day, with times displayed in EAT (East Africa Time).
+> Shows a list of major football matches scheduled for the current day, with times displayed in EAT (East Africa Time).
 
 * **Usage**: `.today`
 
@@ -1111,7 +1111,7 @@ This command fetches content from a public URL and sends it back as the appropri
 
 ### ➡️ `.next`
 
-> >  Shows the next five upcoming fixtures for a specified team.
+>  Shows the next five upcoming fixtures for a specified team.
 
 * **Usage**: `.next <team name>`
 * **Example**: `.next Liverpool`
@@ -1120,7 +1120,7 @@ This command fetches content from a public URL and sends it back as the appropri
 
 ### ➡️ `.live`
 
-> > Fetches a list of up to 10 matches that are currently being played live.
+> Fetches a list of up to 10 matches that are currently being played live.
 
 * **Usage**: `.live`
 
@@ -1128,7 +1128,7 @@ This command fetches content from a public URL and sends it back as the appropri
 
 ### ➡️ `.league`
 
-> > Searches for a league by name to help you find its code for the `.standings` command.
+> Searches for a league by name to help you find its code for the `.standings` command.
 
 * **Usage**: `.league <league name>`
 * **Example**: `.league Bundesliga`
@@ -1137,7 +1137,7 @@ This command fetches content from a public URL and sends it back as the appropri
 
 ### ➡️ `.player`
 
-> > This command is currently unavailable due to API plan limitations.
+> This command is currently unavailable due to API plan limitations.
 
 * **Usage**: `.player <player name>`
 
@@ -1155,7 +1155,7 @@ This command fetches content from a public URL and sends it back as the appropri
 
 #### ➡️ `gp add <name> <jid>`
 
-> > Creates or updates a mapping between a name (alias) and a JID.
+> Creates or updates a mapping between a name (alias) and a JID.
 
 * **Usage**: `gp add <name> <jid>`
 * **Example**: `gp add test 120363380722467155@g.us`
@@ -1164,7 +1164,7 @@ This command fetches content from a public URL and sends it back as the appropri
 
 #### ➡️ `gp delete <name1> <name2>`
 
-> > Deletes one or more saved aliases. Names can be separated by spaces or commas.
+> Deletes one or more saved aliases. Names can be separated by spaces or commas.
 *Aliases: `del`, `remove`, `rm`*.
 
 * **Usage**: `gp delete <name1,name2>`
@@ -1174,7 +1174,7 @@ This command fetches content from a public URL and sends it back as the appropri
 
 #### ➡️ `gp list`
 
-> > Lists all registered aliases and the JIDs they point to.
+> Lists all registered aliases and the JIDs they point to.
 *Alias: `ls`*.
 
 * **Usage**: `gp list`
@@ -1183,7 +1183,7 @@ This command fetches content from a public URL and sends it back as the appropri
 
 #### ➡️ `gp jids`
 
-> > Lists all the JIDs that have been saved. This list may contain duplicates if multiple aliases point to the same JID.
+> Lists all the JIDs that have been saved. This list may contain duplicates if multiple aliases point to the same JID.
 
 * **Usage**: `gp jids`
 
@@ -1191,7 +1191,7 @@ This command fetches content from a public URL and sends it back as the appropri
 
 #### ➡️ `gp uniquejids`
 
-> > Lists all saved JIDs, but with any duplicates removed.
+> Lists all saved JIDs, but with any duplicates removed.
 
 * **Usage**: `gp uniquejids`
 
@@ -1199,7 +1199,7 @@ This command fetches content from a public URL and sends it back as the appropri
 
 #### ➡️ `gp entries`
 
-> > Lists all saved entries as `name -> jid` pairs, one per line.
+> Lists all saved entries as `name -> jid` pairs, one per line.
 
 * **Usage**: `gp entries`
 
@@ -1215,7 +1215,7 @@ This command fetches content from a public URL and sends it back as the appropri
 
 #### How to Use
 
-> > To get the health report, you must send a command directly to the bot.
+> To get the health report, you must send a command directly to the bot.
 
 * **Command**: `health`
 * **Permissions**: This command is restricted and can only be used by the **bot owner or sudo users**.
@@ -1225,7 +1225,7 @@ This command fetches content from a public URL and sends it back as the appropri
 
 #### What the Report Contains
 
-> > The health report is divided into several sections, providing detailed information about the bot's operating environment:
+> The health report is divided into several sections, providing detailed information about the bot's operating environment:
 
 * **💾 MEMORY USAGE**
     * Shows the RAM used by the bot process.
@@ -1276,7 +1276,7 @@ This command fetches content from a public URL and sends it back as the appropri
 
 #### How to Use
 
-> > The command's behavior changes depending on who uses it and where it is used.
+> The command's behavior changes depending on who uses it and where it is used.
 
 * **Command**: `jid`
 
@@ -1287,7 +1287,7 @@ This command fetches content from a public URL and sends it back as the appropri
 
 #### In a Private Chat (PM)
 
-> > The response in a private chat depends on the user's permission level.
+> The response in a private chat depends on the user's permission level.
 
 * **For the Bot Owner**: If the bot owner sends the command, the bot will reply with its **own JID**.
 * **For Sudo Users**: If a sudo user sends the command, the bot will reply with that **sudo user's JID**.
@@ -1311,13 +1311,13 @@ This command fetches content from a public URL and sends it back as the appropri
 
 #### Commands
 
-> > There are two ways to kick members: one at a time or all at once.
+> There are two ways to kick members: one at a time or all at once.
 
 ---
 
 #### Kicking a Single Member
 
-> > To kick one person, you must reply to one of their messages.
+> To kick one person, you must reply to one of their messages.
 
 * **Command**: `kick`
 * **How to Use**:
@@ -1330,7 +1330,7 @@ This command fetches content from a public URL and sends it back as the appropri
 
 #### Kicking All Members
 
-> > > This is a two-step process to prevent accidental removal of all members.
+> > This is a two-step process to prevent accidental removal of all members.
 
 **Step 1: Start the Kick All Process**
 * **Command**: `kick all`
@@ -1398,7 +1398,7 @@ This is the main command to set, enable, or disable the leave message.
 
 #### ➡️ `dellvc` (Delete a Leave Message)
 
-> > This command completely removes the leave message configuration for the target group(s).
+> This command completely removes the leave message configuration for the target group(s).
 
 * **Usage**: `dellvc`. In PM, you must include `gp:<target>`.
 * **PM Example**: `dellvc gp:my_group_alias`
@@ -1416,7 +1416,7 @@ This is the main command to set, enable, or disable the leave message.
 
 #### Permissions & Command Context
 
-> > The behavior of the commands changes depending on who uses them and where.
+> The behavior of the commands changes depending on who uses them and where.
 
 * **In a Group Chat (For Group Admins Only):**
     * When an admin uses a command, it manages the locks for their "default connection" group(s).
