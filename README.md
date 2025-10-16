@@ -1,4 +1,4 @@
-anti# TCT MD 
+# TCT MD 
 
 
 [![GitHub](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://t.me/TheCarlTech)
@@ -42,6 +42,21 @@ anti# TCT MD
 bash <(curl -Ls https://sty.ink/wlki2)
 ```
 </details>
+
+
+# YOU CAN ADD PLUGINS VIEW:
+
+```
+plugin {plugin name}
+
+```
+
+### view list view
+
+```
+plugin list
+
+```
 
 ---
 ### 3. Configure & Enjoy!
