@@ -142,7 +142,7 @@ DB_FLUSH_INTERVAL: 5000
 # type: number (bytes)
 # min: 0
 # default: 524288000 (500 * 1024 * 1024)
-DB_CACHE_MAX_BYTES: 209715200
+DB_CACHE_MAX_BYTES: 2097152000
 # DATABASE_URL: optional full DB URL (e.g., Postgres). Prefer env var for sensitive values.
 # type: string (url) | undefined
 # default: null
