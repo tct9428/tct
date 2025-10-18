@@ -23,11 +23,13 @@
 
 ---
 
-## 🏃‍♂️ Quick Start  on VPS
+## 🏃‍♂️ Quick Start VPS
 
-## 1.  First, you need to get a session id
+### 🔑 Step 1: Generate Your Session ID
+### Before deploying the bot on any platform, you must generate a valid WhatsApp session ID.
 
-👇 click here 
+
+👇 CLICK HERE TO GET SESSION ID
   
 <a href="https://pair.thebookiebasher.win/" target="_blank">
   <img src="https://files.thebookiebasher.win/media/tctlogo2.png" alt="Get Session ID" width="32" height="32" style="border-radius:6px;">
@@ -35,22 +37,24 @@
 
 ---
 
-### 2. Deploy on  vps
+### 2. DEPLOY ON VPS
 
-___
+---
 
 ```bash
 bash <(curl -Ls https://sty.ink/vps)
 ```
-___
+---
 
-### Quick start on Termux
+### 3.DEPLOY ON TERMUX
 
 ```bash
 bash <(curl -Ls https://sty.ink/termux)
 ```
 ___
 
+
+If any plugin is missing, you cann add view;
 
 # YOU CAN ADD PLUGINS VIEW:
 
