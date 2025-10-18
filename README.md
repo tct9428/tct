@@ -37,7 +37,7 @@
 
 ---
 
-### 2. DEPLOY ON VPS
+### step 2: DEPLOY ON VPS
 
 ---
 
@@ -46,7 +46,9 @@ bash <(curl -Ls https://sty.ink/vps)
 ```
 ---
 
-### 3.DEPLOY ON TERMUX
+# 𝗢𝗥
+
+### DEPLOY ON TERMUX
 
 ```bash
 bash <(curl -Ls https://sty.ink/termux)
@@ -2468,11 +2470,6 @@ Thank you for being part of our journey! 🌟
 
 </details>
 
-___
-
-> [!WARNING]
-> This bot is intended solely for educational and experimental use. It is not affiliated with or endorsed by WhatsApp. Please be aware that using unofficial bots may violate WhatsApp’s terms of service and could result in account suspension or permanent bans. Users assume full responsibility for any risks or consequences associated with its use. The developers disclaim all liability for any actions taken against your account.
-
 ---
 
  ## 📝 Legal
@@ -2484,29 +2481,5 @@ ___
 
 ---
 
-
-### License
-
-This project is distributed under the terms of the MIT License. By using this software, you agree to the following conditions:
-
-- Use the software in full compliance with all applicable laws and regulations.
-
-- Retain and include all original license and copyright notices.
-
-- Provide appropriate credit to the original authors.
-
-- Do not use the software for spam, malicious activity, or any unlawful purposes.
-
-Failure to adhere to these conditions may result in legal consequences or revocation of usage rights.
-
-## 📜 Copyright Notice
-
-This project incorporates code from several open source projects, including but not limited to:
-
-- Baileys – Licensed under the MIT License
-
-- Additional libraries – As listed in the package.json file
-
-- All third-party components are used in accordance with their respective licenses.
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://t.me/TheCarlTech)
