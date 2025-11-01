@@ -1178,10 +1178,10 @@
   resolved "https://registry.yarnpkg.com/@types/validator/-/validator-13.15.3.tgz#67e8aeacbace03517f9bd3f99e750bb666207ff4"
   integrity sha512-7bcUmDyS6PN3EuD9SlGGOxM77F8WLVsrwkxyWxKnxzmXoequ6c7741QBrANq6htVRGOITJ7z72mTP6Z4XyuG+Q==
 
-"@whiskeysockets/baileys@7.0.0-rc.5":
-  version "7.0.0-rc.5"
-  resolved "https://registry.yarnpkg.com/@whiskeysockets/baileys/-/baileys-7.0.0-rc.5.tgz#a28e810f6feac81c5be1ba77c65acee03c55f4dd"
-  integrity sha512-WVAyYDmg3LSIslSsmiABjejVny9htme9NumbfhyraNm9ecW5+oNhYUMmZMNhFSGIoJ2Qd/qp7OdiE8E6abblng==
+"@whiskeysockets/baileys@7.0.0-rc.6":
+  version "7.0.0-rc.6"
+  resolved "https://registry.yarnpkg.com/@whiskeysockets/baileys/-/baileys-7.0.0-rc.6.tgz#1b25ca917c7526323cf3dd43be5437a055b27041"
+  integrity sha512-vSARE9ftvNwN2vttcFGhwqag2K8MRY35CD5zd1uMPSUQ0eomfAUVreNwXBUO1XO2eBExOW2N+mSmNGPn6mnqDQ==
   dependencies:
     "@cacheable/node-cache" "^1.4.0"
     "@hapi/boom" "^9.1.3"
@@ -2948,9 +2948,9 @@ libphonenumber-js@^1.10.53:
   resolved "https://registry.yarnpkg.com/libphonenumber-js/-/libphonenumber-js-1.12.23.tgz#b838c1e93907ca200395bdb6b06e123c6558f0fd"
   integrity sha512-RN3q3gImZ91BvRDYjWp7ICz3gRn81mW5L4SW+2afzNCC0I/nkXstBgZThQGTE3S/9q5J90FH4dP+TXx8NhdZKg==
 
-"libsignal@git+https://github.com/whiskeysockets/libsignal-node":
+"libsignal@git+https://github.com/whiskeysockets/libsignal-node.git":
   version "2.0.1"
-  resolved "git+https://github.com/whiskeysockets/libsignal-node#e81ecfc32eb74951d789ab37f7e341ab66d5fff1"
+  resolved "git+https://github.com/whiskeysockets/libsignal-node.git#e81ecfc32eb74951d789ab37f7e341ab66d5fff1"
   dependencies:
     curve25519-js "^0.0.4"
     protobufjs "6.8.8"

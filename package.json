@@ -12,7 +12,7 @@
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@sentry/node": "10.5.0",
-    "@whiskeysockets/baileys": "7.0.0-rc.5",
+    "@whiskeysockets/baileys": "7.0.0-rc.6",
     "axios": "^1.12.2",
     "chokidar": "4.0.3",
     "cloudinary": "2.7.0",
@@ -39,17 +39,15 @@
     "zod": "4.0.17"
   },
   "optionalDependencies": {
-    "sharp": "^0.34.4",
     "jimp": "^1.6.0",
+    "sharp": "^0.34.4",
     "sqlite": "^5.1.1",
     "sqlite3": "^5.1.7"
   },
-
   "scripts": {
     "dev": "cross-env NODE_ENV=development node bot.js",
     "start": "npx pm2 start bot.js --name tct && npx pm2 logs tct"
   },
-
   "author": "TheCarlTech",
   "license": "ISC",
   "devDependencies": {

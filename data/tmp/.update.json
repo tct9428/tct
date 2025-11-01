@@ -1,0 +1,517 @@
+{
+  "count": 73,
+  "lastModified": "2025-10-23T14:32:42.244Z",
+  "files": [
+    {
+      "name": "delete.js",
+      "size": 44012,
+      "mtime": "2025-10-23T14:32:42.244Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9kZWxldGUuanM"
+    },
+    {
+      "name": "plugin.js",
+      "size": 18570,
+      "mtime": "2025-10-21T22:35:34.838Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9wbHVnaW4uanM"
+    },
+    {
+      "name": "package.json",
+      "size": 1377,
+      "mtime": "2025-10-21T22:13:25.116Z",
+      "origin": "other",
+      "download": "https://i-tct.com/build/download/cGFja2FnZS5qc29u"
+    },
+    {
+      "name": "sudocache.js",
+      "size": 3747,
+      "mtime": "2025-10-21T21:59:32.723Z",
+      "origin": "other",
+      "download": "https://i-tct.com/build/download/dXRpbHMvc3Vkb2NhY2hlLmpz"
+    },
+    {
+      "name": "sudo.js",
+      "size": 10253,
+      "mtime": "2025-10-21T21:59:32.722Z",
+      "origin": "other",
+      "download": "https://i-tct.com/build/download/dXRpbHMvc3Vkby5qcw"
+    },
+    {
+      "name": "logger.js",
+      "size": 9693,
+      "mtime": "2025-10-21T21:59:32.669Z",
+      "origin": "other",
+      "download": "https://i-tct.com/build/download/dXRpbHMvbG9nZ2VyLmpz"
+    },
+    {
+      "name": "remote-importer-hook.js",
+      "size": 2244,
+      "mtime": "2025-10-21T21:59:32.669Z",
+      "origin": "other",
+      "download": "https://i-tct.com/build/download/dXRpbHMvcmVtb3RlLWltcG9ydGVyLWhvb2suanM"
+    },
+    {
+      "name": "loader.js",
+      "size": 70636,
+      "mtime": "2025-10-21T21:59:32.578Z",
+      "origin": "other",
+      "download": "https://i-tct.com/build/download/dXRpbHMvbG9hZGVyLmpz"
+    },
+    {
+      "name": "listenerManager.js",
+      "size": 7439,
+      "mtime": "2025-10-21T21:59:32.546Z",
+      "origin": "other",
+      "download": "https://i-tct.com/build/download/dXRpbHMvbGlzdGVuZXJNYW5hZ2VyLmpz"
+    },
+    {
+      "name": "isadmin.js",
+      "size": 15905,
+      "mtime": "2025-10-21T21:59:31.581Z",
+      "origin": "other",
+      "download": "https://i-tct.com/build/download/dXRpbHMvaXNhZG1pbi5qcw"
+    },
+    {
+      "name": "groups.js",
+      "size": 4627,
+      "mtime": "2025-10-21T21:59:31.576Z",
+      "origin": "other",
+      "download": "https://i-tct.com/build/download/dXRpbHMvZ3JvdXBzLmpz"
+    },
+    {
+      "name": "database.js",
+      "size": 33512,
+      "mtime": "2025-10-21T21:59:31.413Z",
+      "origin": "other",
+      "download": "https://i-tct.com/build/download/dXRpbHMvZGF0YWJhc2UuanM"
+    },
+    {
+      "name": "default.js",
+      "size": 2166,
+      "mtime": "2025-10-21T21:59:31.413Z",
+      "origin": "other",
+      "download": "https://i-tct.com/build/download/dXRpbHMvZGVmYXVsdC5qcw"
+    },
+    {
+      "name": "connection.js",
+      "size": 45728,
+      "mtime": "2025-10-21T21:59:31.346Z",
+      "origin": "other",
+      "download": "https://i-tct.com/build/download/dXRpbHMvY29ubmVjdGlvbi5qcw"
+    },
+    {
+      "name": "config.js",
+      "size": 28388,
+      "mtime": "2025-10-21T21:59:31.319Z",
+      "origin": "other",
+      "download": "https://i-tct.com/build/download/dXRpbHMvY29uZmlnLmpz"
+    },
+    {
+      "name": "bot-state.js",
+      "size": 3355,
+      "mtime": "2025-10-21T21:59:30.033Z",
+      "origin": "other",
+      "download": "https://i-tct.com/build/download/dXRpbHMvYm90LXN0YXRlLmpz"
+    },
+    {
+      "name": "weather.js",
+      "size": 8403,
+      "mtime": "2025-10-21T21:59:30.023Z",
+      "origin": "modules",
+      "download": "https://i-tct.com/build/download/bW9kdWxlcy93ZWF0aGVyLmpz"
+    },
+    {
+      "name": "time.js",
+      "size": 11793,
+      "mtime": "2025-10-21T21:59:29.984Z",
+      "origin": "modules",
+      "download": "https://i-tct.com/build/download/bW9kdWxlcy90aW1lLmpz"
+    },
+    {
+      "name": "android.js",
+      "size": 1912,
+      "mtime": "2025-10-21T21:59:29.984Z",
+      "origin": "other",
+      "download": "https://i-tct.com/build/download/dXRpbHMvYW5kcm9pZC5qcw"
+    },
+    {
+      "name": "termux.js",
+      "size": 5864,
+      "mtime": "2025-10-21T21:59:29.908Z",
+      "origin": "modules",
+      "download": "https://i-tct.com/build/download/bW9kdWxlcy90ZXJtdXguanM"
+    },
+    {
+      "name": "sticker.js",
+      "size": 20334,
+      "mtime": "2025-10-21T21:59:29.806Z",
+      "origin": "modules",
+      "download": "https://i-tct.com/build/download/bW9kdWxlcy9zdGlja2VyLmpz"
+    },
+    {
+      "name": "send.js",
+      "size": 10143,
+      "mtime": "2025-10-21T21:59:29.533Z",
+      "origin": "modules",
+      "download": "https://i-tct.com/build/download/bW9kdWxlcy9zZW5kLmpz"
+    },
+    {
+      "name": "movie.js",
+      "size": 17071,
+      "mtime": "2025-10-21T21:59:29.532Z",
+      "origin": "modules",
+      "download": "https://i-tct.com/build/download/bW9kdWxlcy9tb3ZpZS5qcw"
+    },
+    {
+      "name": "profile.js",
+      "size": 10022,
+      "mtime": "2025-10-21T21:59:29.532Z",
+      "origin": "modules",
+      "download": "https://i-tct.com/build/download/bW9kdWxlcy9wcm9maWxlLmpz"
+    },
+    {
+      "name": "lyrics.js",
+      "size": 9709,
+      "mtime": "2025-10-21T21:59:29.365Z",
+      "origin": "modules",
+      "download": "https://i-tct.com/build/download/bW9kdWxlcy9seXJpY3MuanM"
+    },
+    {
+      "name": "img.js",
+      "size": 10797,
+      "mtime": "2025-10-21T21:59:29.135Z",
+      "origin": "modules",
+      "download": "https://i-tct.com/build/download/bW9kdWxlcy9pbWcuanM"
+    },
+    {
+      "name": "health.js",
+      "size": 18174,
+      "mtime": "2025-10-21T21:59:29.050Z",
+      "origin": "modules",
+      "download": "https://i-tct.com/build/download/bW9kdWxlcy9oZWFsdGguanM"
+    },
+    {
+      "name": "football.js",
+      "size": 23451,
+      "mtime": "2025-10-21T21:59:28.712Z",
+      "origin": "modules",
+      "download": "https://i-tct.com/build/download/bW9kdWxlcy9mb290YmFsbC5qcw"
+    },
+    {
+      "name": "dla.js",
+      "size": 10766,
+      "mtime": "2025-10-21T21:59:28.706Z",
+      "origin": "modules",
+      "download": "https://i-tct.com/build/download/bW9kdWxlcy9kbGEuanM"
+    },
+    {
+      "name": "fetch.js",
+      "size": 8162,
+      "mtime": "2025-10-21T21:59:28.706Z",
+      "origin": "modules",
+      "download": "https://i-tct.com/build/download/bW9kdWxlcy9mZXRjaC5qcw"
+    },
+    {
+      "name": "convert.js",
+      "size": 12702,
+      "mtime": "2025-10-21T21:59:28.535Z",
+      "origin": "modules",
+      "download": "https://i-tct.com/build/download/bW9kdWxlcy9jb252ZXJ0Lmpz"
+    },
+    {
+      "name": "cc.js",
+      "size": 24204,
+      "mtime": "2025-10-21T21:59:28.361Z",
+      "origin": "modules",
+      "download": "https://i-tct.com/build/download/bW9kdWxlcy9jYy5qcw"
+    },
+    {
+      "name": "backup.js",
+      "size": 24066,
+      "mtime": "2025-10-21T21:59:28.250Z",
+      "origin": "modules",
+      "download": "https://i-tct.com/build/download/bW9kdWxlcy9iYWNrdXAuanM"
+    },
+    {
+      "name": "welcome.js",
+      "size": 44057,
+      "mtime": "2025-10-21T21:59:27.847Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC93ZWxjb21lLmpz"
+    },
+    {
+      "name": "warn.js",
+      "size": 38533,
+      "mtime": "2025-10-21T21:59:27.845Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC93YXJuLmpz"
+    },
+    {
+      "name": "var.js",
+      "size": 15823,
+      "mtime": "2025-10-21T21:59:27.428Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC92YXIuanM"
+    },
+    {
+      "name": "update.js",
+      "size": 27660,
+      "mtime": "2025-10-21T21:59:26.988Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC91cGRhdGUuanM"
+    },
+    {
+      "name": "tag-mention.js",
+      "size": 26561,
+      "mtime": "2025-10-21T21:59:26.760Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC90YWctbWVudGlvbi5qcw"
+    },
+    {
+      "name": "sudonumber.js",
+      "size": 10216,
+      "mtime": "2025-10-21T21:59:26.524Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9zdWRvbnVtYmVyLmpz"
+    },
+    {
+      "name": "sudo.js",
+      "size": 10053,
+      "mtime": "2025-10-21T21:59:26.378Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9zdWRvLmpz"
+    },
+    {
+      "name": "status.js",
+      "size": 18338,
+      "mtime": "2025-10-21T21:59:26.367Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9zdGF0dXMuanM"
+    },
+    {
+      "name": "status-recovery.js",
+      "size": 35256,
+      "mtime": "2025-10-21T21:59:26.276Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9zdGF0dXMtcmVjb3ZlcnkuanM"
+    },
+    {
+      "name": "status-lock.js",
+      "size": 24676,
+      "mtime": "2025-10-21T21:59:25.801Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9zdGF0dXMtbG9jay5qcw"
+    },
+    {
+      "name": "start.js",
+      "size": 22510,
+      "mtime": "2025-10-21T21:59:25.626Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9zdGFydC5qcw"
+    },
+    {
+      "name": "spam.js",
+      "size": 22517,
+      "mtime": "2025-10-21T21:59:25.451Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9zcGFtLmpz"
+    },
+    {
+      "name": "sched.js",
+      "size": 91397,
+      "mtime": "2025-10-21T21:59:25.196Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9zY2hlZC5qcw"
+    },
+    {
+      "name": "reboot.js",
+      "size": 5484,
+      "mtime": "2025-10-21T21:59:25.192Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9yZWJvb3QuanM"
+    },
+    {
+      "name": "readreceipt.js",
+      "size": 5167,
+      "mtime": "2025-10-21T21:59:24.474Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9yZWFkcmVjZWlwdC5qcw"
+    },
+    {
+      "name": "ping.js",
+      "size": 13964,
+      "mtime": "2025-10-21T21:59:24.138Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9waW5nLmpz"
+    },
+    {
+      "name": "pfilter.js",
+      "size": 32025,
+      "mtime": "2025-10-21T21:59:23.901Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9wZmlsdGVyLmpz"
+    },
+    {
+      "name": "mforward.js",
+      "size": 16754,
+      "mtime": "2025-10-21T21:59:23.624Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9tZm9yd2FyZC5qcw"
+    },
+    {
+      "name": "menu.js",
+      "size": 10058,
+      "mtime": "2025-10-21T21:59:23.623Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9tZW51Lmpz"
+    },
+    {
+      "name": "lock.js",
+      "size": 70061,
+      "mtime": "2025-10-21T21:59:23.460Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9sb2NrLmpz"
+    },
+    {
+      "name": "leave.js",
+      "size": 21367,
+      "mtime": "2025-10-21T21:59:22.768Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9sZWF2ZS5qcw"
+    },
+    {
+      "name": "kick.js",
+      "size": 7844,
+      "mtime": "2025-10-21T21:59:22.512Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9raWNrLmpz"
+    },
+    {
+      "name": "jid.js",
+      "size": 7985,
+      "mtime": "2025-10-21T21:59:22.400Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9qaWQuanM"
+    },
+    {
+      "name": "groups.js",
+      "size": 11712,
+      "mtime": "2025-10-21T21:59:22.248Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9ncm91cHMuanM"
+    },
+    {
+      "name": "help.js",
+      "size": 13720,
+      "mtime": "2025-10-21T21:59:22.248Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9oZWxwLmpz"
+    },
+    {
+      "name": "groupmute.js",
+      "size": 17240,
+      "mtime": "2025-10-21T21:59:22.111Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9ncm91cG11dGUuanM"
+    },
+    {
+      "name": "geturl.js",
+      "size": 9520,
+      "mtime": "2025-10-21T21:59:21.873Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9nZXR1cmwuanM"
+    },
+    {
+      "name": "filter.js",
+      "size": 58925,
+      "mtime": "2025-10-21T21:59:21.770Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9maWx0ZXIuanM"
+    },
+    {
+      "name": "connection.js",
+      "size": 21163,
+      "mtime": "2025-10-21T21:59:20.777Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9jb25uZWN0aW9uLmpz"
+    },
+    {
+      "name": "common.js",
+      "size": 11447,
+      "mtime": "2025-10-21T21:59:20.776Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9jb21tb24uanM"
+    },
+    {
+      "name": "autoviewstatus.js",
+      "size": 17486,
+      "mtime": "2025-10-21T21:59:20.596Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9hdXRvdmlld3N0YXR1cy5qcw"
+    },
+    {
+      "name": "autoreactstatus.js",
+      "size": 21146,
+      "mtime": "2025-10-21T21:59:20.278Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9hdXRvcmVhY3RzdGF0dXMuanM"
+    },
+    {
+      "name": "antiviewonce.js",
+      "size": 28327,
+      "mtime": "2025-10-21T21:59:20.086Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9hbnRpdmlld29uY2UuanM"
+    },
+    {
+      "name": "antilink.js",
+      "size": 22386,
+      "mtime": "2025-10-21T21:59:19.833Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9hbnRpbGluay5qcw"
+    },
+    {
+      "name": "antiedit.js",
+      "size": 17131,
+      "mtime": "2025-10-21T21:59:19.479Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9hbnRpZWRpdC5qcw"
+    },
+    {
+      "name": "alive.js",
+      "size": 45223,
+      "mtime": "2025-10-21T21:59:19.474Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9hbGl2ZS5qcw"
+    },
+    {
+      "name": "additions.js",
+      "size": 33780,
+      "mtime": "2025-10-21T21:59:19.272Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9hZGRpdGlvbnMuanM"
+    },
+    {
+      "name": "active.js",
+      "size": 35193,
+      "mtime": "2025-10-21T21:59:18.498Z",
+      "origin": "carl",
+      "download": "https://i-tct.com/build/download/Y2FybC9hY3RpdmUuanM"
+    },
+    {
+      "name": "qrcode.js",
+      "size": 9651,
+      "mtime": "2025-10-21T21:59:18.126Z",
+      "origin": "other",
+      "download": "https://i-tct.com/build/download/cXJjb2RlLmpz"
+    },
+    {
+      "name": "bot.js",
+      "size": 68084,
+      "mtime": "2025-10-21T21:59:17.953Z",
+      "origin": "other",
+      "download": "https://i-tct.com/build/download/Ym90Lmpz"
+    }
+  ]
+}
