@@ -1,0 +1,100 @@
+{"level":"info","time":"2025-12-03T14:05:10.595Z","msg":"Development logger ready"}
+
+{"level":"info","time":"2025-12-03T14:05:10.598Z","msg":"Logger initialized (utils/logger)"}
+
+{"level":"info","time":"2025-12-03T14:05:10.613Z","msg":"qrcode.js loaded and ready."}
+
+{"level":"info","time":"2025-12-03T14:05:10.784Z","msg":"Running cleanup for temporary files in .auth..."}
+
+{"level":"info","time":"2025-12-03T14:05:10.936Z","msg":"Database initialization process started..."}
+
+{"level":"info","time":"2025-12-03T14:05:10.992Z","msg":"Using native sqlite3 driver."}
+
+{"level":"info","time":"2025-12-03T14:05:11.008Z","msg":"Prepared DB statements (set/delete)."}
+
+{"level":"info","time":"2025-12-03T14:05:12.959Z","msg":"Development logger ready"}
+
+{"level":"info","time":"2025-12-03T14:05:12.960Z","msg":"Logger initialized (utils/logger)"}
+
+{"level":"info","time":"2025-12-03T14:05:12.968Z","msg":"qrcode.js loaded and ready."}
+
+{"level":"info","time":"2025-12-03T14:05:13.065Z","msg":"Running cleanup for temporary files in .auth..."}
+
+{"level":"info","time":"2025-12-03T14:05:13.148Z","msg":"Database initialization process started..."}
+
+{"level":"info","time":"2025-12-03T14:05:13.197Z","msg":"Database backup created at /home/ubuntu/lwsbc/wp/build/data/db/tct.bak"}
+
+{"level":"info","time":"2025-12-03T14:05:13.201Z","msg":"Using native sqlite3 driver."}
+
+{"level":"info","time":"2025-12-03T14:05:13.207Z","msg":"Prepared DB statements (set/delete)."}
+
+{"level":"info","time":"2025-12-03T14:05:14.724Z","msg":"Development logger ready"}
+
+{"level":"info","time":"2025-12-03T14:05:14.727Z","msg":"Logger initialized (utils/logger)"}
+
+{"level":"info","time":"2025-12-03T14:05:14.736Z","msg":"qrcode.js loaded and ready."}
+
+{"level":"info","time":"2025-12-03T14:05:14.820Z","msg":"Running cleanup for temporary files in .auth..."}
+
+{"level":"info","time":"2025-12-03T14:05:14.897Z","msg":"Database initialization process started..."}
+
+{"level":"info","time":"2025-12-03T14:05:14.925Z","msg":"Using native sqlite3 driver."}
+
+{"level":"info","time":"2025-12-03T14:05:14.930Z","msg":"Prepared DB statements (set/delete)."}
+
+{"level":"info","time":"2025-12-03T14:05:16.189Z","msg":"Development logger ready"}
+
+{"level":"info","time":"2025-12-03T14:05:16.191Z","msg":"Logger initialized (utils/logger)"}
+
+{"level":"info","time":"2025-12-03T14:05:16.200Z","msg":"qrcode.js loaded and ready."}
+
+{"level":"info","time":"2025-12-03T14:05:16.290Z","msg":"Running cleanup for temporary files in .auth..."}
+
+{"level":"info","time":"2025-12-03T14:05:16.373Z","msg":"Database initialization process started..."}
+
+{"level":"info","time":"2025-12-03T14:05:16.406Z","msg":"Using native sqlite3 driver."}
+
+{"level":"info","time":"2025-12-03T14:05:16.411Z","msg":"Prepared DB statements (set/delete)."}
+
+{"level":"info","time":"2025-12-03T14:05:17.834Z","msg":"Development logger ready"}
+
+{"level":"info","time":"2025-12-03T14:05:17.837Z","msg":"Logger initialized (utils/logger)"}
+
+{"level":"info","time":"2025-12-03T14:05:17.846Z","msg":"qrcode.js loaded and ready."}
+
+{"level":"info","time":"2025-12-03T14:05:17.939Z","msg":"Running cleanup for temporary files in .auth..."}
+
+{"level":"info","time":"2025-12-03T14:05:18.033Z","msg":"Database initialization process started..."}
+
+{"level":"info","time":"2025-12-03T14:05:18.062Z","msg":"Using native sqlite3 driver."}
+
+{"level":"info","time":"2025-12-03T14:05:18.068Z","msg":"Prepared DB statements (set/delete)."}
+
+{"level":"info","time":"2025-12-03T14:05:19.384Z","msg":"Development logger ready"}
+
+{"level":"info","time":"2025-12-03T14:05:19.386Z","msg":"Logger initialized (utils/logger)"}
+
+{"level":"info","time":"2025-12-03T14:05:19.393Z","msg":"qrcode.js loaded and ready."}
+
+{"level":"info","time":"2025-12-03T14:05:19.486Z","msg":"Running cleanup for temporary files in .auth..."}
+
+{"level":"info","time":"2025-12-03T14:05:19.565Z","msg":"Database initialization process started..."}
+
+{"level":"info","time":"2025-12-03T14:05:19.600Z","msg":"Using native sqlite3 driver."}
+
+{"level":"info","time":"2025-12-03T14:05:19.606Z","msg":"Prepared DB statements (set/delete)."}
+
+{"level":"info","time":"2025-12-03T14:05:21.111Z","msg":"Development logger ready"}
+
+{"level":"info","time":"2025-12-03T14:05:21.115Z","msg":"Logger initialized (utils/logger)"}
+
+{"level":"info","time":"2025-12-03T14:05:21.138Z","msg":"qrcode.js loaded and ready."}
+
+{"level":"info","time":"2025-12-03T14:05:21.380Z","msg":"Running cleanup for temporary files in .auth..."}
+
+{"level":"info","time":"2025-12-03T14:05:21.529Z","msg":"Database initialization process started..."}
+
+{"level":"info","time":"2025-12-03T14:05:21.591Z","msg":"Using native sqlite3 driver."}
+
+{"level":"info","time":"2025-12-03T14:05:21.606Z","msg":"Prepared DB statements (set/delete)."}
+
