@@ -1,1 +1,529 @@
-function _0x11e9(_0x1d58f1,_0xdc89a2){const _0x36356b=_0x3916();return _0x11e9=function(_0x3ed3ff,_0x3b0519){_0x3ed3ff=_0x3ed3ff-(-0x17e*0x19+-0x11a6+0x377e);let _0x1fd300=_0x36356b[_0x3ed3ff];return _0x1fd300;},_0x11e9(_0x1d58f1,_0xdc89a2);}const _0xe54e64=_0x11e9;(function(_0x3f00a8,_0x42a9f8){const _0x15e53e=_0x11e9,_0x128099=_0x3f00a8();while(!![]){try{const _0x37d991=-parseInt(_0x15e53e(0xc2))/(0x121f+-0x2151+0xf33)+-parseInt(_0x15e53e(0xc9))/(0x1*-0x1a56+-0xd02+0x2e*0xdb)+parseInt(_0x15e53e(0x8e))/(-0xf*-0x10+0x3*0x7b+-0x25e)+-parseInt(_0x15e53e(0xbb))/(-0x1ee1+-0x9*-0x236+0xaff)*(-parseInt(_0x15e53e(0xc4))/(0x1ac4+0x1d12+0x37d1*-0x1))+parseInt(_0x15e53e(0x90))/(0x1*-0x16a2+-0x1ad2+0x317a)+-parseInt(_0x15e53e(0xdc))/(-0x170b+-0x1*-0x19c3+-0x2b1)*(-parseInt(_0x15e53e(0x8f))/(-0x2b*-0x59+0x802+-0x1*0x16ed))+-parseInt(_0x15e53e(0x98))/(-0x1c0+0x3f3*-0x8+0x2161);if(_0x37d991===_0x42a9f8)break;else _0x128099['push'](_0x128099['shift']());}catch(_0x473e55){_0x128099['push'](_0x128099['shift']());}}}(_0x3916,0x65b*0x124+-0x11966c+0x8f9*0x291));import _0xc41b8b from'pino';import _0x1da6b5 from'path';import _0x48f553 from'fs';import _0x351f1c from'os';import{createRequire}from'module';const require=createRequire(import.meta[_0xe54e64(0xcf)]);let Sentry;try{Sentry=require('@sentry/node');}catch(_0x4e4a14){Sentry=null;}let _initializedConfig=null,_logger=null,_transport=null;const LEVELS={'trace':0xa,'debug':0x14,'info':0x1e,'warn':0x28,'error':0x32,'fatal':0x3c};function normalizeLevelName(_0x3b8265,_0x271e9c='info'){const _0x4422d2=_0xe54e64;if(!_0x3b8265)return _0x271e9c;const _0x3826c3=String(_0x3b8265)['trim']()['toLowerCas'+'e']();return Object['prototype'][_0x4422d2(0x91)+_0x4422d2(0xd4)]['call'](LEVELS,_0x3826c3)?_0x3826c3:_0x271e9c;}function buildAllowedLevels(_0x37e9c5){const _0x5c5352=_0xe54e64,_0x4a2ee8=_0x37e9c5['LOG_LEVEL']??(_0x37e9c5['NODE_ENV']==='production'?_0x5c5352(0xc7):_0x5c5352(0x9e)),_0x592411=String(_0x4a2ee8)[_0x5c5352(0x95)]();if(_0x592411[_0x5c5352(0xaf)](',')){const _0x341d13=_0x592411[_0x5c5352(0x92)](',')[_0x5c5352(0xd8)](_0x2f1f6d=>_0x2f1f6d['trim']()[_0x5c5352(0xb4)+'e']())[_0x5c5352(0xdf)](Boolean),_0xf95de7=new Set(_0x341d13[_0x5c5352(0xdf)](_0x311db9=>Object[_0x5c5352(0x9c)][_0x5c5352(0x91)+_0x5c5352(0xd4)][_0x5c5352(0x9a)](LEVELS,_0x311db9)));if(_0xf95de7['size']>-0x1*-0x949+-0xcff+0x3b6)return{'isWhitelist':!![],'allowedSet':_0xf95de7,'thresholdName':null};}const _0x15029d=normalizeLevelName(_0x592411,_0x37e9c5[_0x5c5352(0xda)]===_0x5c5352(0xd9)?'warn':_0x5c5352(0x9e)),_0x48fdc8=LEVELS[_0x15029d],_0x3081a5=new Set(Object['keys'](LEVELS)['filter'](_0x19c2a1=>LEVELS[_0x19c2a1]>=_0x48fdc8));return{'isWhitelist':![],'allowedSet':_0x3081a5,'thresholdName':_0x15029d};}function createLevelChecker(_0x403881){const _0x18700a=buildAllowedLevels(_0x403881);return _0x53ba14=>_0x18700a['allowedSet']['has'](normalizeLevelName(_0x53ba14));}export function initLogger(_0x1d8cbd){const _0x27d5e1=_0xe54e64;if(!_0x1d8cbd){console[_0x27d5e1(0xd2)](_0x27d5e1(0xe4)+_0x27d5e1(0xd3)+'ithout\x20a\x20c'+_0x27d5e1(0xb3)+_0x27d5e1(0xba)+'\x20Using\x20con'+'sole\x20fallb'+_0x27d5e1(0xa0)),_logger=console,_initializedConfig={'NODE_ENV':'developmen'+'t','LOG_LEVEL':'trace','_isLevelEnabled':()=>!![]};return;}_initializedConfig=_0x1d8cbd;const _0x38025e=_initializedConfig[_0x27d5e1(0xda)]==='production',_0x560da7=buildAllowedLevels(_initializedConfig);let _0x468f1a=_0x27d5e1(0x9e);_0x38025e&&(_0x468f1a=[..._0x560da7[_0x27d5e1(0xac)]][_0x27d5e1(0x94)]((_0x29b5ed,_0x5afc2a)=>LEVELS[_0x29b5ed]-LEVELS[_0x5afc2a])[-0x1d3c*0x1+-0x117d+0x1b*0x1bb]||_0x27d5e1(0xdd));const _0x17987d=_0x1da6b5[_0x27d5e1(0xe3)](process[_0x27d5e1(0xcd)](),_initializedConfig[_0x27d5e1(0x97)]);if(_initializedConfig[_0x27d5e1(0xd6)]&&Sentry)try{Sentry[_0x27d5e1(0xc8)]({'dsn':_initializedConfig[_0x27d5e1(0xd6)],'environment':_initializedConfig['NODE_ENV'],'tracesSampleRate':_initializedConfig[_0x27d5e1(0xbe)+_0x27d5e1(0x8a)+_0x27d5e1(0xca)]}),console['info'](_0x27d5e1(0x8b)+_0x27d5e1(0xc3)+_0x27d5e1(0xb9)+'.');}catch(_0x513a74){console[_0x27d5e1(0xc7)](_0x27d5e1(0x8b)+_0x27d5e1(0x8c),_0x513a74?.['message']||_0x513a74);}try{_0x48f553[_0x27d5e1(0xc6)](_0x17987d,{'recursive':!![]}),_0x48f553[_0x27d5e1(0xa6)](_0x17987d,_0x48f553[_0x27d5e1(0xc5)][_0x27d5e1(0xcb)]);}catch(_0x3f6db7){console[_0x27d5e1(0xd2)](_0x27d5e1(0xb6)+_0x27d5e1(0xd7)+_0x27d5e1(0xb0)+_0x27d5e1(0xae)+_0x17987d+('\x22,\x20falling'+_0x27d5e1(0xe1)+_0x27d5e1(0x8d)+'.'),_0x3f6db7?.['message']||_0x3f6db7),_initializedConfig[_0x27d5e1(0x97)]=process[_0x27d5e1(0xcd)]();}const _0x4cfaf7=[];if(_0x38025e)_0x4cfaf7[_0x27d5e1(0xe2)]({'target':'pino/file','level':_0x468f1a,'options':{'destination':_0x1da6b5[_0x27d5e1(0xdb)](_0x17987d,_initializedConfig[_0x27d5e1(0xb1)+_0x27d5e1(0xa4)]),'mkdir':!![]}});else{try{_0x4cfaf7[_0x27d5e1(0xe2)]({'target':'pino-prett'+'y','level':_0x468f1a,'options':{'colorize':!![],'singleLine':!![],'translateTime':'SYS:standa'+'rd'}});}catch(_0x34b3d6){_0x4cfaf7['push']({'target':_0x27d5e1(0x93),'level':_0x468f1a,'options':{'destination':0x1}});}_0x4cfaf7[_0x27d5e1(0xe2)]({'target':_0x27d5e1(0x93),'level':_0x27d5e1(0x9e),'options':{'destination':_0x1da6b5[_0x27d5e1(0xdb)](_0x17987d,_initializedConfig[_0x27d5e1(0xd1)+_0x27d5e1(0xb5)]),'mkdir':!![]}});}try{_transport=_0xc41b8b['transport']({'targets':_0x4cfaf7}),_logger=_0xc41b8b({'level':_0x468f1a,'base':{'pid':process['pid'],'hostname':_0x351f1c[_0x27d5e1(0x9b)]()},'timestamp':_0xc41b8b[_0x27d5e1(0xb2)+'ctions'][_0x27d5e1(0xd5)]},_transport),console[_0x27d5e1(0xdd)](_0x27d5e1(0x99)+'r\x20initiali'+_0x27d5e1(0xb8)+_initializedConfig[_0x27d5e1(0xda)]+('\x20EmitLevel'+'=')+_0x468f1a);}catch(_0x563224){console[_0x27d5e1(0xd2)](_0x27d5e1(0xb6)+_0x27d5e1(0xd0)+_0x27d5e1(0xcc)+_0x27d5e1(0xce)+'onsole\x20fal'+_0x27d5e1(0xc1),_0x563224?.['message']||_0x563224),_logger=console;}_initializedConfig[_0x27d5e1(0xab)+'abled']=createLevelChecker(_initializedConfig);};function getLogger(){const _0x392982=_0xe54e64;if(!_logger)return console['warn'](_0x392982(0xbf)+_0x392982(0xe5)+'alized.\x20Fa'+_0x392982(0x9d)+'\x20to\x20consol'+'e.'),console;return _logger;}function isSentryReady(){return _initializedConfig&&_initializedConfig['SENTRY_DSN']&&Sentry;}function isLevelEnabled(_0x40ba5d){const _0xb440a4=_0xe54e64;if(_initializedConfig&&typeof _initializedConfig[_0xb440a4(0xab)+_0xb440a4(0xde)]===_0xb440a4(0xa3))return _initializedConfig['_isLevelEn'+_0xb440a4(0xde)](_0x40ba5d);return(process[_0xb440a4(0xb7)][_0xb440a4(0xda)]||_0xb440a4(0x9f)+'t')!==_0xb440a4(0xd9)||LEVELS[_0x40ba5d]>=LEVELS['warn'];}const logWithSentry=(_0x39c840,_0x20aa7c,_0x13bcf0,_0x43046e)=>{const _0x1c8a15=_0xe54e64;if(!isLevelEnabled(_0x39c840))return;const _0xd06c71=_0x43046e||(typeof _0x13bcf0===_0x1c8a15(0x96)?_0x13bcf0:_0x1c8a15(0xc0)),_0x263272=getLogger();isSentryReady()&&(_0x39c840===_0x1c8a15(0xd2)||_0x39c840===_0x1c8a15(0xbc)?Sentry[_0x1c8a15(0xad)](_0x5f058c=>{const _0x90ae9=_0x1c8a15;_0x5f058c['setLevel'](_0x20aa7c),_0x5f058c[_0x90ae9(0xa5)](_0x90ae9(0xa9)+'age',_0x43046e),Sentry[_0x90ae9(0xa1)+_0x90ae9(0xa2)](_0x13bcf0 instanceof Error?_0x13bcf0:new Error(String(_0x13bcf0)));}):Sentry['addBreadcr'+_0x1c8a15(0xaa)]({'category':_0x1c8a15(0xe0),'message':_0xd06c71,'level':_0x20aa7c}));if(_0x263272&&typeof _0x263272[_0x39c840]===_0x1c8a15(0xa3)){const _0x102a6a={'trace':'🔎','debug':'🐛','info':'ℹ️','warn':'⚠️','error':'❌','fatal':'💥'};_0x263272[_0x39c840](_0x13bcf0,_0x102a6a[_0x39c840]+'\x20'+_0xd06c71);}else console[_0x39c840==='fatal'?'error':_0x39c840](_0x39c840[_0x1c8a15(0xa7)+'e'](),_0x13bcf0,_0xd06c71);};export const trace=(_0x145146,_0x18fe8f)=>logWithSentry('trace','debug',_0x145146,_0x18fe8f);export const debug=(_0x5bca93,_0x1c7c28)=>logWithSentry(_0xe54e64(0xbd),'debug',_0x5bca93,_0x1c7c28);export const info=(_0x44c6ba,_0x4cb532)=>logWithSentry(_0xe54e64(0xdd),_0xe54e64(0xdd),_0x44c6ba,_0x4cb532);export const warn=(_0x23a33b,_0x4494cf)=>logWithSentry(_0xe54e64(0xc7),_0xe54e64(0xa8),_0x23a33b,_0x4494cf);export const error=(_0x1ff752,_0x50126e)=>logWithSentry('error',_0xe54e64(0xd2),_0x1ff752,_0x50126e);export const fatal=(_0x2982bf,_0x44ed9a)=>logWithSentry(_0xe54e64(0xbc),_0xe54e64(0xbc),_0x2982bf,_0x44ed9a);function _0x3916(){const _0x22eb33=['zed.\x20ENV=','or\x20logging','on\x20object.','52obXgtQ','fatal','debug','SENTRY_TRA','Logger\x20not','Log\x20event','lback.','693021CNwJKq','tialized\x20f','412950ijyueN','constants','mkdirSync','warn','init','1116240jZyBpU','_RATE','W_OK','o\x20transpor','cwd','t.\x20Using\x20c','url','create\x20pin','DEV_LOG_FI','error','tialized\x20w','erty','isoTime','SENTRY_DSN','create/acc','map','production','NODE_ENV','join','7UhoVBj','info','abled','filter','log','\x20back\x20to\x20c','push','resolve','Logger\x20ini','\x20yet\x20initi','CES_SAMPLE','Sentry\x20ini','t\x20failed:','urrent\x20dir','2146050UOAvtz','5739416hIoiFv','9393996OkAZAh','hasOwnProp','split','pino/file','sort','trim','string','LOG_DIR','17904411nsTHvt','Pino\x20logge','call','hostname','prototype','lling\x20back','trace','developmen','ack.','captureExc','eption','function','ILENAME','setExtra','accessSync','toUpperCas','warning','customMess','umb','_isLevelEn','allowedSet','withScope','rectory\x20\x22','includes','ess\x20log\x20di','PROD_LOG_F','stdTimeFun','onfigurati','toLowerCas','LENAME','Failed\x20to\x20','env'];_0x3916=function(){return _0x22eb33;};return _0x3916();}
+/* global process */
+import pino from 'pino';
+import path from 'path';
+import fs from 'fs';
+import os from 'os';
+
+let _initializedConfig = null;
+let _logger = null;
+let _fileStreams = [];
+let _isProd = false;
+
+// ANSI color helpers - NO WHITE!
+const COLORS = {
+  reset: '\x1b[0m',
+  red: '\x1b[31m',
+  green: '\x1b[32m',
+  yellow: '\x1b[33m',
+  blue: '\x1b[34m',
+  magenta: '\x1b[35m',
+  cyan: '\x1b[36m',
+  brightBlack: '\x1b[90m',
+  brightRed: '\x1b[91m',
+  brightGreen: '\x1b[92m',
+  brightYellow: '\x1b[93m',
+  brightBlue: '\x1b[94m',
+  brightCyan: '\x1b[96m',
+  bgRed: '\x1b[41m'
+};
+
+// Level configuration - each level has its own color for entire message
+const LEVEL_CONFIG = {
+  trace: { 
+    priority: 10, 
+    color: COLORS.brightBlack, 
+    icon: '🔎', 
+    label: 'TRACE',
+    consoleMethod: 'log'
+  },
+  debug: { 
+    priority: 20, 
+    color: COLORS.cyan, 
+    icon: '🐛', 
+    label: 'DEBUG',
+    consoleMethod: 'log'
+  },
+  info: { 
+    priority: 30, 
+    color: COLORS.green, 
+    icon: 'ℹ️', 
+    label: 'INFO',
+    consoleMethod: 'log'
+  },
+  warn: { 
+    priority: 40, 
+    color: COLORS.yellow, 
+    icon: '⚠️', 
+    label: 'WARN',
+    consoleMethod: 'warn'
+  },
+  error: { 
+    priority: 50, 
+    color: COLORS.red, 
+    icon: '❌', 
+    label: 'ERROR',
+    consoleMethod: 'error'
+  },
+  fatal: { 
+    priority: 60, 
+    color: COLORS.brightRed, 
+    icon: '💥', 
+    label: 'FATAL',
+    consoleMethod: 'error'
+  }
+};
+
+/**
+ * Parse log level string
+ */
+function parseLogLevel(logLevelStr) {
+  if (!logLevelStr) return { main: 'info', extras: [] };
+  
+  const levels = logLevelStr.toLowerCase().split(',').map(l => l.trim());
+  let mainLevel = 'info';
+  const extras = [];
+  
+  for (const level of levels) {
+    if (LEVEL_CONFIG[level]) {
+      if (LEVEL_CONFIG[level].priority > LEVEL_CONFIG[mainLevel].priority) {
+        mainLevel = level;
+      }
+    }
+    if (level === 'trace' || level === 'debug') {
+      if (!extras.includes(level)) {
+        extras.push(level);
+      }
+    }
+  }
+  
+  return { 
+    main: mainLevel, 
+    extras,
+    mainPriority: LEVEL_CONFIG[mainLevel].priority 
+  };
+}
+
+/**
+ * Check if a level should be logged
+ */
+function shouldLog(level, logLevelConfig) {
+  if (!logLevelConfig) return true;
+  
+  const levelPriority = LEVEL_CONFIG[level].priority;
+  const { mainPriority, extras } = logLevelConfig;
+  
+  return levelPriority >= mainPriority || extras.includes(level);
+}
+
+/**
+ * Create simple file stream
+ */
+function createLogStream(logDir, filename, maxSize = 10 * 1024 * 1024, maxFiles = 5) {
+  const basePath = path.join(logDir, filename);
+  
+  if (!fs.existsSync(logDir)) {
+    fs.mkdirSync(logDir, { recursive: true });
+  }
+  
+  if (!fs.existsSync(basePath)) {
+    fs.writeFileSync(basePath, '', 'utf8');
+  }
+  
+  return fs.createWriteStream(basePath, { 
+    flags: 'a', 
+    encoding: 'utf8' 
+  });
+}
+
+/**
+ * Format timestamp like: "2025-12-03 00:07:13.544 +0300"
+ */
+function formatTimestamp(date) {
+  const pad = (num, size = 2) => num.toString().padStart(size, '0');
+  
+  const year = date.getFullYear();
+  const month = pad(date.getMonth() + 1);
+  const day = pad(date.getDate());
+  const hours = pad(date.getHours());
+  const minutes = pad(date.getMinutes());
+  const seconds = pad(date.getSeconds());
+  const milliseconds = pad(date.getMilliseconds(), 3);
+  
+  // Get timezone offset
+  const timezoneOffset = -date.getTimezoneOffset();
+  const offsetHours = pad(Math.floor(Math.abs(timezoneOffset) / 60));
+  const offsetMinutes = pad(Math.abs(timezoneOffset) % 60);
+  const offsetSign = timezoneOffset >= 0 ? '+' : '-';
+  
+  return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}.${milliseconds} ${offsetSign}${offsetHours}${offsetMinutes}`;
+}
+
+/**
+ * Format entire log line with color - NO WHITE TEXT!
+ */
+function formatLogLine(level, message, data = {}) {
+  const style = LEVEL_CONFIG[level] || LEVEL_CONFIG.info;
+  const timestamp = formatTimestamp(new Date());
+  const pid = process.pid;
+  
+  // Start building the line with timestamp in gray
+  let line = `${COLORS.brightBlack}[${timestamp}]${COLORS.reset} `;
+  
+  // Add level label in its color
+  line += `${style.color}${style.label}`;
+  
+  // Add PID in same color (no separate blue color)
+  line += ` (${pid}):`;
+  
+  // Add icon and message in same color
+  let finalMessage = message || '';
+  if (finalMessage && !finalMessage.includes(style.icon)) {
+    finalMessage = `${style.icon} ${finalMessage}`;
+  }
+  
+  line += ` ${finalMessage}${COLORS.reset}`;
+  
+  return line;
+}
+
+/**
+ * Create a pre-initialization fallback logger
+ */
+function createPreInitLogger() {
+  const methods = {};
+  
+  for (const [level, config] of Object.entries(LEVEL_CONFIG)) {
+    methods[level] = (obj, msg) => {
+      const message = msg || (typeof obj === 'string' ? obj : '');
+      const line = formatLogLine(level, message, obj);
+      console[config.consoleMethod](line);
+    };
+  }
+  
+  methods.child = () => methods;
+  return methods;
+}
+
+// Create pre-initialization logger instance
+const _preInitLogger = createPreInitLogger();
+
+/**
+ * Initialize the logger
+ */
+export async function initLogger(config) {
+  try {
+    _initializedConfig = { ...config };
+    _isProd = _initializedConfig.NODE_ENV === 'production';
+    
+    // Defaults
+    const defaults = {
+      LOG_DIR: 'logs',
+      DEV_LOG_FILENAME: 'dev.log',
+      PROD_LOG_FILENAME: 'prod.log',
+      LOG_LEVEL: _isProd ? 'error' : 'info',
+      LOG_ROTATION_SIZE: 10 * 1024 * 1024,
+      LOG_ROTATION_FILES: 5
+    };
+    
+    Object.assign(_initializedConfig, defaults, config);
+    
+    // Parse log level
+    const logLevelConfig = parseLogLevel(_initializedConfig.LOG_LEVEL);
+    
+    // Create log directory
+    const LOG_DIR = path.resolve(process.cwd(), _initializedConfig.LOG_DIR);
+    if (!fs.existsSync(LOG_DIR)) {
+      fs.mkdirSync(LOG_DIR, { recursive: true });
+    }
+    
+    // Prepare streams
+    const streams = [];
+    
+    // Console stream
+    const consoleStream = {
+      write: (log) => {
+        try {
+          const parsed = JSON.parse(log);
+          const level = parsed.level.toLowerCase();
+          
+          if (_isProd) {
+            if (!['error', 'fatal', 'warn'].includes(level)) return;
+          } else {
+            if (!shouldLog(level, logLevelConfig)) return;
+          }
+          
+          const style = LEVEL_CONFIG[level] || LEVEL_CONFIG.info;
+          const timestamp = formatTimestamp(new Date(parsed.time || new Date()));
+          const pid = parsed.pid || process.pid;
+          
+          // Build colored line
+          let line = `${COLORS.brightBlack}[${timestamp}]${COLORS.reset} `;
+          line += `${style.color}${style.label} (${pid}):`;
+          
+          // Add message with icon
+          let message = parsed.msg || '';
+          if (message && !message.includes(style.icon)) {
+            message = `${style.icon} ${message}`;
+          }
+          line += ` ${message}${COLORS.reset}`;
+          
+          console[style.consoleMethod](line);
+        } catch (err) {
+          // Fallback for non-JSON logs
+          console.log(log);
+        }
+      }
+    };
+    
+    streams.push({ stream: consoleStream, level: 'trace' });
+    
+    // File stream - log everything
+    const logFilename = _isProd ? 
+      _initializedConfig.PROD_LOG_FILENAME : 
+      _initializedConfig.DEV_LOG_FILENAME;
+    
+    const fileStream = createLogStream(
+      LOG_DIR,
+      logFilename,
+      _initializedConfig.LOG_ROTATION_SIZE,
+      _initializedConfig.LOG_ROTATION_FILES
+    );
+    
+    _fileStreams.push(fileStream);
+    
+    const fileWriteStream = {
+      write: (log) => {
+        try {
+          fileStream.write(log + '\n');
+        } catch (err) {
+          console.error('Failed to write to log file:', err.message);
+        }
+      }
+    };
+    
+    streams.push({ 
+      stream: fileWriteStream, 
+      level: 'trace' 
+    });
+    
+    // Create the logger
+    _logger = pino({
+      level: 'trace',
+      base: { pid: process.pid, hostname: os.hostname() },
+      timestamp: () => `,"time":"${new Date().toISOString()}"`,
+      formatters: {
+        level: (label) => ({ level: label }),
+        bindings: () => ({})
+      },
+      serializers: {
+        err: pino.stdSerializers.err,
+        error: pino.stdSerializers.err
+      },
+      redact: _isProd ? {
+        paths: ['password', 'token', 'secret', 'authorization', 'cookie'],
+        censor: '[REDACTED]'
+      } : undefined
+    }, pino.multistream(streams));
+    
+    // Display clean initialization message
+    console.log(`\n${COLORS.cyan}=== Logger Initialized ===${COLORS.reset}`);
+    console.log(`${COLORS.cyan}Environment:${COLORS.reset} ${_isProd ? COLORS.red + 'PRODUCTION' : COLORS.green + 'DEVELOPMENT'}${COLORS.reset}`);
+    
+    const consoleLevel = _isProd ? 'ERROR, WARN, FATAL' : 
+      `${logLevelConfig.main.toUpperCase()}${logLevelConfig.extras.length > 0 ? ' + ' + logLevelConfig.extras.join(',').toUpperCase() : ''}`;
+    
+    console.log(`${COLORS.cyan}Console Level:${COLORS.reset} ${COLORS.yellow}${consoleLevel}${COLORS.reset}`);
+    console.log(`${COLORS.cyan}Log Directory:${COLORS.reset} ${COLORS.brightBlack}${LOG_DIR}${COLORS.reset}`);
+    console.log(`${COLORS.cyan}==========================${COLORS.reset}\n`);
+    
+    // Test log
+    if (!_isProd) {
+      _logger.info({}, 'Development logger ready');
+    } else {
+      _logger.warn({}, 'Production logger ready - showing only errors, warns, and fatals');
+    }
+    
+  } catch (error) {
+    console.error(`${COLORS.bgRed}${COLORS.brightYellow} LOGGER INIT ERROR ${COLORS.reset} ${COLORS.red}${error.message}${COLORS.reset}`);
+    _logger = _preInitLogger;
+  }
+}
+
+/**
+ * Get logger instance
+ */
+function getLogger() {
+  return _logger || _preInitLogger;
+}
+
+/**
+ * Create child logger
+ */
+export function createChildLogger(context) {
+  const logger = getLogger();
+  if (logger.child && typeof logger.child === 'function') {
+    return logger.child(context);
+  }
+  return logger;
+}
+
+/**
+ * Create log methods with filtering
+ */
+function createLogMethod(level) {
+  return (obj, msg) => {
+    const logger = getLogger();
+    
+    // Apply filtering
+    if (_isProd && !['error', 'fatal', 'warn'].includes(level)) {
+      return;
+    }
+    
+    if (_initializedConfig && !_isProd) {
+      const logLevelConfig = parseLogLevel(_initializedConfig.LOG_LEVEL);
+      if (!shouldLog(level, logLevelConfig)) {
+        return;
+      }
+    }
+    
+    // Format and log
+    const message = msg || (typeof obj === 'string' ? obj : '');
+    
+    if (obj instanceof Error) {
+      logger[level]({ err: obj }, message || obj.message);
+    } else if (typeof obj === 'object' && obj !== null) {
+      logger[level](obj, message || '');
+    } else {
+      logger[level]({}, message);
+    }
+  };
+}
+
+// Export logging methods
+export const trace = createLogMethod('trace');
+export const debug = createLogMethod('debug');
+export const info = createLogMethod('info');
+export const warn = createLogMethod('warn');
+export const error = createLogMethod('error');
+export const fatal = createLogMethod('fatal');
+
+/**
+ * Graceful shutdown handler to prevent duplicate error logs
+ */
+let _isShuttingDown = false;
+
+export function setupGracefulShutdown(onShutdown) {
+  // Handle SIGINT (Ctrl+C)
+  process.on('SIGINT', async () => {
+    if (_isShuttingDown) return;
+    _isShuttingDown = true;
+    
+    info('Received SIGINT. Starting graceful shutdown...');
+    
+    try {
+      if (onShutdown) {
+        await onShutdown();
+      }
+      
+      // Cleanup
+      cleanup();
+      info('Goodbye!');
+      process.exit(0);
+    } catch (err) {
+      error(err, 'Error during shutdown');
+      process.exit(1);
+    }
+  });
+  
+  // Handle uncaught exceptions - log once and shutdown
+  process.on('uncaughtException', (err) => {
+    if (_isShuttingDown) return;
+    _isShuttingDown = true;
+    
+    error(err, 'Uncaught Exception');
+    
+    // Give time for log to write
+    setTimeout(() => {
+      cleanup();
+      process.exit(1);
+    }, 1000);
+  });
+  
+  // Handle unhandled rejections
+  process.on('unhandledRejection', (reason, promise) => {
+    error(reason, 'Unhandled Promise Rejection');
+  });
+}
+
+/**
+ * HTTP logging middleware
+ */
+export function httpLogger() {
+  return (req, res, next) => {
+    if (_isProd) return next();
+    
+    const start = Date.now();
+    const childLogger = createChildLogger({
+      reqId: Math.random().toString(36).substring(2, 10),
+      method: req.method,
+      url: req.url
+    });
+    
+    res.on('finish', () => {
+      const duration = Date.now() - start;
+      const level = res.statusCode >= 500 ? 'error' :
+                    res.statusCode >= 400 ? 'warn' : 'info';
+      
+      childLogger[level]({
+        status: res.statusCode,
+        duration: `${duration}ms`
+      }, `${req.method} ${req.url}`);
+    });
+    
+    next();
+  };
+}
+
+/**
+ * Cleanup
+ */
+export function cleanup() {
+  _fileStreams.forEach(stream => {
+    try {
+      if (stream && !stream.destroyed) {
+        stream.end();
+      }
+    } catch (err) {
+      // Ignore cleanup errors
+    }
+  });
+  _fileStreams = [];
+}
+
+/**
+ * Emergency log
+ */
+export function emergencyLog(level, message, data = {}) {
+  const style = LEVEL_CONFIG[level] || LEVEL_CONFIG.error;
+  const line = formatLogLine(level, message, data);
+  console[style.consoleMethod](line);
+}
+
+// Export main logger object
+export const logger = {
+  trace,
+  debug,
+  info,
+  warn,
+  error,
+  fatal,
+  child: createChildLogger,
+  http: httpLogger,
+  emergency: emergencyLog,
+  setupGracefulShutdown
+};
+
+// Auto cleanup on exit
+if (typeof process !== 'undefined') {
+  process.once('beforeExit', cleanup);
+}
