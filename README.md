@@ -68,4 +68,15 @@ ___
 [![Deploy with Heroku](https://www.herokucdn.com/deploy/button.svg)](https://i-tct.com/deploy-guide/)
 
 
+---
+## Need help! Join our support group
+
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/TheCarlTech)
+
+---
+
+
+
 [Visit the WA site for detailed guide](https://i-tct.com/wa)
+
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://t.me/TheCarlTech)
