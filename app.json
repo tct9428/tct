@@ -1,0 +1,39 @@
+{
+  "name": "TCT",
+  "description": "A fast WhatsApp bot built with Node.js",
+  "keywords": ["tct", "node", "fast", "whatsapp"],
+  "stack": "heroku-24",
+  "env": {
+    "SESSION_ID": {
+      "description": "Your session ID (REQUIRED)",
+      "value": "",
+      "required": true
+    },
+    "OPENWEATHER_API_KEY": {
+      "description": "OpenWeather API key for weather commands",
+      "value": "",
+      "required": false
+    },
+    "FOOTBALL_API_KEY": {
+      "description": "Football API key for sports updates",
+      "value": "",
+      "required": false
+    },
+    "TIMEZONE": {
+      "description": "Your timezone",
+      "value": "Africa/Nairobi",
+      "required": false
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
