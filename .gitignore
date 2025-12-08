@@ -5,3 +5,4 @@ obs/
 obf/
 logs/
 .auth/
+data/db/
