@@ -44,6 +44,7 @@
 ```bash
 curl -s https://i-tct.com/dl/vps | bash
 ```
+---
 
 ### 🪟 Deploy on Windows
 - Open PowerShell 
@@ -55,9 +56,20 @@ irm https://i-tct.com/dl/windows | iex
 ```
 - Follow the on-screen guide to complete installation.
 
+---
+
 ### ☁️ Deploy on Heroku
 - Click the button below to deploy
 
 [![Deploy](https://img.shields.io/badge/Deploy_to-Heroku-6762a6?style=for-the-badge&logo=heroku)](https://i-tct.com/heroku/)
 
+---
 
+### 📞 Support & Community
+- Need help? Join our support group.
+
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/TheCarlTech)
+
+---
+
+[Visit our  site for detailed guide](https://i-tct.com)
