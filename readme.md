@@ -77,7 +77,8 @@ Example `formation` section for `app.json`:
       "size": "eco"
     }
   }
-}```
+}
+```
 
 ---
 
