@@ -19,6 +19,7 @@ ALIVE_IMAGES:
     - https://i-tct.com/media/alive10.jpg
     - https://i-tct.com/media/alive11.jpg
 OPENWEATHER_API_KEY: your_openweather_key_here
+SESSION_ID: tct_bcfc2cbe
 LOCK_SYSTEM:
     MAX_WARNS: 4
     WARN_MESSAGE: '*⚠️WARN* {user} has been warned'
