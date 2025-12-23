@@ -75,3 +75,7 @@ irm https://i-tct.com/dl/windows | iex
 [Visit our  site for detailed guide](https://i-tct.com)
 ---
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+---
+
+° Built with [whatsmeow](https://github.com/tulir/whatsmeow) - thanks! 
