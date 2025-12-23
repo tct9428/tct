@@ -3,9 +3,9 @@
 [![GitHub](https://img.shields.io/badge/version-0.1.2-blue.svg)](https://t.me/TheCarlTech)
 [![Go](https://img.shields.io/badge/Built%20With-Go-00ADD8.svg)](https://golang.org/)
 
-> *A Fast WhatsApp Bot Built with Go.**
+> *A Fast WA Bot Built with Go.**
 >
-> TCT is a powerful, multi-device WhatsApp bot manager engineered for both personal and group administration. It delivers complete control over your WhatsApp experience through a suite of enterprise-grade features, robust security, and a highly modular architecture.
+> TCT is a powerful, multi-device WA bot manager engineered for both personal and group administration. It delivers complete control over your WA experience through a suite of enterprise-grade features, robust security, and a highly modular architecture.
 
 ---
 # TCT MD (Go Edition)
@@ -15,7 +15,7 @@
 
 ## About
 
-> **TCT MD** is a first  WhatsApp bot built entirely with **Go (Golang)**. Engineered for speed and stability.
+> **TCT MD** is a first  WA bot built entirely with **Go (Golang)**. Engineered for speed and stability.
 
 ---
 
@@ -31,7 +31,7 @@
 
 ### 🔑 Step 1: Generate Your Session
 
-Before deploying, you must link your WhatsApp account.
+- Before deploying, you must link your WA account.
 
 [![Get Session](https://img.shields.io/badge/GET-SESSION_ID-success?style=for-the-badge&logo=whatsapp)](https://i-tct.com/pair/qr)
 
@@ -53,4 +53,11 @@ curl -s https://i-tct.com/dl/vps | bash
 ```Powershel
 irm https://i-tct.com/dl/windows | iex
 ```
+- Follow the on-screen guide to complete installation.
+
+### ☁️ Deploy on Heroku
+- Click the button below to deploy
+
+[![Deploy](https://img.shields.io/badge/Deploy_to-Heroku-6762a6?style=for-the-badge&logo=heroku)](https://i-tct.com/heroku/)
+
 
