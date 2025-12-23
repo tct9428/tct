@@ -1,0 +1,71 @@
+🚫 *Antispam Security Manual*
+
+This module detects and punishes users who flood the group with too many messages in a short time.
+
+_Note: Admins are immune to antispam checks. The bot will ignore them._
+
+⊷═══════════════════⊷
+
+*1. Enable or Disable Antispam*
+Turn the protection on or off for the current group.
+
+`.spm on`
+> • _Explanation:_ Activates message tracking and punishment logic.
+
+`.spm off`
+> • _Explanation:_ Disables all checks. Users can send messages freely.
+
+•═══════════════════•
+
+*2. Configuring Sensitivity (The Window)*
+Define what counts as "spam". You set a number of messages (`msgs`) allowed within a timeframe (`seconds`).
+
+`.spm window <msgs>:<seconds>`
+
+> • *Example:* `.spm window 5:2`
+> • _Explanation:_ If a user sends more than 5 messages in 2 seconds, they are flagged as a spammer.
+
+*Configuring Burst Limit*
+Some spammers send messages so fast they arrive instantly. This sets a hard limit on instantaneous messages.
+
+`.spm burst <count>`
+> • *Example:* `.spm burst 10`
+> • _Explanation:_ Instantly triggers if 10 messages arrive at once.
+
+⊷═══════════════════⊷
+
+*3. Punishment Modes*
+Decide what the bot should do when it catches a spammer.
+
+`.spm mode warn`
+> • _Explanation:_ The bot will only reply telling the user to stop. It will not kick them.
+
+`.spm mode kick`
+> • _Explanation:_ The bot will warn the user first. If they continue to spam (usually 3 times), the bot will *Kick* them out of the group.
+
+•═══════════════════•
+
+*4. Customizing Messages*
+Change what the bot says when punishing users. Use `{user}` to mention the offender.
+
+*Warning Message:*
+`.spm warnmsg <text>`
+> • *Example:* `.spm warnmsg @{user} stop flooding the chat!`
+
+*Kick Message:*
+`.spm kickmsg <text>`
+> • *Example:* `.spm kickmsg Banned @{user} for spamming.`
+
+⊷═══════════════════⊷
+
+*5. Managing Other Groups (Remote)*
+Configure antispam for other groups using extensions.
+
+`.spm <command> jd:groupName`
+
+> • *Example:* `.spm on jd:SupportGroup`
+> • _Explanation:_ Turns on antispam in "SupportGroup".
+> • *Example:* `.spm window 3:5 jd:StrictGroup`
+> • _Explanation:_ Sets a very strict limit (3 msgs in 5 seconds) for "StrictGroup".
+
+«««««««««««««« • »»»»»»»»»»»»»»

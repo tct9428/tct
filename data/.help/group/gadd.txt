@@ -1,0 +1,49 @@
+📝 *GAdd (Global Event Logger) Manual*
+
+This module is a monitoring tool for Bot Owners. It tracks every user who joins, leaves, is added, or is kicked from *any* group the bot is in, and sends a summary report to a specific log channel (Target).
+
+_Note: This command is restricted to the Bot Owner and Sudo users._
+
+⊷═══════════════════⊷
+
+*1. Setting the Log Target*
+Before enabling the module, you must tell the bot *where* to send the reports. This is usually your private ID or a dedicated log group ID.
+
+`.gadd <JID>`
+
+> • *Example:* `.gadd 12036302392@g.us`
+> • _Explanation:_ Tells the bot to send all join/leave logs to this specific group ID.
+
+•═══════════════════•
+
+*2. Enabling or Disabling*
+Turn the monitoring system on or off.
+
+`.gadd on`
+> • _Explanation:_ Starts tracking events. If 10 people join a group rapidly, the bot will bundle them into one report and send it to your target.
+
+`.gadd off`
+> • _Explanation:_ Stops tracking.
+
+⊷═══════════════════⊷
+
+*3. Checking Status*
+View the current configuration to see if it is running and where the logs are going.
+
+`.gadd` or `.gadd status`
+
+> • _Output:_ Shows `🟢 ON` or `🔴 OFF` and the current Target JID.
+
+•═══════════════════•
+
+*4. Understanding the Report*
+The bot waits a few seconds (debounces) to gather multiple events into one message to avoid spamming your log channel.
+
+*The report includes:*
+> • *Group Name:* Which group the events happened in.
+> • *Joins:* Users who joined via invite link.
+> • *Adds:* Users added by an admin (shows *who* added them).
+> • *Leaves:* Users who left on their own.
+> • *Kicks:* Users removed by an admin (shows *who* kicked them).
+
+«««««««««««««« • »»»»»»»»»»»»»»

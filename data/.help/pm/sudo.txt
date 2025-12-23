@@ -1,0 +1,43 @@
+👑 *Sudo (Access Control) Manual*
+
+_This module allows the Bot Owner (Host) to grant "Super User" privileges to trusted individuals._
+_Sudo users gain access to restricted commands (like .sticker, .img, .send) but have limited administrative power._
+
+_Note: Only the primary Bot Owner can add or remove Sudo users. Sudo users cannot promote themselves or others._
+
+•════════◄►════════•
+
+*1. Adding a Trustee*
+Grant Sudo access to a user. You can add multiple numbers at once by separating them with commas.
+
+`.sudo add <number>`
+
+> • *Example:* `.sudo add 254712345678`
+> • _Explanation:_ Grants the user `254712345678` permission to use the bot's restricted commands.
+
+•════════◄►════════•
+
+*2. Removing a Trustee*
+Revoke access from a user. They will no longer be able to use restricted commands.
+
+`.sudo remove <number>` or `.sudo rm <number>`
+
+> • *Example:* `.sudo rm 254712345678`
+> • _Explanation:_ Removes the user from the trusted list immediately.
+
+•════════◄►════════•
+
+*3. Viewing the List*
+Check who currently has access to the bot.
+
+`.sudo list` or `.sudo ls`
+
+> • _Output:_ Displays a numbered list of all current Sudo users.
+
+•════════◄►════════•
+
+*4. Hierarchy & Security*
+> • *Host (You):* Full control. Can add/remove Sudo users and restart the bot.
+> • *Sudo Users:* Can use tools (Stickers, AI, Downloads) but **cannot** add other Sudo users or access the `.sudo add` command.
+
+«««««««««««««« • »»»»»»»»»»»»»»

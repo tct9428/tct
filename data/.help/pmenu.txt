@@ -1,0 +1,144 @@
+┌─┫ ⚙️ ＰＭ　ＣＯＮＴＲＯＬ
+│
+├─┫ ＡＮＴＩＥＤＩＴ
+│ ├──• .ae <jid>
+│ ├──• .ae clear
+│ ├──• .ae on | enable
+│ ├──• .ae off | disable
+│ └──• .ae status
+│
+├─┫ ＡＮＴＩＳＴＡＴＵＳ
+│ ├──• .asd on | off
+│ └──• .asd
+│
+├─┫ ＡＵＴＯＶＩＥＷ
+│ ├──• .avl on | off
+│ ├──• .avl g | n <nums>
+│ ├──• .avl list
+│ └──• .avl rm <number>
+│
+├─┫ ＢＡＣＫＵＰ
+│ ├──• .getdb
+│ └──• .setdb
+│
+├─┫ ＣＩＲＣＬＥ　ＣＣ
+│ └──• .cc <number>
+│
+├─┫ ＣＯＭＭＯＮ
+│ ├──• .cmn | .common
+│ ├──• .cmn -f
+│ └──• .cmn <grp1>, <grp2>
+│
+├─┫ ＣＯＮＶＥＲＴ
+│ ├──• .tomp3
+│ ├──• .cutmp3 <start>
+│ ├──• .cutmp3 -<end>
+│ └──• .cutmp3 <start> <end>
+│
+├─┫ ＤＥＬＥＴＥ
+│ ├──• .dlt on | off
+│ ├──• .dlt <jid>
+│ ├──• .dlt clear
+│ └──• .dlt status
+│
+├─┫ ＤＯＷＮＬＯＡＤＥＲ
+│ ├──• .dla <url>
+│ └──• .ringtone <query>
+│
+├─┫ ＦＯＲＷＡＲＤ
+│ ├──• .fwd <msg> jd:<target>
+│ └──• .fwd <msg> jd:all
+│
+├─┫ ＧＰＥＲＭ
+│ ├──• .gperm block .
+│ ├──• .gperm allow .
+│ └──• .gperm show
+│
+├─┫ ＨＥＡＬＴＨ
+│ └──• .health | .hlt
+│
+├─┫ ＩＭＡＧＥ
+│ └──• .img <1-6> <query>
+│
+├─┫ ＪＩＤ
+│ └──• .jid
+│
+├─┫ ＪＩＤＢＯＯＫ
+│ ├──• .jd add <alias>:<jid>
+│ ├──• .jd rm <alias>
+│ ├──• .jd show
+│ ├──• .jidbook add <alias>:<jid>
+│ ├──• .jidbook rm <alias>
+│ └──• .jidbook show
+│
+├─┫ ＰＦＩＬＴＥＲ
+│ ├──• .pflt <trigger>
+│ ├──• ?pr <priority>
+│ ├──• ! <response>
+│ ├──• .pstop <trigger>
+│ ├──• .plist
+│ └──• .pfilterdelay <sec>
+│
+├─┫ ＰＩＮＧ
+│ └──• .ping
+│
+├─┫ ＰＲＯＦＩＬＥ
+│ └──• .profile | .setpp
+│
+├─┫ ＲＥＡＤ
+│ └──• .rd on | off
+│
+├─┫ ＲＥＢＯＯＴ
+│ ├──• .reboot | .rb
+│ └──• .reboot <seconds>
+│
+├─┫ ＳＥＮＤ
+│ ├──• .snd <number> <msg>
+│ └──• .snd <number>
+│
+├─┫ ＳＴＡＲＴ
+│ ├──• .st on | off
+│ ├──• .st target <owner|sudo>
+│ ├──• .st status | test
+│ └──• .st reset
+│
+├─┫ ＳＴＡＴＵＳ
+│ └──• .status on | off
+│
+├─┫ ＳＴＩＣＫＥＲ
+│ ├──• .sticker | .s
+│ ├──• .toimage
+│ └──• .tovideo
+│
+├─┫ ＳＵＤＯ
+│ ├──• .sudo add <jid>
+│ ├──• .sudo remove <jid>
+│ └──• .sudo list
+│
+├─┫ ＴＥＲＭＵＸ
+│ └──• .termux
+│
+├─┫ ＴＩＭＥ
+│ └──• .time <location>
+│
+├─┫ ＵＰＤＡＴＥ
+│ ├──• .update | check
+│ ├──• .update now
+│ └──• .update force
+│
+├─┫ ＶＡＲ
+│ ├──• .var <key>: <value>
+│ └──• .var prefix: | timezone:
+│
+├─┫ ＶＩＥＷＯＮＣＥ
+│ ├──• .vv <jid>
+│ ├──• .vv clear
+│ ├──• .vv pr <prefix>
+│ └──• .vv check
+│
+├─┫ ＷＥＡＴＨＥＲ
+│ └──• .weather <location>
+│
+└─┫ TCT-BOT
+
+•── ᴘʀɪᴠᴀᴛᴇ ᴍᴏᴅᴜʟᴇꜱ ──•

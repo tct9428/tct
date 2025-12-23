@@ -1,0 +1,48 @@
+👢 *Kick Module Manual*
+
+This module provides quick moderation tools to remove users from your group. It includes fun "kick messages" that cycle through different phrases when removing someone.
+
+_Note: You must be a Group Admin to use these commands. The bot also needs to be an Admin to actually remove people._
+
+⊷═══════════════════⊷
+
+*1. Kick by Reply*
+The easiest way to remove a user. Just reply to their message.
+
+`.kick`
+
+> • *Usage:* Reply to a specific message sent by the trouble-maker with `.kick`.
+> • _Action:_ The bot kicks the sender of that message immediately.
+
+•═══════════════════•
+
+*2. Kick by Mention*
+Remove a user by tagging them in the command.
+
+`.kick @user`
+
+> • *Example:* `.kick @John`
+> • _Action:_ Removes John from the group.
+
+•═══════════════════•
+
+*3. Kick by Number*
+Remove a user by typing their phone number directly (useful if they have already left or you can't tag them).
+
+`.kick <number>`
+
+> • *Example:* `.kick 254712345678`
+> • _Action:_ Kicks the user with that specific phone number.
+
+⊷═══════════════════⊷
+
+*4. Kick All (Mass Clean)*
+A dangerous command that attempts to empty the group.
+
+`.kick all`
+
+> • _Explanation:_ Starts a process to kick *everyone* in the group.
+> • _Safety:_ The bot will ask for confirmation. You must reply with `yes` or `.kick yes` to proceed.
+> • _Note:_ This command **skips admins**. It will remove all normal members but leave the admins (and the bot) inside.
+
+«««««««««««««« • »»»»»»»»»»»»»»

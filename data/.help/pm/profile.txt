@@ -1,0 +1,36 @@
+🖼️ *Profile Picture Manager Manual*
+
+_This module allows you to update the bot's WhatsApp profile picture remotely._
+_It automatically crops and resizes any image you provide to fit WhatsApp's requirements._
+
+_Note: This command is restricted to the Bot Owner and Sudo users._
+
+•════════◄►════════•
+
+*1. Setting the Profile Picture*
+Change the bot's avatar by replying to an image.
+
+`.profile` or `.setpp`
+
+> • *Usage:*
+> 1. Send or locate an image in the chat.
+> 2. Reply to that image with `.profile` or `.setpp`.
+> • _Explanation:_ The bot downloads the image, crops it to a square, and updates its profile photo instantly.
+
+•════════◄►════════•
+
+*2. Supported Formats*
+The module supports standard image formats:
+> • *JPEG / JPG*
+> • *PNG*
+> • *GIF* (will be converted to a static image)
+> • *WEBP*
+
+•════════◄►════════•
+
+*3. Automatic Processing*
+You do not need to edit the image beforehand.
+> • *Auto-Crop:* The bot automatically focuses on the center of the image.
+> • *Resize:* It scales the image to 512x512 pixels for optimal display.
+
+«««««««««««««« • »»»»»»»»»»»»»»

@@ -1,0 +1,59 @@
+📘 *JIDBook (Address Book) Manual*
+
+This module allows you to save complicated Group IDs (JIDs) as simple "Aliases" (nicknames). instead of typing `12036302392@g.us`, you can just save it as "dev" and use `jd:dev` in commands.
+
+_Note: This is an essential tool for managing multiple groups remotely._
+
+⊷═══════════════════⊷
+
+*1. Adding an Alias*
+Save a group ID with a short nickname. You can add multiple at once by separating them with commas.
+
+`.jd add <alias>:<JID>`
+
+> • *Example:* `.jd add coding:123456@g.us`
+> • _Explanation:_ Saves the ID `123456@g.us` under the name "coding".
+> • *Example:* `.jd add work:111@g.us, home:222@g.us`
+> • _Explanation:_ Saves two different groups at once.
+
+•═══════════════════•
+
+*2. Removing an Alias*
+Delete a saved nickname from the book.
+
+`.jd rm <alias>`
+
+> • *Example:* `.jd rm coding`
+> • _Explanation:_ Deletes the "coding" alias. The bot forgets that shortcut.
+
+⊷═══════════════════⊷
+
+*3. Viewing Your Address Book*
+See all the shortcuts you have saved.
+
+`.jd show` or `.jd list`
+
+> • _Explanation:_ Displays a list of all aliases and the group IDs they point to.
+
+•═══════════════════•
+
+*4. How to use Aliases (Extensions)*
+Once you have saved an alias, you can use it in other commands (like Antilink, Schedule, or Active) to target that group remotely.
+
+> • *Example:* `.atl enable jd:coding`
+> • _Explanation:_ Enables antilink for the group you saved as "coding".
+> • *Example:* `.sched add 08:00 Hello jd:work`
+> • _Explanation:_ Schedules a message for the "work" group.
+
+⊷═══════════════════⊷
+
+*5. The 'All' Shortcut*
+There is a special reserved alias called `all`.
+
+`jd:all`
+
+> • *Example:* `.active jd:all`
+> • _Explanation:_ Runs the command for *every single group* currently saved in your JIDBook.
+> • _Note:_ This does not include random groups the bot is in; it only targets the ones you have explicitly added to the JIDBook.
+
+«««««««««««««« • »»»»»»»»»»»»»»

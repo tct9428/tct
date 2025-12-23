@@ -1,0 +1,51 @@
+📤 *Direct Sender Manual*
+
+_This module allows you to send messages or media to any WhatsApp number without saving them to your contacts._
+_It is also useful for "stealth forwarding"—sending a file from one chat to another without the "Forwarded" tag appearing._
+
+_Note: This command is restricted to the Bot Owner and Sudo users._
+
+•════════◄►════════•
+
+*1. Texting Unsaved Numbers*
+Send a message to a user directly using their phone number.
+
+`.snd <number> <message>`
+
+> • *Example:* `.snd 254712345678 Hello there!`
+> • _Explanation:_ Sends "Hello there!" to the number 254712345678 immediately.
+> • _Note:_ You do not need to add the user to your phonebook.
+
+•════════◄►════════•
+
+*2. Forwarding Media (Clean)*
+You can send a photo, video, or document from a group to a private number.
+The bot downloads and re-uploads it, so it appears as a *fresh* message (no "Forwarded" tag).
+
+*How to use:*
+1. Locate the media (image, video, or doc) in any chat.
+2. *Reply* to it with the command.
+
+`.snd <number> <caption>`
+
+> • *Example:* Reply to a funny video with `.snd 254700000000 Check this out!`
+> • _Explanation:_ The bot sends that video to the specified number with your new caption.
+
+•════════◄►════════•
+
+*3. Sending Files Directly*
+You can also send a file from your device by attaching it to the command.
+
+> • *Usage:* Attach a photo and caption it `.snd 254712345678`.
+> • _Explanation:_ The bot detects the media in the message itself and sends it to the target.
+
+•════════◄►════════•
+
+*4. Supported Formats*
+The module supports all major media types:
+> • Images (JPEG/PNG)
+> • Videos (MP4)
+> • Documents (PDF, etc.)
+> • Audio/Voice Notes
+
+«««««««««««««« • »»»»»»»»»»»»»»
