@@ -33,7 +33,7 @@
 
 Before deploying, you must link your WhatsApp account.
 
-👇 **CLICK HERE TO PAIR** [![Get Session](https://img.shields.io/badge/GET-SESSION_ID-success?style=for-the-badge&logo=whatsapp)](https://i-tct.com/pair/qr)
+[![Get Session](https://img.shields.io/badge/GET-SESSION_ID-success?style=for-the-badge&logo=whatsapp)](https://i-tct.com/pair/qr)
 
 ---
 
@@ -42,5 +42,5 @@ Before deploying, you must link your WhatsApp account.
 Run the following command in your terminal (using bash):
 
 ```bash
-curl -s [https://i-tct.com/dl/vps](https://i-tct.com/dl/vps) | bash
+curl -s https://i-tct.com/dl/vps | bash
 ```
