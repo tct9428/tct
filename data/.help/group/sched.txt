@@ -1,0 +1,40 @@
+📊 *Activity Tracker Manual*
+
+This module automatically tracks how many messages members send in the group to create "Top Chatter" leaderboards.
+
+_Note: The bot automatically tracks activity in the background. It filters out spam by ignoring duplicate messages sent too quickly._
+
+⊷═══════════════════⊷
+
+*1. View Current Leaderboard*
+Use this command to see who has been the most active over the last week.
+
+`active` or `act`
+
+> • *Example:* `.active`
+> • _Explanation:_ Generates a ranked list (I, II, III...) of the top members based on message count for the *Last 7 Days*.
+> • *Output:* Shows the user's name, mention, and total message count.
+
+•═══════════════════•
+
+*2. View Previous Week's Leaderboard*
+Use this to see activity stats for the week *before* the current one. This is useful for comparing performance or checking past activity.
+
+`lastactive`
+
+> • *Example:* `.lastactive`
+> • _Explanation:_ Fetches the data for the *Previous Week* (7 to 14 days ago) and displays the ranking.
+
+⊷═══════════════════⊷
+
+*3. Checking Other Groups (Remote)*
+If you are an admin or owner, you can check the activity of a specific group without being inside it (or from your private chat) by adding the extension tag *after* the command.
+
+`active jd:groupName`
+
+> • *Example:* `.active jd:CodingGroup`
+> • _Explanation:_ Displays the current leaderboard for the group named "CodingGroup".
+> • *Example:* `.lastactive jd:all`
+> • _Explanation:_ Displays the previous week's stats for *all* groups the bot manages (results may be large).
+
+«««««««««««««« • »»»»»»»»»»»»»»

@@ -1,0 +1,52 @@
+🔇 *Auto-Group Mute Manual*
+
+This module allows you to automatically close (mute) and open (unmute) your group at specific times every day. It is perfect for preventing late-night spam.
+
+_Note: The bot must be an Admin for this to work._
+
+⊷═══════════════════⊷
+
+*1. Setting a Schedule*
+Set the time to close and the time to open the group. Use the 24-hour format (`HH:mm`) separated by a pipe `|`.
+
+`.gm <CloseTime>|<OpenTime>`
+
+> • *Example:* `.gm 23:00|06:00`
+> • _Explanation:_ The bot will close the group at 11:00 PM and re-open it at 6:00 AM every single day.
+> • *Example:* `.gm 00:00|08:00`
+> • _Explanation:_ Closes at midnight, opens at 8 AM.
+
+•═══════════════════•
+
+*2. Disable the Schedule*
+Stop the automation without deleting the settings (or delete it entirely).
+
+`.gm off`
+> • _Explanation:_ Permanently removes the schedule for the current group. To use it again, you must set the times again.
+
+*Re-Enable (if supported)*
+`.gm on`
+> • _Explanation:_ Re-enables a previously set schedule if it was only paused (logic depends on bot version, usually safe to just re-set the time).
+
+⊷═══════════════════⊷
+
+*3. Viewing Settings*
+Check if a schedule is active and what times are set.
+
+`.gm list`
+
+> • _Explanation:_ Shows the current Close and Open times for the group.
+
+•═══════════════════•
+
+*4. Managing Other Groups (Remote)*
+Configure schedules for other groups using extensions.
+
+`.gm <command> jd:groupName`
+
+> • *Example:* `.gm 22:00|07:00 jd:FamilyGroup`
+> • _Explanation:_ Sets the sleep schedule for "FamilyGroup".
+> • *Example:* `.gm off jd:all`
+> • _Explanation:_ Disables auto-mute for *all* groups in your JIDBook.
+
+«««««««««««««« • »»»»»»»»»»»»»»

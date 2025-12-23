@@ -1,0 +1,64 @@
+✏️ *Antiedit Detector Manual*
+
+_This module acts as a "truth keeper" for your groups._
+_It detects when a user edits a message and immediately sends a report containing the *original* text (before the edit) and the *new* text._
+
+_Note: This module operates globally. It monitors all groups and sends the reports to one specific Log Channel (Target)._
+
+•════════◄►════════•
+
+*1. Setting the Log Target*
+Before enabling the module, you must tell the bot *where* to send the edit reports.
+This is usually a private Admin-only group or your private chat.
+
+`.ae <JID>`
+
+> • *Example:* `.ae 12036302392@g.us`
+> • _Explanation:_ Tells the bot to send all edit logs to this specific group ID.
+
+*Reset to Default*
+`.ae clear`
+> • _Explanation:_ Resets the target. Reports will be sent to the Bot's Private Message (PM).
+
+•════════◄►════════•
+
+*2. Enabling or Disabling*
+Turn the global monitoring system on or off.
+
+`.ae on` or `.ae enable`
+> • _Explanation:_ Starts tracking edits in all groups.
+
+`.ae off` or `.ae disable`
+> • _Explanation:_ Stops tracking.
+
+•════════◄►════════•
+
+*3. Checking Status*
+View the current configuration to see if it is running and where the logs are going.
+
+`.ae status`
+
+> • _Output:_ Shows `🟢 ON` or `🔴 OFF` and the current Target JID.
+
+•════════◄►════════•
+
+*4. Understanding the Report*
+When someone edits a message, the bot will send a log to your target channel.
+
+*The report includes:*
+> • *User:* Name and ID of the editor.
+> • *Chat:* Which group it happened in.
+> • *Original:* The text before the edit.
+> • *Edited:* The new text.
+
+•════════◄►════════•
+
+*5. Easy Setup (Remote)*
+You can set the log target easily using the JIDBook extension.
+
+`.ae jd:groupName`
+
+> • *Example:* `.ae jd:SecurityLogs`
+> • _Explanation:_ Automatically finds the ID for "SecurityLogs" and sets it as the Antiedit target.
+
+«««««««««««««« • »»»»»»»»»»»»»»

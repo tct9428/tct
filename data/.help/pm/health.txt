@@ -1,0 +1,41 @@
+🩺 *System Health Monitor Manual*
+
+_This module allows the Bot Owner to view real-time server statistics (RAM, CPU, Disk) and verify the bot's performance._
+_It is designed to keep your private chat clean by automatically deleting old reports when a new one is requested._
+
+_Note: This command is restricted to the Bot Owner and Sudo users and works ONLY in Private Chat (PM)._
+
+•════════◄►════════•
+
+*1. Check System Status*
+Generate a dashboard showing the current health of the bot's server.
+
+`.health` or `.hlt`
+
+> • _Explanation:_ The bot calculates current memory usage, uptime, and disk space, then sends a detailed report.
+
+•════════◄►════════•
+
+*2. Dashboard Data*
+The report provides key technical insights:
+> • *Uptime:* How long the bot has been running without a restart.
+> • *Memory:* Current RAM usage (useful for detecting leaks).
+> • *Disk Usage:* Available storage space on the server.
+> • *System:* CPU count and OS information.
+
+•════════◄►════════•
+
+*3. Auto-Clean Feature*
+To prevent clogging your private chat with outdated logs, this module has a "self-cleaning" function.
+
+> • _How it works:_
+> When you type `.hlt`, the bot looks for the *previous* health report it sent you and deletes it before sending the new one.
+> This ensures you always have just *one* up-to-date status card in your chat history.
+
+•════════◄►════════•
+
+*4. Troubleshooting*
+> • *No Response?* This command is disabled in groups. You must use it in your private chat with the bot.
+> • *Access Denied:* If you are not the Owner or a Sudo user, the bot will simply ignore the command.
+
+«««««««««««««« • »»»»»»»»»»»»»»

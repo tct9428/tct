@@ -1,0 +1,107 @@
+┌─┫ ⚙️ ＧＲＯＵＰ　ＣＯＮＴＲＯＬ
+│
+├─┫ ＡＣＴＩＶＥ
+│ ├──• .active | .act
+│ └──• .lastactive
+│
+├─┫ ＡＬＩＶＥ
+│ ├──• .alive
+│ ├──• .alivedaily on <HH:mm>
+│ ├──• .alivedaily off
+│ ├──• .setalive <message>
+│ ├──• .delalive
+│ └──• .listquote
+│
+├─┫ ＡＮＴＩＬＩＮＫ
+│ ├──• .atl enable | disable
+│ ├──• .atl warn <limit>
+│ ├──• .atl msg <text>
+│ ├──• .atl kickmsg <text>
+│ ├──• .atl aware on | off
+│ ├──• .atl ttl <minutes>
+│ ├──• .atl show
+│ └──• .atl default
+│
+├─┫ ＦＩＬＴＥＲ
+│ ├──• .filter <trigger>
+│ ├──• ?pr <priority>
+│ ├──• ! <response>
+│ ├──• .delflt <trigger>
+│ ├──• .flist
+│ ├──• .filterdelay <seconds>
+│ └──• .filter on | off
+│
+├─┫ ＧＡＤＤ
+│ ├──• .gadd on | off
+│ ├──• .gadd <target_jid>
+│ └──• .gadd status
+│
+├─┫ ＧＲＯＵＰＭＵＴＥ
+│ ├──• .gm <close>|<open>
+│ ├──• .gm on | off
+│ └──• .gm list
+│
+├─┫ ＧＳＢＭＬ
+│ ├──• .gsbml on | off
+│ ├──• .gsbml mode warn | kick
+│ ├──• .gsbml maxwarns <num>
+│ ├──• .gsbml warnmsg <text>
+│ ├──• .gsbml ttl <minutes>
+│ └──• .gsbml resetwarns
+│
+├─┫ ＪＩＤＢＯＯＫ
+│ ├──• .jd add <alias>:<jid>
+│ ├──• .jd rm <alias>
+│ └──• .jd show
+│
+├─┫ ＫＩＣＫ
+│ ├──• .kick (reply)
+│ ├──• .kick @user
+│ ├──• .kick <number>
+│ └──• .kick all
+│
+├─┫ ＬＥＡＶＥ
+│ ├──• .lvc on | off
+│ ├──• .lvc msg <text>
+│ └──• .lvc delay <seconds>
+│
+├─┫ ＬＯＣＫ
+│ ├──• .lock <phrase1>, <phrase2>
+│ ├──• .lmd <media_type>
+│ ├──• .unlock <item>
+│ ├──• .listlock
+│ ├──• .lockmode warn | kick
+│ ├──• .setwarnmsg <text>
+│ ├──• .resetwarns
+│ └──• .locksystem on | off
+│
+├─┫ ＳＣＨＥＤ
+│ ├──• .sched add <time> <msg>
+│ ├──• .sched once <time> <msg>
+│ ├──• .sched in <duration> <msg>
+│ ├──• .sched delete <id>
+│ ├──• .sched edit <id> <time>
+│ ├──• .sched freq <id> <days>
+│ ├──• .sched on | off <id>
+│ └──• .sched list
+│
+├─┫ ＳＰＡＭ
+│ ├──• .spm on | off
+│ ├──• .spm window <msgs>:<sec>
+│ ├──• .spm burst <count>
+│ ├──• .spm mode warn | kick
+│ ├──• .spm warnmsg <text>
+│ └──• .spm kickmsg <text>
+│
+├─┫ ＴＡＧ
+│ ├──• @ <message> (Ghost)
+│ └──• @@ <message> (Verbose)
+│
+├─┫ ＷＥＬＣＯＭＥ
+│ ├──• .wlc <message>
+│ ├──• .wlc on | off
+│ └──• .delwlc
+│
+└─┫ TCT-BOT
+
+•── ᴍᴏᴅᴜʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ──•

@@ -1,0 +1,48 @@
+🔓 *ViewOnce Recovery Manual*
+
+This module allows you to "unlock" and save WhatsApp "View Once" media (images and videos that disappear after opening). You simply reply to the hidden media, and the bot forwards the visible file to your private log.
+
+_Note: This command is restricted to the Bot Owner and Sudo users._
+
+✦═════════◆═════════✦
+
+*1. How to Recover Media*
+When someone sends a ViewOnce image or video, simply *Reply* to that message with your trigger prefix.
+
+`_` (Underscore)
+
+> • *Usage:* Long press the ViewOnce message -> Reply -> Type `_` -> Send.
+> • _Result:_ The bot extracts the media and sends it to your configured target (or your PM).
+
+✦═════════◆═════════✦
+
+*2. Setting the Destination (Target)*
+Decide where the unlocked media should be sent.
+
+`.vv <JID>`
+
+> • *Example:* `.vv 12036302392@g.us`
+> • _Explanation:_ Sends recovered files to this specific group.
+> • *Example:* `.vv clear`
+> • _Explanation:_ Resets the target. Files will be sent to the Bot's Private Chat (Saved Messages).
+
+✦═════════◆═════════✦
+
+*3. Customizing the Trigger*
+You can change the symbol used to trigger recovery if you don't like `_`.
+
+`.vv pr <prefix>`
+
+> • *Example:* `.vv pr !, #`
+> • _Explanation:_ Now you can reply with `!` or `#` to recover media.
+
+✦═════════◆═════════✦
+
+*4. Checking Status*
+View your current target and active prefixes.
+
+`.vv check`
+
+> • _Output:_ Shows the current destination and the symbols the bot is listening for.
+
+✦═════════◆═════════✦

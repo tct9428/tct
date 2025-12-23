@@ -1,0 +1,47 @@
+👥 *Common Users Scanner Manual*
+
+_This module scans your groups to find users who are members of multiple groups at the same time._
+_It is useful for identifying cross-group members, tracking community overlap, or finding people who are in both Group A and Group B._
+
+•════════◄►════════•
+
+*1. Basic Usage (Scan All)*
+Scan all groups the bot is currently in to find overlaps.
+
+`.cmn` or `.common`
+
+> • _Explanation:_ The bot compares *every* group it has joined.
+> • _Note:_ If you have many groups, this will generate a very large report.
+
+•════════◄►════════•
+
+*2. Comparing Specific Groups*
+To avoid scanning everything, you can specify exactly which groups to compare.
+
+`.cmn <Group1>, <Group2>`
+
+> • *Example:* `.cmn jd:Support, jd:Devs`
+> • _Explanation:_ Finds users who are present in *both* the "Support" group and the "Devs" group.
+
+•════════◄►════════•
+
+*3. Output Modes (Text vs File)*
+By default, the bot sends the list as text messages. If the list is huge, it will spam the chat.
+
+*File Mode (Recommended for big scans)*
+Add `-f` to receive the report as a text document instead.
+
+`.cmn -f`
+
+> • *Example:* `.cmn -f jd:all`
+> • _Explanation:_ Scans all groups but sends the result as a downloadable file (`.txt`) to keep the chat clean.
+
+•════════◄►════════•
+
+*4. Pro Tips & Advice*
+_Scanning large numbers of groups can be slow and produce massive lists._
+
+> • *Avoid Spam:* If you are comparing more than 3 groups, **always use `-f`**.
+> • *Be Specific:* Instead of scanning everything (`.cmn`), try comparing just two or three relevant groups at a time to get a shorter, more useful list.
+
+«««««««««««««« • »»»»»»»»»»»»»»

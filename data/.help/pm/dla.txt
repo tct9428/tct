@@ -1,0 +1,37 @@
+📥 *Universal Downloader Manual*
+
+_This module allows you to download videos, images, and files from popular social media platforms without watermarks._
+_It also includes a search tool for finding and downloading ringtones._
+
+_Note: This command is restricted to the Bot Owner and Sudo users._
+
+•════════◄►════════•
+
+*1. Social Media Downloader*
+Download content directly by pasting the link. The bot automatically detects the platform and fetches the highest quality available.
+
+`.dla <url>`
+
+> • *Supported Platforms:*
+> TikTok, Instagram, Facebook, Twitter (X), Pinterest, and Mediafire.
+
+> • *Example:* `.dla https://www.instagram.com/reel/C8...`
+> • _Explanation:_ The bot will download the Instagram Reel and send it to the chat as a video file.
+
+•════════◄►════════•
+
+*2. Ringtone Search*
+Search for and download specific ringtones or audio effects.
+
+`.ringtone <search term>`
+
+> • *Example:* `.ringtone iPhone Remix`
+> • _Explanation:_ Searches for "iPhone Remix", downloads the best match, and sends it as an audio file.
+
+•════════◄►════════•
+
+*3. Troubleshooting*
+> • *Private Accounts:* The bot cannot download from private profiles on Instagram or Facebook. The link must be public.
+> • *Invalid Links:* Ensure you copy the full link (including `https://`).
+
+«««««««««««««« • »»»»»»»»»»»»»»

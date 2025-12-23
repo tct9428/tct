@@ -1,0 +1,48 @@
+🚀 *Start (Online Notifier) Manual*
+
+_This module automatically notifies you whenever the bot comes online or restarts._
+_It is useful for monitoring server stability and knowing exactly when the bot is ready to receive commands._
+
+_Note: This command is restricted to the Bot Owner and Sudo users and works ONLY in Private Chat (PM)._
+
+•════════◄►════════•
+
+*1. Enabling or Disabling*
+Turn the startup notification on or off.
+
+`.st on` or `.start enable`
+> • _Explanation:_ The bot will send a "Bot Started" message to you every time it boots up.
+
+`.st off` or `.start disable`
+> • _Explanation:_ Stops the notifications.
+
+•════════◄►════════•
+
+*2. Setting the Receiver (Target)*
+Choose who receives the startup notification: just the Owner or the Sudo account.
+
+`.st target <owner|sudo>`
+
+> • *Example:* `.st target sudo`
+> • _Explanation:_ The startup message will be sent to the Sudo number instead of the main Owner.
+
+•════════◄►════════•
+
+*3. Testing & Status*
+Verify the configuration without restarting the bot.
+
+`.st test`
+> • _Explanation:_ Sends a fake "Startup" message immediately so you can see what it looks like.
+
+`.st status`
+> • _Explanation:_ Shows if the module is ON/OFF, who the target is, and the total startup count.
+
+•════════◄►════════•
+
+*4. Resetting the Counter*
+The bot tracks how many times it has been started (e.g., "Startup #45"). You can reset this number back to 1 if youbwant to cheat.
+
+`.st reset`
+> • _Explanation:_ Resets the boot counter.
+
+«««««««««««««« • »»»»»»»»»»»»»»

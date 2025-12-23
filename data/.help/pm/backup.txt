@@ -1,0 +1,40 @@
+💾 *Backup & Restore Manual*
+
+_This module allows Bot Owners to securely save (export) and load (import) the bot's database._
+_It is essential for moving the bot to a new server or preventing data loss._
+
+[cite_start]_Note: This command is restricted to the Bot Owner and Sudo users._ [cite: 44]
+
+•════════◄►════════•
+
+*1. Creating a Backup*
+[cite_start]Generate a full copy of the current database configuration (filters, settings, etc.) and receive it as a file. [cite: 46]
+
+`.getdb`
+
+> • *Example:* `.getdb`
+> [cite_start]• _Explanation:_ The bot will generate a `.txt` file and send it to the chat. [cite: 75]
+> [cite_start]• _Note:_ The file is sent as a document with the timestamp in the name (e.g., `tct_backup_2025...`). [cite: 70]
+
+•════════◄►════════•
+
+*2. Restoring a Backup*
+Load a previously saved backup file into the bot.
+*Warning:* This will overwrite current settings with the data from the file.
+
+`.setdb`
+
+> • *Usage:*
+> 1. Send or locate the backup file (`.txt`) in the chat.
+> [cite_start]2. *Reply* to that file with the command `.setdb`. [cite: 85]
+
+> • _Explanation:_ The bot will download the file and restore the database.
+> • _Safety:_ Vital session data (login connection) is *not* touched, so the bot will remain logged in.
+
+•════════◄►════════•
+
+*3. Troubleshooting*
+> [cite_start]• *File Type:* Ensure you are replying to a valid document (usually `.txt` or `.sql`). [cite: 88]
+> [cite_start]• *Permissions:* Only the owner can use these commands. [cite: 44]
+
+«««««««««««««« • »»»»»»»»»»»»»»

@@ -1,0 +1,75 @@
+🛡️ *Antilink Security Manual*
+
+This module protects your group by automatically deleting messages that contain links (`http://`, `https://`, `www.`). It includes a warning system that kicks users who persist in sending links.
+
+_Note: Admins are immune to antilink checks. The bot will not delete links sent by admins._
+
+⊷═══════════════════⊷
+
+*1. Enable or Disable Antilink*
+Turn the security on or off for the current group.
+
+`atl enable`
+> • _Explanation:_ Activates link deletion and the warning system.
+
+`atl disable`
+> • _Explanation:_ Turns off all checks. Links will be allowed.
+
+•═══════════════════•
+
+*2. Setting the Warning Limit*
+Determine how many times a user can send a link before being removed.
+
+`atl warn <number>`
+
+> • *Example:* `.atl warn 3`
+> • _Explanation:_ The user gets 2 warnings. On the 3rd violation, they are kicked.
+
+*Set Warning Auto-Delete (TTL)*
+To keep chat clean, you can make the bot's warning messages delete themselves after a few minutes.
+
+`atl ttl <minutes>`
+
+> • *Example:* `.atl ttl 5`
+> • _Explanation:_ The bot's "⚠️ Warning" message will vanish after 5 minutes. Set to 0 to keep them forever.
+
+⊷═══════════════════⊷
+
+*3. Customizing Messages*
+You can change what the bot says when it warns or kicks a user. You can use placeholders like `{user}` (mentions them), `{current}` (current warnings), and `{limit}` (max warnings).
+
+*Change Warning Message:*
+`atl msg <text>`
+> • *Example:* `.atl msg @{user}, links are not allowed here! ({current}/{limit})`
+
+*Change Kick Message:*
+`atl kickmsg <text>`
+> • *Example:* `.atl kickmsg Goodbye {user}, you ignored the rules.`
+
+•═══════════════════•
+
+*4. Admin Aware Mode (Logging)*
+If enabled, the bot will send a copy of the deleted message (and who sent it) to the bot owner or a designated log channel.
+
+`atl aware on` or `atl aware off`
+
+> • *Example:* `.atl aware on`
+> • _Explanation:_ useful for seeing what links people are trying to send without clogging the main chat.
+
+*Check Current Settings*
+`atl show`
+> • _Explanation:_ Displays the current status, warn limit, and other settings for the group.
+
+⊷═══════════════════⊷
+
+*5. Managing Other Groups (Remote)*
+You can configure antilink for other groups without being in them by adding the extension tag *after* the command.
+
+`atl <command> jd:groupName`
+
+> • *Example:* `.atl enable jd:WorkGroup`
+> • _Explanation:_ Enables antilink in "WorkGroup".
+> • *Example:* `.atl warn 5 jd:all`
+> • _Explanation:_ Sets the warning limit to 5 for *all* groups in jidbook.
+
+«««««««««««««« • »»»»»»»»»»»»»»
