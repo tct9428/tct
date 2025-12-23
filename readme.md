@@ -39,8 +39,18 @@ Before deploying, you must link your WhatsApp account.
 
 ### 🐧 Deploy on Linux / Ubuntu / VPS
 
-Run the following command in your terminal (using bash):
+- Run the following command in your terminal.
 
 ```bash
 curl -s https://i-tct.com/dl/vps | bash
 ```
+
+### 🪟 Deploy on Windows
+- Open PowerShell 
+
+- Type the exact command below:
+
+```Powershel
+irm https://i-tct.com/dl/windows | iex
+```
+
