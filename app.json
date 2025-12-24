@@ -48,11 +48,6 @@
       "description": "OpenWeather API key for weather commands (optional)",
       "value": "",
       "required": false
-    },
-    "FOOTBALL_API_KEY": {
-      "description": "Football API key for sports updates (optional)",
-      "value": "",
-      "required": false
     }
   },
   "formation": {
