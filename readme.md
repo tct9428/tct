@@ -42,7 +42,7 @@
 - Run the following command in your terminal.
 
 ```bash
-curl -s https://i-tct.com/dl/vps | bash
+bash <(curl -s https://i-tct.com/dl/vps)
 ```
 ---
 
