@@ -1,6 +1,6 @@
 # TCT MD
 
-[![GitHub](https://img.shields.io/badge/version-0.1.3-blue.svg)](https://t.me/TheCarlTech)
+[![GitHub](https://img.shields.io/badge/version-0.1.4-blue.svg)](https://t.me/TheCarlTech)
 [![Go](https://img.shields.io/badge/Built%20With-Go-00ADD8.svg)](https://golang.org/)
 
 > *A Fast WA Bot Built with Go.**
@@ -11,7 +11,7 @@
 # TCT MD (Go Edition)
 
 [![Go](https://img.shields.io/badge/Built_with-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev/)
-[![Version](https://img.shields.io/badge/version-0.1.2-blue.svg?style=for-the-badge)](https://t.me/TheCarlTech)
+[![Version](https://img.shields.io/badge/version-0.1.4-blue.svg?style=for-the-badge)](https://t.me/TheCarlTech)
 
 ## About
 
