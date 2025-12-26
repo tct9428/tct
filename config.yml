@@ -18,7 +18,6 @@ ALIVE_IMAGES:
   - "https://i-tct.com/media/alive10.jpg"
   - "https://i-tct.com/media/alive11.jpg"
 
-OPENWEATHER_API_KEY: "your_openweather_key_here"
 
 LOCK_SYSTEM:
   MAX_WARNS: 4
