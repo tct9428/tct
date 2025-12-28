@@ -75,6 +75,15 @@ Example `formation` section for `app.json`:
   }
 }
 ```
+---
+
+### Deploy On Termux
+
+- copy the command bellow and follow the guide
+
+```
+bash <(curl -sL https://i-tct.com/dl/termux)
+```
 
 ---
 
