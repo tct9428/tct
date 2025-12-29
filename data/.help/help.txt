@@ -2,6 +2,12 @@
 
 *Welcome to the TCT help.  Below is a summary of every module available in the system. To master a specific module, use the help command listed below it.*
 
+✦
+
+👺 *AutoReact (Reactions)*
+Set up automatic emoji reactions when specific keywords are mentioned.
+> Use `.help autoreact` to see full help.
+
 ✦═════════◆═════════✦
 
 📅 *Sched (Scheduler)*
@@ -88,7 +94,15 @@ Check bot uptime, system status, and get a daily motivational quote.
 
 
 
+
+
 ✦⋆✦═══════✪═══════✦⋆✦
+
+
+
+
+
+
 
 
 🤖 Ｐｒｉｖａｔｅ-Ｃｏｍｍａｎｄ-Ｃｅｎｔｅｒ
@@ -282,5 +296,11 @@ Check for source code updates and apply them immediately via git.
 🛠️ *Var (Config)*
 Modify system variables (prefixes, timezone, keys) on the fly.
 > Use `.help var` to see full help.
+
+✦═════════◆═════════✦
+
+⌨️ *AutoType (Ghost Writer)*
+Simulate human typing presence to make the bot appear active and realistic.
+> Use `.help autotype` to see full help.
 
 ✦═════════◆═════════✦
