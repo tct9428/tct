@@ -11,6 +11,11 @@
 │ ├──• .asd on | off
 │ └──• .asd
 │
+├─┫ ＡＵＴＯＴＹＰＥ
+│ ├──• .type on | off
+│ ├──• .type <1-12>
+│ └──• .typemode <g|p|all>
+│
 ├─┫ ＡＵＴＯＶＩＥＷ
 │ ├──• .avl on | off
 │ ├──• .avl g | n <nums>

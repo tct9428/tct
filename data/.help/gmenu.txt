@@ -22,6 +22,11 @@
 │ ├──• .atl show
 │ └──• .atl default
 │
+├─┫ ＡＵＴＯＲＥＡＣＴ
+│ ├──• .rct <trigger> ! <emoji>
+│ ├──• .delrct <trigger>
+│ └──• .listrct
+│
 ├─┫ ＦＩＬＴＥＲ
 │ ├──• .filter <trigger>
 │ ├──• ?pr <priority>
@@ -94,7 +99,7 @@
 │ └──• .spm kickmsg <text>
 │
 ├─┫ ＴＡＧ
-│ ├──• @ <message> (Ghost)
+│ ├──• @ <message> (Ghost) (deprecated)
 │ └──• @@ <message> (Verbose)
 │
 ├─┫ ＷＥＬＣＯＭＥ
