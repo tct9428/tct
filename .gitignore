@@ -7,3 +7,4 @@ logs/
 .auth/
 data/db/
 data/.config/.lastconfig.yml
+data/downloads/
