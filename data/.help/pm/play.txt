@@ -1,0 +1,58 @@
+🎵 *Play (Media Downloader) Manual*
+
+This module allows you to search and download high-quality audio and videos directly from yt using `yt-dlp`.
+It sends files as documents to ensure the best quality and preserve the original filename.
+
+_Note: This command is restricted to the Bot Owner and Sudo users._
+
+✦═════════◆═════════✦
+
+*1. Setup: Importing Cookies (Required)*
+Before you can download, you must load your yt cookies.
+_This is required to bypass age restrictions and bot detection._
+
+*Step A: Get Cookies*
+1. Install a "Get cookies.txt LOCALLY" extension on your browser.
+2. Go to yt and make sure you are logged in.
+3. Export cookies in **Netscape HTTP Cookie File** format.
+
+*Step B: Load into Bot*
+You can paste the text directly or reply to a file.
+
+`.setcookies <content>`
+
+> • *Example (Truncated):*
+> `.setcookies # Netscape HTTP Cookie File
+> .yt.com	TRUE	/	FALSE	17362	VISITOR_INFO1_LIVE	QtAo...`
+
+> • _Alternative:_ Send your `cookies.txt` file to the bot, then reply to it with `.setcookies`.
+
+✦═════════◆═════════✦
+
+*2. Downloading Music (Audio)*
+Search for a song and download it as an audio document (`.m4a`).
+
+`.play <query>`
+
+> • *Example:* `.play Hello by Adele`
+> • _Explanation:_ Searches for the song and sends the audio file.
+
+✦═════════◆═════════✦
+
+*3. Downloading Video*
+Search for a video and download it as an MP4 document.
+_Note: You must add the `-v` flag._
+
+`.play -v <query>`
+
+> • *Example:* `.play -v Blender 4.0 Tutorial`
+> • _Explanation:_ Searches and downloads the video file.
+
+✦═════════◆═════════✦
+
+*4. Troubleshooting*
+> • *Cookies Missing:* If the bot says "Cookies missing", repeat Step 1.
+> • *Search Failed:* Try a more specific query or paste the direct link instead of a name.
+> • *Format:* All media is sent as a *Document* to prevent WhatsApp from compressing the quality.
+
+«««««««««««««« • »»»»»»»»»»»»»»
