@@ -39,9 +39,19 @@
       "value": "12000",
       "required": false
     },
-    "FILTER_NOISE_LOGS": {
-      "description": "Filter verbose logs (true/false)",
-      "value": "false",
+    "CLOUDINARY_CLOUD_NAME": {
+      "description": "Your Cloudinary cloud name",
+      "value": "",
+      "required": false
+    },
+    "CLOUDINARY_API_KEY": {
+      "description": "Your Cloudinary API key",
+      "value": "",
+      "required": false
+    },
+    "CLOUDINARY_API_SECRET": {
+      "description": "Your Cloudinary API secret",
+      "value": "",
       "required": false
     },
     "OPENWEATHER_API_KEY": {
