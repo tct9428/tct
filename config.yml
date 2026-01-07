@@ -58,3 +58,8 @@ KICK_SYSTEM:
     - "🛑 Halted. {user} kicked."
     - "🌪️ Whoosh! {user} blown away."
     - "🧊 Freeze. {user} iced out."
+
+#CLOUDINARY:
+#  CLOUD_NAME: "your_cloud_name"
+#  API_KEY: "your_api_key"
+#  API_SECRET: "your_api_secret"

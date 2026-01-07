@@ -1,4 +1,21 @@
-┌─┫ ⚙️ ＰＭ　ＣＯＮＴＲＯＬ
+┌─┫ ⚙️ ＰＭ ＣＯＮＴＲＯＬ
+│
+├─┫ ＡＣＴＩＶＥ
+│ ├──• .active
+│ ├──• .active jd:<target>
+│ └──• .lastactive
+│
+├─┫ ＡＮＴＩＣＡＬＬ
+│ ├──• .anticall on | off
+│ ├──• .anticall msg <text>
+│ ├──• .anticall wl <number>
+│ └──• .anticall rm <number>
+│
+├─┫ ＡＮＴＩＤＥＬＥＴＥ
+│ ├──• .dlt on | off
+│ ├──• .dlt <jid>
+│ ├──• .dlt clear
+│ └──• .dlt status
 │
 ├─┫ ＡＮＴＩＥＤＩＴ
 │ ├──• .ae <jid>
@@ -7,9 +24,35 @@
 │ ├──• .ae off | disable
 │ └──• .ae status
 │
+├─┫ ＡＮＴＩＬＩＮＫ
+│ ├──• .atl enable | disable
+│ ├──• .atl warn <number>
+│ ├──• .atl msg <text>
+│ ├──• .atl kickmsg <text>
+│ ├──• .atl aware on | off
+│ ├──• .atl ttl <minutes>
+│ └──• .atl show | default
+│
+├─┫ ＡＮＴＩＳＰＡＭ
+│ ├──• .spm on | off
+│ ├──• .spm window <msgs>:<sec>
+│ ├──• .spm mode warn | kick
+│ ├──• .spm warnmsg <text>
+│ ├──• .spm kickmsg <text>
+│ └──• .spm burst <number>
+│
 ├─┫ ＡＮＴＩＳＴＡＴＵＳ
 │ ├──• .asd on | off
 │ └──• .asd
+│
+├─┫ ＡＰＫ
+│ └──• .apk <app name>
+│
+├─┫ ＡＵＴＯＲＥＡＣＴ
+│ ├──• .rct <trigger>
+│ ├──• .delrct <trigger>
+│ ├──• .listrct
+│ └──• ?pr <priority>
 │
 ├─┫ ＡＵＴＯＴＹＰＥ
 │ ├──• .type on | off
@@ -26,7 +69,7 @@
 │ ├──• .getdb
 │ └──• .setdb
 │
-├─┫ ＣＩＲＣＬＥ　ＣＣ
+├─┫ ＣＩＲＣＬＥ ＣＣ
 │ └──• .cc <number>
 │
 ├─┫ ＣＯＭＭＯＮ
@@ -40,19 +83,27 @@
 │ ├──• .cutmp3 -<end>
 │ └──• .cutmp3 <start> <end>
 │
-├─┫ ＤＥＬＥＴＥ
-│ ├──• .dlt on | off
-│ ├──• .dlt <jid>
-│ ├──• .dlt clear
-│ └──• .dlt status
-│
 ├─┫ ＤＯＷＮＬＯＡＤＥＲ
 │ ├──• .dla <url>
 │ └──• .ringtone <query>
 │
+├─┫ ＦＥＴＣＨ
+│ └──• .fetch <url>
+│
 ├─┫ ＦＯＲＷＡＲＤ
 │ ├──• .fwd <msg> jd:<target>
 │ └──• .fwd <msg> jd:all
+│
+├─┫ ＦＶＮ
+│ ├──• .fvn (reply)
+│ └──• .fvn <target>
+│
+├─┫ ＧＡＭＥＳ
+│ ├──• .ttt | .tictactoe
+│ ├──• .tttstats
+│ ├──• .wordgame | .wg
+│ ├──• .ready
+│ └──• .cancel
 │
 ├─┫ ＧＰＥＲＭ
 │ ├──• .gperm block .
@@ -60,7 +111,10 @@
 │ └──• .gperm show
 │
 ├─┫ ＨＥＡＬＴＨ
-│ └──• .health | .hlt
+│ ├──• .health | .hlt
+│ ├──• .alive
+│ ├──• .setalive <text>
+│ └──• .alivedaily on HH:mm
 │
 ├─┫ ＩＭＡＧＥ
 │ └──• .img <1-6> <query>
@@ -72,9 +126,7 @@
 │ ├──• .jd add <alias>:<jid>
 │ ├──• .jd rm <alias>
 │ ├──• .jd show
-│ ├──• .jidbook add <alias>:<jid>
-│ ├──• .jidbook rm <alias>
-│ └──• .jidbook show
+│ └──• .jidbook <cmd>
 │
 ├─┫ ＰＦＩＬＴＥＲ
 │ ├──• .pflt <trigger>
@@ -86,6 +138,16 @@
 │
 ├─┫ ＰＩＮＧ
 │ └──• .ping
+│
+├─┫ ＰＬＡＹ
+│ ├──• .play <song>
+│ ├──• .play -v <video>
+│ └──• .setcookies
+│
+├─┫ ＰＲＯＣ
+│ ├──• .dldp <user>
+│ ├──• .dldp add <emoji>
+│ └──• .procprefix <char>
 │
 ├─┫ ＰＲＯＦＩＬＥ
 │ └──• .profile | .setpp
@@ -130,6 +192,10 @@
 │ ├──• .update | check
 │ ├──• .update now
 │ └──• .update force
+│
+├─┫ ＵＲＬ
+│ ├──• .tourl
+│ └──• .delurl <url>
 │
 ├─┫ ＶＡＲ
 │ ├──• .var <key>: <value>

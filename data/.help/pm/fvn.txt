@@ -1,0 +1,35 @@
+🎤 *FVN (Fake Voice Note) Manual*
+
+This module allows you to convert any audio file (songs, recorded clips, forwarded audio) into a "real" WhatsApp Voice Note (PTT).
+When sent, it appears with the green microphone icon and waveform, looking exactly like a directly recorded voice message.
+
+_Note: This command is restricted to the Bot Owner and Sudo users. It works in Private Messages (PM) only._
+
+✦═════════◆═════════✦
+
+*1. Convert to Current Chat*
+Convert an audio file and send it back to the person you are currently chatting with (or yourself).
+
+`.fvn`
+> • _Usage:_ Reply to an audio message with this command.
+> • _Result:_ The bot downloads the audio, converts it, and sends it back as a Voice Note.
+
+✦═════════◆═════════✦
+
+*2. Send to a Specific Target*
+Convert an audio file and forward it directly to another user as a Voice Note.
+
+`.fvn <number>`
+
+> • *Example:* `.fvn 254712345678`
+> • _Usage:_ Reply to an audio file.
+> • _Result:_ The Voice Note is sent secretly to the specified number.
+
+✦═════════◆═════════✦
+
+*3. Requirements & Notes*
+> • *FFmpeg:* The bot requires `ffmpeg` installed on the server to convert audio formats to Opus.
+> • *Input:* You must reply to an audio message. Text or images will be ignored.
+> • *Privacy:* The command is designed for PMs. It will not trigger inside groups.
+
+«««««««««««««« • »»»»»»»»»»»»»»

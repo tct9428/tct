@@ -1,0 +1,55 @@
+📵 *Anticall Security Manual*
+
+This module automatically rejects incoming voice and video calls to keep your bot interruption-free.
+When a call is blocked, the bot automatically sends a custom message to the caller explaining why.
+
+_Note: This command is restricted to the Bot Owner and Sudo users._
+
+✦═════════◆═════════✦
+
+*1. Enable or Disable*
+Turn the call blocking system on or off.
+
+`.anticall on`
+> • _Explanation:_ Activates auto-rejection. All incoming calls will be declined.
+
+`.anticall off`
+> • _Explanation:_ Disables the system. Calls will ring normally.
+
+✦═════════◆═════════✦
+
+*2. Custom Rejection Message*
+Customize the text sent to the person who tried to call you.
+
+`.anticall msg <text>`
+
+> • *Example:* `.anticall msg I am currently busy, please text instead.`
+> • _Explanation:_ Updates the auto-reply message.
+
+*Check Current Message*
+`.anticall msg`
+> • _Explanation:_ Shows the message currently set.
+
+✦═════════◆═════════✦
+
+*3. Whitelist Management*
+Allow specific people (like family or admins) to bypass the Anticall system.
+
+*Add to Whitelist*
+`.anticall wl <number>` or reply to a user.
+> • *Example:* `.anticall wl 254700000000`
+> • _Explanation:_ The specified number can now call you without being blocked.
+
+*Remove from Whitelist*
+`.anticall rm <number>` or reply to a user.
+> • *Example:* `.anticall rm @user`
+> • _Explanation:_ The user will be blocked again if they call.
+
+✦═════════◆═════════✦
+
+*4. How it Works*
+> • *Detection:* The bot listens for incoming call offers.
+> • *Check:* It verifies if the caller is the Owner or in the Whitelist.
+> • *Action:* If unauthorized, it immediately rejects the call and sends your custom message.
+
+«««««««««««««« • »»»»»»»»»»»»»»

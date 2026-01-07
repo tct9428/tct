@@ -1,6 +1,7 @@
- 🤖 Ｇｒｏｕｐ-Ｃｏｍｍａｎｄ-Ｃｅｎｔｅｒ
+🤖 Ｇｒｏｕｐ-Ｃｏｍｍａｎｄ-Ｃｅｎｔｅｒ
 
-*Welcome to the TCT help.  Below is a summary of every module available in the system. To master a specific module, use the help command listed below it.*
+*Welcome to the TCT help.  Below is a summary of every module available in the system.
+To master a specific module, use the help command listed below it.*
 
 ✦
 
@@ -41,7 +42,8 @@ Detect and ban users who flood the group with too many messages in a short time.
 ✦═════════◆═════════✦
 
 🏷️ *Tag (Mentions)*
-Tag everyone in the group at once. Supports "Ghost" (hidden) and "Verbose" (visible) tags.
+Tag everyone in the group at once.
+Supports "Ghost" (hidden) and "Verbose" (visible) tags.
 > Use `.help tag` to see full help.
 
 ✦═════════◆═════════✦
@@ -53,7 +55,8 @@ Send a private message (PM) to users who leave the group to say goodbye or ask f
 ✦═════════◆═════════✦
 
 🔒 *Lock (Censorship)*
-Ban specific words, phrases, or media types (like stickers/videos). The bot deletes them instantly.
+Ban specific words, phrases, or media types (like stickers/videos).
+The bot deletes them instantly.
 > Use `.help lock` to see full help.
 
 ✦═════════◆═════════✦
@@ -113,6 +116,12 @@ _To master a specific module, use the help command listed below it._
 
 ✦═════════◆═════════✦
 
+📵 *Anticall (Security)*
+Auto-reject incoming calls and send a custom busy message to the caller.
+> Use `.help anticall` to see full help.
+
+✦═════════◆═════════✦
+
 ✏️ *Antiedit (Truth Keeper)*
 Detect when users edit messages and log the original text to a target channel.
 > Use `.help antiedit` to see full help.
@@ -120,8 +129,21 @@ Detect when users edit messages and log the original text to a target channel.
 ✦═════════◆═════════✦
 
 ♻️ *AntiStatus (Recovery)*
-Monitor contact statuses. If a contact *deletes* a status, the bot recovers and saves it.
+Monitor contact statuses.
+If a contact *deletes* a status, the bot recovers and saves it.
 > Use `.help antistatus` to see full help.
+
+✦═════════◆═════════✦
+
+📦 *APK (Downloader)*
+Search for and download Android applications (APK files) directly.
+> Use `.help apk` to see full help.
+
+✦═════════◆═════════✦
+
+⌨️ *AutoType (Ghost Writer)*
+Simulate human typing presence to make the bot appear active and realistic.
+> Use `.help autotype` to see full help.
 
 ✦═════════◆═════════✦
 
@@ -156,7 +178,8 @@ Extract audio from videos (MP3) or trim audio files with precision.
 ✦═════════◆═════════✦
 
 🗑️ *Delete (Recovery)*
-Silently record messages and media. If deleted, the bot recovers and sends them to a log channel.
+Silently record messages and media.
+If deleted, the bot recovers and sends them to a log channel.
 > Use `.help delete` to see full help.
 
 ✦═════════◆═════════✦
@@ -167,9 +190,21 @@ Download videos/images from social media (TikTok, IG, etc.) and search for ringt
 
 ✦═════════◆═════════✦
 
+🌐 *Fetch (Request)*
+Perform HTTP requests to specific URLs and retrieve the content (HTML/JSON/Source).
+> Use `.help fetch` to see full help.
+
+✦═════════◆═════════✦
+
 ⏩ *Forward (Broadcast)*
 Send a single clean message to multiple groups or users simultaneously.
 > Use `.help forward` to see full help.
+
+✦═════════◆═════════✦
+
+🎤 *FVN (Voice Note)*
+Convert standard audio files into "fake" Green Mic Voice Notes.
+> Use `.help fvn` to see full help.
 
 ✦═════════◆═════════✦
 
@@ -212,6 +247,12 @@ Set up automatic replies for your Private Chat (PM) with priority levels.
 🏓 *Ping (Latency)*
 Test the bot's response speed and network connection to WhatsApp.
 > Use `.help ping` to see full help.
+
+✦════════◆═════════✦
+
+🎵 *Play (Media)*
+Download high-quality audio and video files from the web using cookies.
+> Use `.help play` to see full help.
 
 ✦═════════◆═════════✦
 
@@ -275,6 +316,30 @@ Instantly check the current time in any city or country offline.
 
 ✦═════════◆═════════✦
 
+❌ *TTT (Tic-Tac-Toe)*
+Play the classic X vs O game directly in the chat with a friend.
+> Use `.help ttt` to see full help.
+
+✦═════════◆═════════✦
+
+🔄 *Update (System)*
+Check for source code updates and apply them immediately via git.
+> Use `.help update` to see full help.
+
+✦═════════◆═════════✦
+
+🔗 *URL (Upload)*
+Upload media to the cloud and generate a public link (Tourl).
+> Use `.help url` to see full help.
+
+✦═════════◆═════════✦
+
+🛠️ *Var (Config)*
+Modify system variables (prefixes, timezone, keys) on the fly.
+> Use `.help var` to see full help.
+
+✦═════════◆═════════✦
+
 🔓 *ViewOnce (Unlocker)*
 Recover "View Once" media by replying to the message with a trigger (default `_`).
 > Use `.help viewonce` to see full help.
@@ -287,20 +352,8 @@ Get real-time weather reports for any location globally.
 
 ✦═════════◆═════════✦
 
-🔄 *Update (System)*
-Check for source code updates and apply them immediately via git.
-> Use `.help update` to see full help.
-
-✦═════════◆═════════✦
-
-🛠️ *Var (Config)*
-Modify system variables (prefixes, timezone, keys) on the fly.
-> Use `.help var` to see full help.
-
-✦═════════◆═════════✦
-
-⌨️ *AutoType (Ghost Writer)*
-Simulate human typing presence to make the bot appear active and realistic.
-> Use `.help autotype` to see full help.
+🧠 *WordGame (Game)*
+A competitive vocabulary game where difficulty increases every round.
+> Use `.help wordgame` to see full help.
 
 ✦═════════◆═════════✦
