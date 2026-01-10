@@ -91,25 +91,18 @@ bash <(curl -sL https://i-tct.com/dl/termux)
 ### 🖥️ Deploy via Web Panel
 [![Panel Deploy](https://img.shields.io/badge/Deploy-Web_Panel-009688?style=for-the-badge&logo=web)](https://i-tct.com/panel/)
 ---
-
 ### 🚀 TCT MD Resources
 
 [![Panel](https://img.shields.io/badge/Panel-0066CC?style=flat-square&logo=web&logoColor=white)](https://i-tct.com/panel/) 
 [![Heroku](https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=heroku&logoColor=white)](https://i-tct.com/heroku/) 
-[![Termux](https://img.shields.io/badge/Termux-00BFA5?style=flat-square&logo=android&logoColor=white)](https://i-tct.com/dl/termux) 
-[![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white)](https://i-tct.com/dl/windows) 
-[![VPS](https://img.shields.io/badge/VPS-FCC624?style=flat-square&logo=linux&logoColor=black)](https://i-tct.com/dl/vps) 
+[![Termux](https://img.shields.io/badge/Termux-00BFA5?style=flat-square&logo=android&logoColor=white)](https://i-tct.com/termux) 
+[![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white)](https://i-tct.com/windows) 
+[![VPS](https://img.shields.io/badge/VPS-FCC624?style=flat-square&logo=linux&logoColor=black)](https://i-tct.com/vps) 
 [![Support](https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/TheCarlTech) 
 [![Docs](https://img.shields.io/badge/Documentation-8A2BE2?style=flat-square&logo=gitbook&logoColor=white)](https://i-tct.com/docs/) 
 [![Windows Zip](https://img.shields.io/badge/Windows_Zip-0078D6?style=flat-square&logo=windows&logoColor=white)](https://i-tct.com/dl/tct-windows.zip) 
 [![Termux Zip](https://img.shields.io/badge/Termux_Zip-00BFA5?style=flat-square&logo=android&logoColor=white)](https://i-tct.com/dl/tct.zip) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
----
-
-### 📖 Guide
-
-[Visit our site for detailed guide](https://i-tct.com/docs)
 
 ---
 
