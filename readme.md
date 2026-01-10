@@ -61,20 +61,6 @@ irm https://i-tct.com/dl/windows | iex
 
 > ⚠️ **Note:** The example `formation` section below may not apply to everyone. Edit the `formation` in `app.json` to suit your Heroku plan.
 
-## Configuration Example
-
-Example `formation` section for `app.json`:
-
-```json
-{
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "eco"
-    }
-  }
-}
-```
 ---
 
 ### Deploy On Termux
