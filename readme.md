@@ -87,6 +87,11 @@ bash <(curl -sL https://i-tct.com/dl/termux)
 
 ---
 
+
+### 🖥️ Deploy via Web Panel
+[![Panel Deploy](https://img.shields.io/badge/Deploy-Web_Panel-009688?style=for-the-badge&logo=web)](https://i-tct.com/panel/)
+---
+
 ### 📞 Support & Community
 - Need help? Join our support group.
 
