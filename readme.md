@@ -93,6 +93,7 @@ bash <(curl -sL https://i-tct.com/dl/termux)
 ---
 
 ### 📞 Support & Community
+
 - Need help? Join our support group.
 
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/TheCarlTech)
@@ -106,3 +107,17 @@ bash <(curl -sL https://i-tct.com/dl/termux)
 ---
 
 ° Built with [whatsmeow](https://github.com/tulir/whatsmeow) - thanks! 
+
+
+## 🚀 Quick Deployment
+
+Choose your preferred method:
+
+[![Panel Deploy](https://img.shields.io/badge/Deploy-Panel-0066CC?style=for-the-badge&logo=web&logoColor=white)](https://i-tct.com/panel/)
+[![Termux](https://img.shields.io/badge/Deploy-Termux-00BFA5?style=for-the-badge&logo=android&logoColor=white)](https://i-tct.com/dl/termux)
+[![Windows](https://img.shields.io/badge/Deploy-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://i-tct.com/dl/windows)
+[![VPS](https://img.shields.io/badge/Deploy-VPS-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://i-tct.com/dl/vps)
+
+## 📞 Support
+
+[![Telegram](https://img.shields.io/badge/Join-Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/TheCarlTech)
