@@ -1,0 +1,56 @@
+📢 *GroupStatus Manual*
+
+This module allows you to send official "WhatsApp Status" style messages directly inside a group chat.
+These appear as special "Status Bubbles" rather than normal text messages. You can send them immediately or schedule them for later.
+
+_Note: This command is restricted to Admins, Bot Owner, and Sudo users._
+
+✦═════════◆═════════✦
+
+*1. Instant Status*
+Send a status message immediately to the current group or a target alias.
+
+`.gst <text>`
+> • *Example:* `.gst Good Morning Team!`
+> • _Action:_ Sends a text status bubble.
+
+*With Media:*
+Reply to an Image, Video, or Audio with `.gst <caption?>`.
+> • *Example:* Reply to a photo with `.gst New Event!`
+> • _Action:_ Sends the media inside a status bubble.
+
+*Remote Sending:*
+You can target other groups using JIDBook aliases.
+> • *Example:* `.gst jd:NewsChannel Important Update`
+
+✦═════════◆═════════✦
+
+*2. Scheduling Statuses*
+Automate status messages to be sent at specific times.
+_Note: The scheduler currently supports Text Only._
+
+*Recurring (Daily)*
+`.gstsched add <HH:mm> <message>`
+> • *Example:* `.gstsched add 08:00 Good Morning`
+> • _Explanation:_ Sends this status every day at 8:00 AM.
+
+*One-Time (Countdown)*
+`.gstsched in <number> <unit> <message>`
+> • *Example:* `.gstsched in 1 h Meeting starting soon`
+> • _Explanation:_ Sends the status exactly 1 hour from now, then deletes the schedule.
+
+✦═════════◆═════════✦
+
+*3. Managing Schedules*
+View or remove active tasks.
+
+*List Schedules*
+`.gstsched list`
+> • _Explanation:_ Shows all active status schedules for the current group (or specified target).
+
+*Delete Schedule*
+`.gstsched del <ID>`
+> • *Example:* `.gstsched del 5`
+> • _Explanation:_ Deletes the schedule with ID 5.
+
+«««««««««««««« • »»»»»»»»»»»»»»
