@@ -10,3 +10,4 @@ data/.config/.lastconfig.yml
 data/downloads/
 data/.yt/
 data/.db/
+.tct.db
