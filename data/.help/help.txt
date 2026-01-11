@@ -5,95 +5,101 @@ To master a specific module, use the help command listed below it.*
 
 ✦
 
-👺 *AutoReact (Reactions)*
-Set up automatic emoji reactions when specific keywords are mentioned.
-> Use `.help autoreact` to see full help.
-
-✦═════════◆═════════✦
-
-📅 *Sched (Scheduler)*
-Automate messages to be sent continuously (daily) or at a specific future date.
-> Use `.help sched` to see full help.
-
-✦═════════◆═════════✦
-
 📊 *Active (Leaderboard)*
 Track user activity and generate "Top Chatter" leaderboards to see who is most active.
-> Use `.help active` to see full help.
-
-✦═════════◆═════════✦
-
-🛡️ *Antilink (Security)*
-Protect your group by automatically deleting links and punishing the senders.
-> Use `.help antilink` to see full help.
-
-✦═════════◆═════════✦
-
-👋 *Welcome (Greetings)*
-Automatically greet new members with a custom message, picture, and group description.
-> Use `.help welcome` to see full help.
-
-✦═════════◆═════════✦
-
-🚫 *Spam (Anti-Flood)*
-Detect and ban users who flood the group with too many messages in a short time.
-> Use `.help spam` to see full help.
-
-✦═════════◆═════════✦
-
-🏷️ *Tag (Mentions)*
-Tag everyone in the group at once.
-Supports "Ghost" (hidden) and "Verbose" (visible) tags.
-> Use `.help tag` to see full help.
-
-✦═════════◆═════════✦
-
-👋 *Leave (Farewell)*
-Send a private message (PM) to users who leave the group to say goodbye or ask for feedback.
-> Use `.help leave` to see full help.
-
-✦═════════◆═════════✦
-
-🔒 *Lock (Censorship)*
-Ban specific words, phrases, or media types (like stickers/videos).
-The bot deletes them instantly.
-> Use `.help lock` to see full help.
-
-✦═════════◆═════════✦
-
-👢 *Kick (Moderation)*
-Quickly remove users by reply, mention, or number. Includes a "Kick All" feature.
-> Use `.help kick` to see full help.
-
-✦═════════◆═════════✦
-
-📢 *GSBML (Anti-Status)*
-Automatically delete "Status Updates" that users forward into your group.
-> Use `.help gsbml` to see full help.
-
-✦═════════◆═════════✦
-
-🔇 *GroupMute (Auto-Close)*
-Schedule the group to automatically close (mute) and open (unmute) at specific times daily.
-> Use `.help groupmute` to see full help.
-
-✦═════════◆═════════✦
-
-📝 *GAdd (Global Logs)*
-(Owner Only) Track joins, leaves, and adds across *all* groups and send a report to a log channel.
-> Use `.help gadd` to see full help.
-
-✦═════════◆═════════✦
-
-💬 *Filter (Auto-Reply)*
-Set up automatic responses when specific keywords or phrases are mentioned.
-> Use `.help filter` to see full help.
+[cite_start][cite: 77] > Use `.help active` to see full help.
 
 ✦═════════◆═════════✦
 
 ⚡ *Alive (Status)*
 Check bot uptime, system status, and get a daily motivational quote.
-> Use `.help alive` to see full help.
+[cite_start][cite: 91] > Use `.help alive` to see full help.
+
+✦═════════◆═════════✦
+
+🛡️ *Antilink (Security)*
+Protect your group by automatically deleting links and punishing the senders.
+[cite_start][cite: 78] > Use `.help antilink` to see full help.
+
+✦═════════◆═════════✦
+
+👺 *AutoReact (Reactions)*
+Set up automatic emoji reactions when specific keywords are mentioned.
+[cite_start][cite: 75] > Use `.help autoreact` to see full help.
+
+✦═════════◆═════════✦
+
+💬 *Filter (Auto-Reply)*
+Set up automatic responses when specific keywords or phrases are mentioned.
+[cite_start][cite: 90] > Use `.help filter` to see full help.
+
+✦═════════◆═════════✦
+
+📝 *GAdd (Global Logs)*
+(Owner Only) Track joins, leaves, and adds across *all* groups and send a report to a log channel.
+[cite_start][cite: 89] > Use `.help gadd` to see full help.
+
+✦═════════◆═════════✦
+
+🔇 *GroupMute (Auto-Close)*
+Schedule the group to automatically close (mute) and open (unmute) at specific times daily.
+[cite_start][cite: 88] > Use `.help groupmute` to see full help.
+
+✦═════════◆═════════✦
+
+📢 *GroupStatus (Bubbles)*
+Send official "Status" style messages directly inside the group or schedule them.
+> Use `.help gstatus` to see full help.
+
+✦═════════◆═════════✦
+
+📢 *GSBML (Anti-Status)*
+Automatically delete "Status Updates" that users forward into your group.
+[cite_start][cite: 87] > Use `.help gsbml` to see full help.
+
+✦═════════◆═════════✦
+
+👢 *Kick (Moderation)*
+Quickly remove users by reply, mention, or number. Includes a "Kick All" feature.
+[cite_start][cite: 86] > Use `.help kick` to see full help.
+
+✦═════════◆═════════✦
+
+👋 *Leave (Farewell)*
+Send a private message (PM) to users who leave the group to say goodbye or ask for feedback.
+[cite_start][cite: 83] > Use `.help leave` to see full help.
+
+✦═════════◆═════════✦
+
+🔒 *Lock (Censorship)*
+Ban specific words, phrases, or media types (like stickers/videos).
+[cite_start][cite: 84] The bot deletes them instantly.
+> Use `.help lock` to see full help.
+
+✦═════════◆═════════✦
+
+📅 *Sched (Scheduler)*
+Automate messages to be sent continuously (daily) or at a specific future date.
+[cite_start][cite: 76] > Use `.help sched` to see full help.
+
+✦═════════◆═════════✦
+
+🚫 *Spam (Anti-Flood)*
+Detect and ban users who flood the group with too many messages in a short time.
+[cite_start][cite: 80] > Use `.help spam` to see full help.
+
+✦═════════◆═════════✦
+
+🏷️ *Tag (Mentions)*
+Tag everyone in the group at once.
+[cite_start][cite: 81] Supports "Ghost" (hidden) and "Verbose" (visible) tags.
+> Use `.help tag` to see full help.
+
+✦═════════◆═════════✦
+
+👋 *Welcome (Greetings)*
+Automatically greet new members with a custom message, picture, and group description.
+[cite_start][cite: 79] > Use `.help welcome` to see full help.
 
 
 
@@ -124,13 +130,13 @@ Auto-reject incoming calls and send a custom busy message to the caller.
 
 ✏️ *Antiedit (Truth Keeper)*
 Detect when users edit messages and log the original text to a target channel.
-> Use `.help antiedit` to see full help.
+[cite_start][cite: 92] > Use `.help antiedit` to see full help.
 
 ✦═════════◆═════════✦
 
 ♻️ *AntiStatus (Recovery)*
 Monitor contact statuses.
-If a contact *deletes* a status, the bot recovers and saves it.
+[cite_start][cite: 93] If a contact *deletes* a status, the bot recovers and saves it.
 > Use `.help antistatus` to see full help.
 
 ✦═════════◆═════════✦
@@ -143,50 +149,50 @@ Search for and download Android applications (APK files) directly.
 
 ⌨️ *AutoType (Ghost Writer)*
 Simulate human typing presence to make the bot appear active and realistic.
-> Use `.help autotype` to see full help.
+[cite_start][cite: 125] > Use `.help autotype` to see full help.
 
 ✦═════════◆═════════✦
 
 💚 *AutoView (Liker)*
 Automatically view and like (react to) status updates from your contacts.
-> Use `.help autoview` to see full help.
+[cite_start][cite: 95] > Use `.help autoview` to see full help.
 
 ✦═════════◆═════════✦
 
 💾 *Backup (Database)*
 Securely export and import the bot's database to prevent data loss.
-> Use `.help backup` to see full help.
+[cite_start][cite: 96] > Use `.help backup` to see full help.
 
 ✦═════════◆═════════✦
 
 📹 *CC (Video Note)*
 Convert standard video files into WhatsApp "Circle" Video Notes.
-> Use `.help cc` to see full help.
+[cite_start][cite: 97] > Use `.help cc` to see full help.
 
 ✦═════════◆═════════✦
 
 👥 *Common (Scanner)*
 Scan multiple groups to find users who are members of all of them.
-> Use `.help common` to see full help.
+[cite_start][cite: 98] > Use `.help common` to see full help.
 
 ✦═════════◆═════════✦
 
 🎵 *Convert (Media)*
 Extract audio from videos (MP3) or trim audio files with precision.
-> Use `.help convert` to see full help.
+[cite_start][cite: 99] > Use `.help convert` to see full help.
 
 ✦═════════◆═════════✦
 
 🗑️ *Delete (Recovery)*
 Silently record messages and media.
-If deleted, the bot recovers and sends them to a log channel.
+[cite_start][cite: 100] If deleted, the bot recovers and sends them to a log channel.
 > Use `.help delete` to see full help.
 
 ✦═════════◆═════════✦
 
 📥 *Dla (Downloader)*
 Download videos/images from social media (TikTok, IG, etc.) and search for ringtones.
-> Use `.help dla` to see full help.
+[cite_start][cite: 102] > Use `.help dla` to see full help.
 
 ✦═════════◆═════════✦
 
@@ -198,7 +204,7 @@ Perform HTTP requests to specific URLs and retrieve the content (HTML/JSON/Sourc
 
 ⏩ *Forward (Broadcast)*
 Send a single clean message to multiple groups or users simultaneously.
-> Use `.help forward` to see full help.
+[cite_start][cite: 103] > Use `.help forward` to see full help.
 
 ✦═════════◆═════════✦
 
@@ -210,45 +216,45 @@ Convert standard audio files into "fake" Green Mic Voice Notes.
 
 🛡️ *GPerm (Restrictor)*
 Lock specific groups so that only the Owner/Sudo can use bot commands there.
-> Use `.help gperm` to see full help.
+[cite_start][cite: 104] > Use `.help gperm` to see full help.
 
 ✦═════════◆═════════✦
 
 🩺 *Health (System)*
 Monitor the bot's server status, including RAM usage, CPU, and uptime.
-> Use `.help health` to see full help.
+[cite_start][cite: 105] > Use `.help health` to see full help.
 
 ✦═════════◆═════════✦
 
 🖼️ *Img (Search)*
 Search the web for images and receive them directly in your chat.
-> Use `.help img` to see full help.
+[cite_start][cite: 106] > Use `.help img` to see full help.
 
 ✦═════════◆═════════✦
 
 🆔 *JID (ID Finder)*
 Instantly retrieve the unique ID of the current user or group.
-> Use `.help jid` to see full help.
+[cite_start][cite: 107] > Use `.help jid` to see full help.
 
 ✦═════════◆═════════✦
 
 📒 *JIDBook (Directory)*
 Manage directory aliases (jd:name) for easier remote management of groups.
-> Use `.help jidbook` to see full help.
+[cite_start][cite: 108] > Use `.help jidbook` to see full help.
 
 ✦═════════◆═════════✦
 
 💌 *PFilter (PM Auto-Reply)*
 Set up automatic replies for your Private Chat (PM) with priority levels.
-> Use `.help pfilter` to see full help.
+[cite_start][cite: 109] > Use `.help pfilter` to see full help.
 
 ✦═════════◆═════════✦
 
 🏓 *Ping (Latency)*
 Test the bot's response speed and network connection to WhatsApp.
-> Use `.help ping` to see full help.
+[cite_start][cite: 110] > Use `.help ping` to see full help.
 
-✦════════◆═════════✦
+✦═════════◆═════════✦
 
 🎵 *Play (Media)*
 Download high-quality audio and video files from the web using cookies.
@@ -258,61 +264,61 @@ Download high-quality audio and video files from the web using cookies.
 
 🖼️ *Profile (Avatar)*
 Remotely update the bot's WhatsApp profile picture.
-> Use `.help profile` to see full help.
+[cite_start][cite: 111] > Use `.help profile` to see full help.
 
 ✦═════════◆═════════✦
 
 📖 *Read (Blue Ticks)*
 Automatically mark all incoming messages as read instantly.
-> Use `.help read` to see full help.
+[cite_start][cite: 112] > Use `.help read` to see full help.
 
 ✦═════════◆═════════✦
 
 🔄 *Reboot (Restart)*
 Restart the bot remotely to apply updates or refresh memory.
-> Use `.help reboot` to see full help.
+[cite_start][cite: 113] > Use `.help reboot` to see full help.
 
 ✦═════════◆═════════✦
 
 📤 *Send (Direct)*
 Message unsaved numbers directly or "stealth forward" media without tags.
-> Use `.help send` to see full help.
+[cite_start][cite: 114] > Use `.help send` to see full help.
 
 ✦═════════◆═════════✦
 
 🚀 *Start (Notifier)*
 Configure notifications to know exactly when the bot comes online.
-> Use `.help start` to see full help.
+[cite_start][cite: 115] > Use `.help start` to see full help.
 
 ✦═════════◆═════════✦
 
 📥 *Status (Saver)*
 Automatically download and forward *every* new status update to your private chat immediately.
-> Use `.help status` to see full help.
+[cite_start][cite: 116] > Use `.help status` to see full help.
 
 ✦═════════◆═════════✦
 
 🎨 *Sticker (Maker)*
 Create stickers from images/videos or convert stickers back into media files.
-> Use `.help sticker` to see full help.
+[cite_start][cite: 117] > Use `.help sticker` to see full help.
 
 ✦═════════◆═════════✦
 
 👑 *Sudo (Access)*
 Manage the list of trusted users who have access to these private commands.
-> Use `.help sudo` to see full help.
+[cite_start][cite: 118] > Use `.help sudo` to see full help.
 
 ✦═════════◆═════════✦
 
 📲 *Termux (Installer)*
 Download the Termux app file for mobile testing or emergency hosting.
-> Use `.help termux` to see full help.
+[cite_start][cite: 119] > Use `.help termux` to see full help.
 
 ✦═════════◆═════════✦
 
 🕰️ *Time (World Clock)*
 Instantly check the current time in any city or country offline.
-> Use `.help time` to see full help.
+[cite_start][cite: 120] > Use `.help time` to see full help.
 
 ✦═════════◆═════════✦
 
@@ -324,7 +330,7 @@ Play the classic X vs O game directly in the chat with a friend.
 
 🔄 *Update (System)*
 Check for source code updates and apply them immediately via git.
-> Use `.help update` to see full help.
+[cite_start][cite: 123] > Use `.help update` to see full help.
 
 ✦═════════◆═════════✦
 
@@ -336,19 +342,19 @@ Upload media to the cloud and generate a public link (Tourl).
 
 🛠️ *Var (Config)*
 Modify system variables (prefixes, timezone, keys) on the fly.
-> Use `.help var` to see full help.
+[cite_start][cite: 124] > Use `.help var` to see full help.
 
 ✦═════════◆═════════✦
 
 🔓 *ViewOnce (Unlocker)*
 Recover "View Once" media by replying to the message with a trigger (default `_`).
-> Use `.help viewonce` to see full help.
+[cite_start][cite: 121] > Use `.help viewonce` to see full help.
 
 ✦═════════◆═════════✦
 
 🌤️ *Weather (Forecast)*
 Get real-time weather reports for any location globally.
-> Use `.help weather` to see full help.
+[cite_start][cite: 122] > Use `.help weather` to see full help.
 
 ✦═════════◆═════════✦
 
