@@ -107,6 +107,14 @@
 │ ├──• .wlc on | off
 │ └──• .delwlc
 │
+├─┫ ＧＳＴＡＴＵＳ
+│ ├──• .gst <text>
+│ ├──• .gst jd:<alias> <text>
+│ ├──• .gstsched add <HH:mm> <message>
+│ ├──• .gstsched in <number> <unit> <message>
+│ ├──• .gstsched list
+│ └──• .gstsched del <id>
+│
 └─┫ TCT-BOT
 
 •── ᴍᴏᴅᴜʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ──•
