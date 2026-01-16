@@ -57,8 +57,7 @@ irm https://i-tct.com/dl/windows | iex
 ### ☁️ Deploy on Heroku
 - Click the button below to deploy
 
-[![Deploy](https://img.shields.io/badge/Deploy_to-Heroku-6762a6?style=for-the-badge&logo=heroku)](https://heroku.com/deploy)
-
+[![Heroku](https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=heroku&logoColor=white)](https://i-tct.com/heroku/)
 > ⚠️ **Note:** The example `formation` section below may not apply to everyone. Edit the `formation` in `app.json` to suit your Heroku plan.
 
 ---
