@@ -1,123 +1,215 @@
-┌─┫ ⚙️ ＧＲＯＵＰ　ＣＯＮＴＲＯＬ
+┌─┫ ⚙️ ＰＭ ＣＯＮＴＲＯＬ
 │
 ├─┫ ＡＣＴＩＶＥ
-│ ├──• .active | .act
+│ ├──• .active
+│ ├──• .active jd:<target>
 │ └──• .lastactive
 │
-├─┫ ＡＬＩＶＥ
-│ ├──• .alive
-│ ├──• .alivedaily on <HH:mm>
-│ ├──• .alivedaily off
-│ ├──• .setalive <message>
-│ ├──• .delalive
-│ └──• .listquote
+├─┫ ＡＮＴＩＣＡＬＬ
+│ ├──• .anticall on | off
+│ ├──• .anticall msg <text>
+│ ├──• .anticall wl <number>
+│ └──• .anticall rm <number>
+│
+├─┫ ＡＮＴＩＤＥＬＥＴＥ
+│ ├──• .dlt on | off
+│ ├──• .dlt <jid>
+│ ├──• .dlt clear
+│ └──• .dlt status
+│
+├─┫ ＡＮＴＩＥＤＩＴ
+│ ├──• .ae <jid>
+│ ├──• .ae clear
+│ ├──• .ae on | enable
+│ ├──• .ae off | disable
+│ └──• .ae status
 │
 ├─┫ ＡＮＴＩＬＩＮＫ
 │ ├──• .atl enable | disable
-│ ├──• .atl warn <limit>
+│ ├──• .atl warn <number>
 │ ├──• .atl msg <text>
 │ ├──• .atl kickmsg <text>
 │ ├──• .atl aware on | off
 │ ├──• .atl ttl <minutes>
-│ ├──• .atl show
-│ └──• .atl default
+│ └──• .atl show | default
+│
+├─┫ ＡＮＴＩＳＰＡＭ
+│ ├──• .spm on | off
+│ ├──• .spm window <msgs>:<sec>
+│ ├──• .spm mode warn | kick
+│ ├──• .spm warnmsg <text>
+│ ├──• .spm kickmsg <text>
+│ └──• .spm burst <number>
+│
+├─┫ ＡＮＴＩＳＴＡＴＵＳ
+│ ├──• .asd on | off
+│ └──• .asd
+│
+├─┫ ＡＰＫ
+│ └──• .apk <app name>
 │
 ├─┫ ＡＵＴＯＲＥＡＣＴ
-│ ├──• .rct <trigger> ! <emoji>
+│ ├──• .rct <trigger>
 │ ├──• .delrct <trigger>
-│ └──• .listrct
+│ ├──• .listrct
+│ └──• ?pr <priority>
 │
-├─┫ ＦＩＬＴＥＲ
-│ ├──• .filter <trigger>
-│ ├──• ?pr <priority>
-│ ├──• ! <response>
-│ ├──• .delflt <trigger>
-│ ├──• .flist
-│ ├──• .filterdelay <seconds>
-│ └──• .filter on | off
+├─┫ ＡＵＴＯＴＹＰＥ
+│ ├──• .type on | off
+│ ├──• .type <1-12>
+│ └──• .typemode <g|p|all>
 │
-├─┫ ＧＡＤＤ
-│ ├──• .gadd on | off
-│ ├──• .gadd <target_jid>
-│ └──• .gadd status
+├─┫ ＡＵＴＯＶＩＥＷ
+│ ├──• .avl on | off
+│ ├──• .avl g | n <nums>
+│ ├──• .avl list
+│ └──• .avl rm <number>
 │
-├─┫ ＧＲＯＵＰＭＵＴＥ
-│ ├──• .gm <close>|<open>
-│ ├──• .gm on | off
-│ └──• .gm list
+├─┫ ＢＡＣＫＵＰ
+│ ├──• .getdb
+│ └──• .setdb
 │
-├─┫ ＧＳＢＭＬ
-│ ├──• .gsbml on | off
-│ ├──• .gsbml mode warn | kick
-│ ├──• .gsbml maxwarns <num>
-│ ├──• .gsbml warnmsg <text>
-│ ├──• .gsbml ttl <minutes>
-│ └──• .gsbml resetwarns
+├─┫ ＣＩＲＣＬＥ ＣＣ
+│ └──• .cc <number>
+│
+├─┫ ＣＯＭＭＯＮ
+│ ├──• .cmn | .common
+│ ├──• .cmn -f
+│ └──• .cmn <grp1>, <grp2>
+│
+├─┫ ＣＯＮＶＥＲＴ
+│ ├──• .tomp3
+│ ├──• .cutmp3 <start>
+│ ├──• .cutmp3 -<end>
+│ └──• .cutmp3 <start> <end>
+│
+├─┫ ＤＯＷＮＬＯＡＤＥＲ
+│ ├──• .dla <url>
+│ └──• .ringtone <query>
+│
+├─┫ ＦＥＴＣＨ
+│ └──• .fetch <url>
+│
+├─┫ ＦＯＲＷＡＲＤ
+│ ├──• .fwd <msg> jd:<target>
+│ └──• .fwd <msg> jd:all
+│
+├─┫ ＦＶＮ
+│ ├──• .fvn (reply)
+│ └──• .fvn <target>
+│
+├─┫ ＧＡＭＥＳ
+│ ├──• .ttt | .tictactoe
+│ ├──• .tttstats
+│ ├──• .wordgame | .wg
+│ ├──• .ready
+│ └──• .cancel
+│
+├─┫ ＧＰＥＲＭ
+│ ├──• .gperm block .
+│ ├──• .gperm allow .
+│ └──• .gperm show
+│
+├─┫ ＨＥＡＬＴＨ
+│ ├──• .health | .hlt
+│ ├──• .alive
+│ ├──• .setalive <text>
+│ └──• .alivedaily on HH:mm
+│
+├─┫ ＩＭＡＧＥ
+│ └──• .img <1-6> <query>
+│
+├─┫ ＪＩＤ
+│ └──• .jid
 │
 ├─┫ ＪＩＤＢＯＯＫ
 │ ├──• .jd add <alias>:<jid>
 │ ├──• .jd rm <alias>
-│ └──• .jd show
+│ ├──• .jd show
+│ └──• .jidbook <cmd>
 │
-├─┫ ＫＩＣＫ
-│ ├──• .kick (reply)
-│ ├──• .kick @user
-│ ├──• .kick <number>
-│ └──• .kick all
+├─┫ ＰＦＩＬＴＥＲ
+│ ├──• .pflt <trigger>
+│ ├──• ?pr <priority>
+│ ├──• ! <response>
+│ ├──• .pstop <trigger>
+│ ├──• .plist
+│ └──• .pfilterdelay <sec>
 │
-├─┫ ＬＥＡＶＥ
-│ ├──• .lvc on | off
-│ ├──• .lvc msg <text>
-│ └──• .lvc delay <seconds>
+├─┫ ＰＩＮＧ
+│ └──• .ping
 │
-├─┫ ＬＯＣＫ
-│ ├──• .lock <phrase1>, <phrase2>
-│ ├──• .lmd <media_type>
-│ ├──• .unlock <item>
-│ ├──• .listlock
-│ ├──• .lockmode warn | kick
-│ ├──• .setwarnmsg <text>
-│ ├──• .resetwarns
-│ └──• .locksystem on | off
+├─┫ ＰＬＡＹ
+│ ├──• .play <song>
+│ ├──• .play -v <video>
+│ └──• .setcookies
 │
-├─┫ ＳＣＨＥＤ
-│ ├──• .sched add <time> <msg>
-│ ├──• .sched once <time> <msg>
-│ ├──• .sched in <duration> <msg>
-│ ├──• .sched delete <id>
-│ ├──• .sched edit <id> <time>
-│ ├──• .sched freq <id> <days>
-│ ├──• .sched on | off <id>
-│ └──• .sched list
+├─┫ ＰＲＯＣ
+│ ├──• .dldp <user>
+│ ├──• .dldp add <emoji>
+│ └──• .procprefix <char>
 │
-├─┫ ＳＰＡＭ
-│ ├──• .spm on | off
-│ ├──• .spm window <msgs>:<sec>
-│ ├──• .spm burst <count>
-│ ├──• .spm mode warn | kick
-│ ├──• .spm warnmsg <text>
-│ └──• .spm kickmsg <text>
+├─┫ ＰＲＯＦＩＬＥ
+│ └──• .profile | .setpp
 │
-├─┫ ＴＡＧ
-│ ├──• @ <message> (Ghost) (deprecated)
-│ └──• @@ <message> (Verbose)
+├─┫ ＲＥＡＤ
+│ └──• .rd on | off
 │
-├─┫ ＷＥＬＣＯＭＥ
-│ ├──• .wlc <message>
-│ ├──• .wlc on | off
-│ └──• .delwlc
+├─┫ ＲＥＢＯＯＴ
+│ ├──• .reboot | .rb
+│ └──• .reboot <seconds>
 │
-├─┫ ＧＳＴＡＴＵＳ
-│ ├──• .gst <text>
-│ ├──• .gst jd:<alias> <text>
-│ ├──• .gstsched add <HH:mm> <message>
-│ ├──• .gstsched in <number> <unit> <message>
-│ ├──• .gstsched list
-│ └──• .gstsched del <id>
+├─┫ ＳＥＮＤ
+│ ├──• .snd <number> <msg>
+│ └──• .snd <number>
 │
-├─┫ ＦＵＬＬＰＰ
-│ └──• .fullpp (reply to image)
+├─┫ ＳＴＡＲＴ
+│ ├──• .st on | off
+│ ├──• .st target <owner|sudo>
+│ ├──• .st status | test
+│ └──• .st reset
+│
+├─┫ ＳＴＡＴＵＳ
+│ └──• .status on | off
+│
+├─┫ ＳＴＩＣＫＥＲ
+│ ├──• .sticker | .s
+│ ├──• .toimage
+│ └──• .tovideo
+│
+├─┫ ＳＵＤＯ
+│ ├──• .sudo add <jid>
+│ ├──• .sudo remove <jid>
+│ └──• .sudo list
+│
+├─┫ ＴＥＲＭＵＸ
+│ └──• .termux
+│
+├─┫ ＴＩＭＥ
+│ └──• .time <location>
+│
+├─┫ ＵＰＤＡＴＥ
+│ ├──• .update | check
+│ ├──• .update now
+│ └──• .update force
+│
+├─┫ ＵＲＬ
+│ ├──• .tourl
+│ └──• .delurl <url>
+│
+├─┫ ＶＡＲ
+│ ├──• .var <key>: <value>
+│ └──• .var prefix: | timezone:
+│
+├─┫ ＶＩＥＷＯＮＣＥ
+│ ├──• .vv <jid>
+│ ├──• .vv clear
+│ ├──• .vv pr <prefix>
+│ └──• .vv check
+│
+├─┫ ＷＥＡＴＨＥＲ
+│ └──• .weather <location>
 │
 └─┫ TCT-BOT
 
-•── ᴍᴏᴅᴜʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ──•
+•── ᴘʀɪᴠᴀᴛᴇ ᴍᴏᴅᴜʟᴇꜱ ──•
