@@ -1,0 +1,33 @@
+👮 *Promote & Demote Manual*
+
+Manage the group's leadership team. This module allows you to elevate members to Admin status or dismiss existing Admins instantly.
+
+_Note: The Bot must be an Admin itself to perform these actions._
+
+✦═════════◆═════════✦
+
+*1. Promoting a User*
+Grant administrative rights to a member.
+
+`.promote` or `.admin`
+> • *By Reply:* Reply to a user's message with `.promote`.
+> • *By Tag:* `.promote @User`
+> • *By Number:* `.promote 254712345678`
+
+✦═════════◆═════════✦
+
+*2. Demoting an Admin*
+Revoke administrative rights from an existing admin.
+
+`.demote` or `.unadmin`
+> • *Usage:* Reply to the admin, tag them, or type their number.
+> • *Example:* `.demote @BadAdmin`
+
+✦═════════◆═════════✦
+
+*3. Troubleshooting*
+> • *Bot Rights:* If the bot replies "I need to be an Admin", please promote the bot first.
+> • *Targeting:* You can target multiple users at once by tagging them all in one message.
+
+«««««««««««««« • »»»»»»»»»»»»»»
+

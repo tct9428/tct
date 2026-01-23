@@ -46,7 +46,7 @@ Managing the live game.
 > • _Explanation:_ Ends the game immediately.
 
 *Timeouts*
-> • Each player has *2 minutes* to find a word.
+> • Each player has *30 second* to find a word.
 > • If you run out of time, you lose the match automatically.
 
 «««««««««««««« • »»»»»»»»»»»»»»
