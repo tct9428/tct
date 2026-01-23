@@ -42,9 +42,10 @@
 │ └──• .gadd status
 │
 ├─┫ ＧＲＯＵＰＭＵＴＥ
-│ ├──• .gm <close>|<open>
-│ ├──• .gm on | off
-│ └──• .gm list
+│ ├──• .gm add <days> <close|open>
+│ ├──• .gm list
+│ ├──• .gm del <id>
+│ └──• .gm clear
 │
 ├─┫ ＧＳＢＭＬ
 │ ├──• .gsbml on | off
@@ -53,6 +54,14 @@
 │ ├──• .gsbml warnmsg <text>
 │ ├──• .gsbml ttl <minutes>
 │ └──• .gsbml resetwarns
+│
+├─┫ ＧＳＴＡＴＵＳ
+│ ├──• .gst <text>
+│ ├──• .gst jd:<alias> <text>
+│ ├──• .gstsched add <HH:mm> <message>
+│ ├──• .gstsched in <number> <unit> <message>
+│ ├──• .gstsched list
+│ └──• .gstsched del <id>
 │
 ├─┫ ＪＩＤＢＯＯＫ
 │ ├──• .jd add <alias>:<jid>
@@ -80,6 +89,10 @@
 │ ├──• .resetwarns
 │ └──• .locksystem on | off
 │
+├─┫ ＰＲＯＭＯＴＥ
+│ ├──• .promote @user
+│ └──• .demote @user
+│
 ├─┫ ＳＣＨＥＤ
 │ ├──• .sched add <time> <msg>
 │ ├──• .sched once <time> <msg>
@@ -106,14 +119,6 @@
 │ ├──• .wlc <message>
 │ ├──• .wlc on | off
 │ └──• .delwlc
-│
-├─┫ ＧＳＴＡＴＵＳ
-│ ├──• .gst <text>
-│ ├──• .gst jd:<alias> <text>
-│ ├──• .gstsched add <HH:mm> <message>
-│ ├──• .gstsched in <number> <unit> <message>
-│ ├──• .gstsched list
-│ └──• .gstsched del <id>
 │
 └─┫ TCT-BOT
 

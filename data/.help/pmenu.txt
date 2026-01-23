@@ -94,6 +94,9 @@
 │ ├──• .fwd <msg> jd:<target>
 │ └──• .fwd <msg> jd:all
 │
+├─┫ ＦＵＬＬＰＰ
+│ └──• .fullpp
+│
 ├─┫ ＦＶＮ
 │ ├──• .fvn (reply)
 │ └──• .fvn <target>
@@ -106,8 +109,8 @@
 │ └──• .cancel
 │
 ├─┫ ＧＰＥＲＭ
-│ ├──• .gperm block .
-│ ├──• .gperm allow .
+│ ├──• .gperm block
+│ ├──• .gperm allow
 │ └──• .gperm show
 │
 ├─┫ ＨＥＡＬＴＨ
@@ -127,6 +130,17 @@
 │ ├──• .jd rm <alias>
 │ ├──• .jd show
 │ └──• .jidbook <cmd>
+│
+├─┫ ＬＯＧＯＵＴ
+│ ├──• .logout
+│ └──• .logout confirm
+│
+├─┫ ＬＹＲＩＣＳ
+│ └──• .lyrics <query>
+│
+├─┫ ＭＯＶＩＥ
+│ ├──• .movie <query>
+│ └──• .imdb <query>
 │
 ├─┫ ＰＦＩＬＴＥＲ
 │ ├──• .pflt <trigger>

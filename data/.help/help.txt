@@ -78,6 +78,12 @@ Ban specific words, phrases, or media types (like stickers/videos).
 
 ✦═════════◆═════════✦
 
+👮 *Promote (Admins)*
+Manage group admins by promoting or demoting members instantly.
+> Use `.help promote` to see full help.
+
+✦═════════◆═════════✦
+
 📅 *Sched (Scheduler)*
 Automate messages to be sent continuously (daily) or at a specific future date.
  > Use `.help sched` to see full help.
@@ -247,6 +253,24 @@ Instantly retrieve the unique ID of the current user or group.
 📒 *JIDBook (Directory)*
 Manage directory aliases (jd:name) for easier remote management of groups.
  > Use `.help jidbook` to see full help.
+
+✦═════════◆═════════✦
+
+🔌 *Logout (Shutdown)*
+Remotely terminate the bot's session.
+> Use `.help logout` to see full help.
+
+✦═════════◆═════════✦
+
+🎵 *Lyrics (Music)*
+Search for and retrieve song lyrics directly in the chat.
+> Use `.help lyrics` to see full help.
+
+✦═════════◆═════════✦
+
+🎬 *Movie (IMDb)*
+Fetch detailed information about movies, series, and games.
+> Use `.help movie` to see full help.
 
 ✦═════════◆═════════✦
 
