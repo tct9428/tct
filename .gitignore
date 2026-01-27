@@ -11,3 +11,6 @@ data/downloads/
 data/.yt/
 data/.db/
 .tct.db
+data/bin/*
+data/bin/
+
