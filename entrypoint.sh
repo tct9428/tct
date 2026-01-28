@@ -1,9 +1,9 @@
 #!/bin/sh
 set -e
 
-# This script generates a /.env file from the running container's environment
-# (so you can set SESSION_ID in Render's Environment Variables UI),
-# then starts the binary. It does NOT print the secret values.
+# This script generates a /.env file from the container's environment
+# and applies runtime defaults (e.g. PREFIX=".") when variables are not provided.
+# Then it execs the binary passed via CMD.
 
 env_file="/.env"
 
@@ -13,10 +13,8 @@ echo "# Generated .env — do not commit" > "$env_file"
 # helper: write var if present, escaping quotes/backslashes
 add_if() {
   varname="$1"
-  # get value of the variable by name
   val="$(eval "printf '%s' \"\${$varname}\"")"
   if [ -n "$val" ]; then
-    # escape backslashes and double quotes
     escaped=$(printf '%s' "$val" | sed 's/\\/\\\\/g; s/"/\\"/g')
     printf '%s="%s"\n' "$varname" "$escaped" >> "$env_file"
   fi
@@ -34,8 +32,28 @@ add_if CLOUDINARY_CLOUD_NAME
 add_if CLOUDINARY_API_KEY
 add_if CLOUDINARY_API_SECRET
 add_if OPENWEATHER_API_KEY
+add_if DASHBOARD_USER
+add_if DASHBOARD_PASS
+add_if server_port
 
-# quick status
+# --- Runtime defaults (only when not provided) ---
+# If PREFIX was not written (i.e., not set or empty), write default "."
+# We check the runtime environment variable directly to avoid duplicate entries.
+if [ -z "$(eval "printf '%s' \"\${PREFIX}\"")" ]; then
+  # Only append default if not already present in the file
+  if ! grep -q '^PREFIX=' "$env_file"; then
+    printf 'PREFIX="."\n' >> "$env_file"
+  fi
+fi
+
+# You can add other defaults the same way, e.g. default TIMEZONE, server_port, etc:
+# if [ -z "$(eval "printf '%s' \"\${server_port}\"")" ]; then
+#   if ! grep -q '^server_port=' "$env_file"; then
+#     printf 'server_port="3007"\n' >> "$env_file"
+#   fi
+# fi
+
+# quick status (do not print secrets)
 if [ -s "$env_file" ]; then
   echo ".env created at $env_file (contents hidden)"
 else
