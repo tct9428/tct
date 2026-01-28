@@ -1,7 +1,13 @@
 {
   "name": "TCT",
   "description": "A fast WA bot built with Go",
-  "keywords": ["tct", "go", "whatsapp", "whatsmeow", "bot"],
+  "keywords": [
+    "tct",
+    "go",
+    "whatsapp",
+    "whatsmeow",
+    "bot"
+  ],
   "stack": "heroku-24",
   "env": {
     "SESSION_ID": {
@@ -65,10 +71,5 @@
       "quantity": 1,
       "size": "eco"
     }
-  },
-  "buildpacks": [
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-apt"
-    }
-  ]
+  }
 }
