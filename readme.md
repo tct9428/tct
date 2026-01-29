@@ -62,6 +62,13 @@ irm https://i-tct.com/dl/windows | iex
 
 ---
 
+---
+
+### ☁️Deploy  on Render
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+
+---
+
 ### Deploy On Termux
 
 - copy the command bellow and follow the guide
@@ -92,3 +99,4 @@ bash <(curl -sL https://i-tct.com/dl/termux)
 ---
 
 ° Built with [whatsmeow](https://github.com/tulir/whatsmeow)
+
