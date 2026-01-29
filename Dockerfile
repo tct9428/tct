@@ -1,24 +1,25 @@
-# Dockerfile — copies the entire repository into /app and runs entrypoint
+# Dockerfile — put the repository at container root (/)
 FROM debian:bookworm-slim
 
-# Ensure TLS root certificates are present (fixes TLS x509 errors)
+# Install CA certs for TLS; keep image small
 RUN apt-get update \
  && apt-get install -y --no-install-recommends ca-certificates \
  && rm -rf /var/lib/apt/lists/*
 
-# Set working directory
-WORKDIR /app
+# Use root as working dir so files and relative lookups happen from /
+WORKDIR /
 
-# Copy the entire repo into the container (including data/, entrypoint.sh, tct-linux, etc.)
-COPY . /app
+# Copy entire repository into container root
+# (this will place files like tct-linux, entrypoint.sh, data/ etc at /)
+COPY . /
 
-# Make entrypoint and binary executable if present
-RUN if [ -f /app/entrypoint.sh ]; then chmod +x /app/entrypoint.sh; fi \
- && if [ -f /app/tct-linux ]; then chmod +x /app/tct-linux; fi \
- && chmod -R 755 /app/data || true
+# Make entrypoint and binary executable (if present)
+RUN if [ -f /entrypoint.sh ]; then chmod +x /entrypoint.sh; fi \
+ && if [ -f /tct-linux ]; then chmod +x /tct-linux; fi \
+ && chmod -R 755 /data || true
 
-# Use the repo's entrypoint (it should create /.env or /app/.env as needed)
-ENTRYPOINT ["/app/entrypoint.sh"]
+# Use the repo's entrypoint (should create /.env and start the binary)
+ENTRYPOINT ["/entrypoint.sh"]
 
-# Default command runs your binary (overridable by Render)
-CMD ["/app/tct-linux"]
+# Default command — binary at root
+CMD ["/tct-linux"]
