@@ -13,4 +13,5 @@ data/.db/
 .tct.db
 data/bin/*
 data/bin/
-
+data/.backup/*
+data/.backup/
