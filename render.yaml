@@ -1,23 +1,47 @@
-# Exported from Render on 2026-01-29T00:02:05Z
+# render.yaml
 version: "1"
 services:
-- type: web
-  name: tct
-  runtime: docker
-  repo: https://github.com/tct9428/tct
-  plan: free
-  envVars:
-  - key: server_port
-    sync: false
-  - key: DASHBOARD_PASS
-    sync: false
-  - key: DASHBOARD_USER
-    sync: false
-  - key: PREFIX
-    sync: false
-  - key: SESSION_ID
-    sync: false
-  region: virginia
-  dockerContext: .
-  dockerfilePath: ./Dockerfile
-  autoDeployTrigger: commit
+  - type: web
+    name: tct
+    runtime: docker
+    repo: https://github.com/tct9428/tct
+    plan: free
+    region: virginia
+    dockerContext: .
+    dockerfilePath: ./Dockerfile
+    autoDeployTrigger: commit
+
+    envVars:
+      # ✅ 
+      - key: DASHBOARD_USER
+        sync: false
+      - key: DASHBOARD_PASS
+        sync: false
+      - key: SESSION_ID
+        sync: false
+      - key: server_port
+        sync: false
+
+      # ⚙️ Optional variables (can be set in dashboard if needed)
+      - key: PREFIX
+        sync: false
+      - key: TIMEZONE
+        sync: false
+      - key: DB_BATCH_SIZE
+        sync: false
+      - key: DB_FLUSH_INTERVAL
+        sync: false
+      - key: DB_CACHE_MAX_BYTES
+        sync: false
+      - key: DB_BUSY_TIMEOUT_MS
+        sync: false
+      - key: FILTER_NOISE_LOGS
+        sync: false
+      - key: OPENWEATHER_API_KEY
+        sync: false
+      - key: CLOUDINARY_CLOUD_NAME
+        sync: false
+      - key: CLOUDINARY_API_KEY
+        sync: false
+      - key: CLOUDINARY_API_SECRET
+        sync: false
