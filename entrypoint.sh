@@ -36,6 +36,10 @@ add_if DASHBOARD_USER
 add_if DASHBOARD_PASS
 add_if server_port
 
+# --- CRITICAL ADDITION FOR KEEPALIVE ---
+add_if RENDER_EXTERNAL_URL 
+# ---------------------------------------
+
 # --- Runtime defaults (only when not provided) ---
 # If PREFIX was not written (i.e., not set or empty), write default "."
 # We check the runtime environment variable directly to avoid duplicate entries.
@@ -45,13 +49,6 @@ if [ -z "$(eval "printf '%s' \"\${PREFIX}\"")" ]; then
     printf 'PREFIX="."\n' >> "$env_file"
   fi
 fi
-
-# You can add other defaults the same way, e.g. default TIMEZONE, server_port, etc:
-# if [ -z "$(eval "printf '%s' \"\${server_port}\"")" ]; then
-#   if ! grep -q '^server_port=' "$env_file"; then
-#     printf 'server_port="3007"\n' >> "$env_file"
-#   fi
-# fi
 
 # quick status (do not print secrets)
 if [ -s "$env_file" ]; then
