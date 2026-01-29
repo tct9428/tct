@@ -1,0 +1,23 @@
+# Exported from Render on 2026-01-29T00:02:05Z
+version: "1"
+services:
+- type: web
+  name: tct
+  runtime: docker
+  repo: https://github.com/tct9428/tct
+  plan: free
+  envVars:
+  - key: server_port
+    sync: false
+  - key: DASHBOARD_PASS
+    sync: false
+  - key: DASHBOARD_USER
+    sync: false
+  - key: PREFIX
+    sync: false
+  - key: SESSION_ID
+    sync: false
+  region: virginia
+  dockerContext: .
+  dockerfilePath: ./Dockerfile
+  autoDeployTrigger: commit
