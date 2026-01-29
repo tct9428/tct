@@ -1,21 +1,24 @@
-# start minimal but include CA certs so TLS downloads work
+# Dockerfile — copies the entire repository into /app and runs entrypoint
 FROM debian:bookworm-slim
 
-WORKDIR /
-
-# ensure TLS root certs exist (fixes x509: certificate signed by unknown authority)
+# Ensure TLS root certificates are present (fixes TLS x509 errors)
 RUN apt-get update \
  && apt-get install -y --no-install-recommends ca-certificates \
  && rm -rf /var/lib/apt/lists/*
 
-# copy the precompiled binary (make sure it's in repo root)
-COPY tct-linux /tct-linux
+# Set working directory
+WORKDIR /app
 
-# copy the entrypoint helper
-COPY entrypoint.sh /entrypoint.sh
+# Copy the entire repo into the container (including data/, entrypoint.sh, tct-linux, etc.)
+COPY . /app
 
-# make sure both are executable
-RUN chmod +x /tct-linux /entrypoint.sh
+# Make entrypoint and binary executable if present
+RUN if [ -f /app/entrypoint.sh ]; then chmod +x /app/entrypoint.sh; fi \
+ && if [ -f /app/tct-linux ]; then chmod +x /app/tct-linux; fi \
+ && chmod -R 755 /app/data || true
 
-ENTRYPOINT ["/entrypoint.sh"]
-CMD ["/tct-linux"]
+# Use the repo's entrypoint (it should create /.env or /app/.env as needed)
+ENTRYPOINT ["/app/entrypoint.sh"]
+
+# Default command runs your binary (overridable by Render)
+CMD ["/app/tct-linux"]
