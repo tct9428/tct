@@ -12,23 +12,16 @@ services:
     autoDeployTrigger: commit
 
     envVars:
-      # Compulsory: must be set manually
+      # Compulsory variables (must be set manually in Render dashboard)
       - key: SESSION_ID
         sync: false
-
-      # Defaults provided (can be overridden in dashboard)
       - key: PREFIX
-        value: "."
         sync: false
       - key: server_port
-        value: "3003"
         sync: false
       - key: DASHBOARD_USER
-        value: "admin"
         sync: false
       - key: DASHBOARD_PASS
-        value: "tct"
         sync: false
       - key: TIMEZONE
-        value: "Africa/Nairobi"
         sync: false
