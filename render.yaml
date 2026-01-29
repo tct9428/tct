@@ -12,36 +12,23 @@ services:
     autoDeployTrigger: commit
 
     envVars:
-      # ✅ 
-      - key: DASHBOARD_USER
-        sync: false
-      - key: DASHBOARD_PASS
-        sync: false
+      # Compulsory: must be set manually
       - key: SESSION_ID
         sync: false
-      - key: server_port
-        sync: false
 
-      # ⚙️ Optional variables (can be set in dashboard if needed)
+      # Defaults provided (can be overridden in dashboard)
       - key: PREFIX
+        value: "."
+        sync: false
+      - key: server_port
+        value: "3003"
+        sync: false
+      - key: DASHBOARD_USER
+        value: "admin"
+        sync: false
+      - key: DASHBOARD_PASS
+        value: "tct"
         sync: false
       - key: TIMEZONE
-        sync: false
-      - key: DB_BATCH_SIZE
-        sync: false
-      - key: DB_FLUSH_INTERVAL
-        sync: false
-      - key: DB_CACHE_MAX_BYTES
-        sync: false
-      - key: DB_BUSY_TIMEOUT_MS
-        sync: false
-      - key: FILTER_NOISE_LOGS
-        sync: false
-      - key: OPENWEATHER_API_KEY
-        sync: false
-      - key: CLOUDINARY_CLOUD_NAME
-        sync: false
-      - key: CLOUDINARY_API_KEY
-        sync: false
-      - key: CLOUDINARY_API_SECRET
+        value: "Africa/Nairobi"
         sync: false
