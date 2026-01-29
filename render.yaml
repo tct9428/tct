@@ -18,14 +18,13 @@ services:
 
       # Defaults provided (optional, can be overridden)
       - key: PREFIX
-        value: "."
+        sync: true
       - key: server_port
         value: "3010"
       - key: DASHBOARD_USER
-        value: "admin"
+        sync: true
       - key: DASHBOARD_PASS
-        value: "tct"
+        sync: true
 
-      
       - key: TIMEZONE
         sync: false
