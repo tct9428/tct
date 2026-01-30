@@ -32,6 +32,7 @@ add_if CLOUDINARY_CLOUD_NAME
 add_if CLOUDINARY_API_KEY
 add_if CLOUDINARY_API_SECRET
 add_if OPENWEATHER_API_KEY
+add_if MISTRAL_API_KEY  # <--- Added
 add_if DASHBOARD_USER
 add_if DASHBOARD_PASS
 add_if server_port
