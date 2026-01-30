@@ -98,5 +98,4 @@ bash <(curl -sL https://i-tct.com/dl/termux)
 
 ---
 
-° Built with [whatsmeow](https://github.com/tulir/whatsmeow)
 
