@@ -65,7 +65,7 @@ irm https://i-tct.com/dl/windows | iex
 ---
 
 ### ☁️Deploy  on Render
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/tct9428/tct)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://i-tct.com/render/)
 
 ---
 
