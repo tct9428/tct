@@ -1,0 +1,56 @@
+🎙️ *AutoRecord (Ghost Recorder) Manual*
+
+This module simulates human recording presence (showing "recording audio...") in chats.
+It makes the bot appear as if it is about to send a Voice Note.
+
+_Note: Enabling this will automatically disable AutoType for the same chat._
+
+✦═════════◆═════════✦
+
+*1. Enable or Disable*
+Turn recording simulation on or off for the current chat.
+
+`.record on`
+> • _Explanation:_ Enables auto-recording with default duration.
+
+`.record off`
+> • _Explanation:_ Disables auto-recording.
+
+✦═════════◆═════════✦
+
+*2. Setting Duration*
+Control how long the bot shows "recording..." before pausing.
+Use a number from 1 to 12.
+_(Each unit is approx 5 seconds. So 12 = 60 seconds.)_
+
+`.record <number>`
+
+> • *Example:* `.record 6`
+> • _Explanation:_ The bot will simulate recording for about 30 seconds (6 * 5s).
+
+✦═════════◆═════════✦
+
+*3. Global Mode (Owner Only)*
+Decide where the bot is allowed to record globally.
+
+`.recordmode <mode>`
+
+> • *Modes:*
+> `g` = Groups Only (Default)
+> `p` = PMs Only
+> `all` = Both Groups and PMs
+
+> • *Example:* `.recordmode all`
+
+✦═════════◆═════════✦
+
+*4. Managing Other Groups (Remote)*
+Configure settings for other groups using extensions.
+
+`.record <command> jd:groupName`
+
+> • *Example:* `.record 12 jd:Support`
+> • _Explanation:_ Sets the "Support" group to have long recording durations.
+> • *Example:* `.record off jd:all`
+
+«««««««««««««« • »»»»»»»»»»»»»»
