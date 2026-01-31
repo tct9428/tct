@@ -1,10 +1,5 @@
 ┌─┫ ⚙️ ＰＭ ＣＯＮＴＲＯＬ
 │
-├─┫ ＡＣＴＩＶＥ
-│ ├──• .active
-│ ├──• .active jd:<target>
-│ └──• .lastactive
-│
 ├─┫ ＡＮＴＩＣＡＬＬ
 │ ├──• .anticall on | off
 │ ├──• .anticall msg <text>
@@ -23,15 +18,6 @@
 │ ├──• .ae on | enable
 │ ├──• .ae off | disable
 │ └──• .ae status
-│
-├─┫ ＡＮＴＩＬＩＮＫ
-│ ├──• .atl enable | disable
-│ ├──• .atl warn <number>
-│ ├──• .atl msg <text>
-│ ├──• .atl kickmsg <text>
-│ ├──• .atl aware on | off
-│ ├──• .atl ttl <minutes>
-│ └──• .atl show | default
 │
 ├─┫ ＡＮＴＩＳＰＡＭ
 │ ├──• .spm on | off
@@ -53,6 +39,11 @@
 │ ├──• .delrct <trigger>
 │ ├──• .listrct
 │ └──• ?pr <priority>
+│
+├─┫ ＡＵＴＯＲＥＣＯＲＤ
+│ ├──• .record on | off
+│ ├──• .record <1-12>
+│ └──• .recordmode <g|p|all>
 │
 ├─┫ ＡＵＴＯＴＹＰＥ
 │ ├──• .type on | off

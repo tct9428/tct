@@ -153,6 +153,12 @@ Search for and download Android applications (APK files) directly.
 
 ✦═════════◆═════════✦
 
+🎙️ *AutoRecord (Ghost Recorder)*
+Simulate human recording presence to make the bot appear active and realistic.
+> Use `.help autorecord` to see full help.
+
+✦═════════◆═════════✦
+
 ⌨️ *AutoType (Ghost Writer)*
 Simulate human typing presence to make the bot appear active and realistic.
  > Use `.help autotype` to see full help.
