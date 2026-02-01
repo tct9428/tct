@@ -1,0 +1,40 @@
+{
+  "bot-name": "TCT",
+  "description": "TCT WhatsApp Bot",
+  "logo": "https://raw.githubusercontent.com/tct9428/tct/refs/heads/main/Images/TCT.png",
+  "keywords": ["whatsapp", "bot", "multi-device"],
+  "documentation-link": "https://i-tct.com/docs/",
+  "owner-verification": "forthcomingdozen@gmail.com",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put session id",
+      "value": "",
+      "required": true
+    },
+    "PREFIX": {
+      "description": "Bot command prefix (e.g., . , ! @ etc)",
+      "value": ".",
+      "required": true
+    },
+    "TIMEZONE": {
+      "description": "Timezone for the bot",
+      "value": "Africa/Nairobi",
+      "required": true
+    },
+    "PORT": {
+      "description": "Port for the bot to run on",
+      "value": "",
+      "required": false
+    },
+    "DASHBOARD_USER": {
+      "description": "Dashboard username",
+      "value": "admin",
+      "required": false
+    },
+    "DASHBOARD_PASS": {
+      "description": "Dashboard password",
+      "value": "tct-99",
+      "required": false
+    }
+  }
+}
