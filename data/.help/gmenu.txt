@@ -42,9 +42,9 @@
 │ └──• .gadd status
 │
 ├─┫ ＧＲＯＵＰＭＵＴＥ
-│ ├──• .gm add <days> <close|open>
-│ ├──• .gm list
+│ ├──• .gm add <days> <time>
 │ ├──• .gm del <id>
+│ ├──• .gm list
 │ └──• .gm clear
 │
 ├─┫ ＧＳＢＭＬ
@@ -78,6 +78,10 @@
 │ ├──• .lvc on | off
 │ ├──• .lvc msg <text>
 │ └──• .lvc delay <seconds>
+│
+├─┫ ＬＥＦＴ
+│ ├──• .left
+│ └──• .lg
 │
 ├─┫ ＬＯＣＫ
 │ ├──• .lock <phrase1>, <phrase2>
@@ -114,6 +118,12 @@
 ├─┫ ＴＡＧ
 │ ├──• @ <message> (Ghost) (deprecated)
 │ └──• @@ <message> (Verbose)
+│
+├─┫ ＷＡＲＮ
+│ ├──• .warn @user
+│ ├──• .warn limit <num>
+│ ├──• .warn list
+│ └──• .warn reset @user
 │
 ├─┫ ＷＥＬＣＯＭＥ
 │ ├──• .wlc <message>
