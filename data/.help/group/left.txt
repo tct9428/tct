@@ -1,0 +1,23 @@
+👋 *Leave Group Manual*
+
+This command forces the bot to leave the current group chat immediately.
+It reacts with a wave emoji (👋) before exiting.
+
+_Note: This command is restricted to the Bot Owner and Sudo users._
+
+✦═════════◆═════════✦
+
+*1. Leaving a Group*
+Execute the exit sequence.
+
+`.left` or `.lg`
+> • _Action:_ The bot sends a 👋 reaction and immediately leaves the group.
+> • _Use Case:_ Removing the bot from a group you no longer wish to manage.
+
+✦═════════◆═════════✦
+
+*2. Important Notes*
+> • *Permissions:* Only the Owner or Sudo users can use this command.
+> • *Re-joining:* If the bot leaves, it cannot add itself back. An admin must re-add the bot .
+
+«««««««««««««« • »»»»»»»»»»»»»»

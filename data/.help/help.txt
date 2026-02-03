@@ -1,7 +1,7 @@
 🤖 Ｇｒｏｕｐ-Ｃｏｍｍａｎｄ-Ｃｅｎｔｅｒ
 
-*Welcome to the TCT help.  Below is a summary of every module available in the system.
-To master a specific module, use the help command listed below it.*
+*Welcome to the TCT help.  Below is a summary of every module available in the system.*
+*To master a specific module, use the help command listed below it.*
 
 ✦
 
@@ -71,6 +71,12 @@ Send a private message (PM) to users who leave the group to say goodbye or ask f
 
 ✦═════════◆═════════✦
 
+👋 *Left (Bot Exit)*
+Force the bot to leave the current group chat immediately.
+> Use `.help left` to see full help.
+
+✦═════════◆═════════✦
+
 🔒 *Lock (Censorship)*
 Ban specific words, phrases, or media types (like stickers/videos).
  The bot deletes them instantly.
@@ -103,27 +109,30 @@ Tag everyone in the group at once.
 
 ✦═════════◆═════════✦
 
+⚠️ *Warn (Punishment)*
+Warn users for breaking rules. Automatically kicks them when the limit is reached.
+> Use `.help warn` to see full help.
+
+✦═════════◆═════════✦
+
 👋 *Welcome (Greetings)*
 Automatically greet new members with a custom message, picture, and group description.
  > Use `.help welcome` to see full help.
 
 
 
-
+////////////////////
 
 ✦⋆✦═══════✪═══════✦⋆✦
 
-
-
-
-
+\\\\\\\\\\\\\\\\\\\\
 
 
 
 🤖 Ｐｒｉｖａｔｅ-Ｃｏｍｍａｎｄ-Ｃｅｎｔｅｒ
 
 
-_ Below is a summary of every private module available in the system._
+_Below is a summary of every private module available in the system._
 _To master a specific module, use the help command listed below it._
 
 ✦═════════◆═════════✦
