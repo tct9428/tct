@@ -2,7 +2,7 @@
 const { execSync, spawn } = require("child_process");
 const path = require("path");
 
-const programPath = path.join(dirname, "tct-linux");
+const programPath = path.join(__dirname, "tct-linux");
 
 function tct() {
   try {
