@@ -5,7 +5,6 @@
 │ └──• .lastactive
 │
 ├─┫ ＡＬＩＶＥ
-│ ├──• .alive
 │ ├──• .alivedaily on <HH:mm>
 │ ├──• .alivedaily off
 │ ├──• .setalive <message>
