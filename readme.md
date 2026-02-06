@@ -1,4 +1,4 @@
-# TCT MD
+# TCT 
 [![Go](https://img.shields.io/badge/Built_with-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev/)
 [![Version](https://img.shields.io/badge/version-0.2.2s-blue.svg?style=for-the-badge)](https://t.me/TheCarlTech)
 
@@ -7,7 +7,7 @@
 
 ## About
 
-> **TCT** is a powerful, multi-device WA bot manager engineered for both personal and group administration. It delivers complete control over your WA experience through a suite of enterprise-grade features, robust security, a highly modular architecture, and multi-language support for seamless communication across diverse communities.
+> **TCT** is a powerful, fast WA bot manager engineered for both personal and group administration. It delivers complete control over your WA experience through a suite of enterprise-grade features, robust security, a highly modular architecture, and multi-language support for seamless communication across diverse communities.
 ---
 
 ## Supported Languages
