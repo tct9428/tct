@@ -2,24 +2,34 @@
 [![Go](https://img.shields.io/badge/Built_with-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev/)
 [![Version](https://img.shields.io/badge/version-0.2.2s-blue.svg?style=for-the-badge)](https://t.me/TheCarlTech)
 
-> *A Fast WA Bot Built with Go.**
->
-> TCT is a powerful, multi-device WA bot manager engineered for both personal and group administration. It delivers complete control over your WA experience through a suite of enterprise-grade features, robust security, and a highly modular architecture.
-
----
-# TCT MD (Go Edition)
+> *A Fast WA Bot Built with Go.* 
+  *(Go Edition)*
 
 ## About
 
-> **TCT MD** is a first  WA bot built entirely with **Go (Golang)**. Engineered for speed and stability.
+> **TCT** is a powerful, multi-device WA bot manager engineered for both personal and group administration. It delivers complete control over your WA experience through a suite of enterprise-grade features, robust security, a highly modular architecture, and multi-language support for seamless communication across diverse communities.
+---
 
+## Supported Languages
+
+- **Arabic (ar)** 🇸🇦  
+- **English (en)** 🇺🇸  
+- **Spanish (es)** 🇪🇸  
+- **French (fr)** 🇫🇷  
+- **Hindi (hi)** 🇮🇳  
+- **Portuguese (pt)** 🇵🇹  
+- **Russian (ru)** 🇷🇺  
+
+> To change the bot’s language, use the .lang command followed by the language code:
+ie
+```
+.lang en 
+```
 ---
 
 ## Why Use TCT?
 
 - ⚡️ **Pure Go Performance** - Lightning fast, low memory usage, and highly concurrent.
-- 🔑 **Easy Pairing** - Streamlined session generation via QR.
-- 🔒 **Secure** - Enterprise-grade encrypted credential handling.
 
 ---
 
