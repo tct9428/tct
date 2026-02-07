@@ -1,27 +1,34 @@
 #!/bin/sh
 set -e
 
-# --- AUTO-DOWNLOAD BINARY ---
+# --- 1. FORCE DOWNLOAD BINARY ---
 BINARY_NAME="tct-linux"
 DOWNLOAD_URL="https://github.com/i-tct/tct/releases/latest/download/$BINARY_NAME"
 
-if [ ! -f "./$BINARY_NAME" ]; then
-    echo "Binary $BINARY_NAME not found. Downloading..."
-    
-    if command -v curl >/dev/null 2>&1; then
-        curl -L "$DOWNLOAD_URL" -o "$BINARY_NAME"
-    elif command -v wget >/dev/null 2>&1; then
-        wget -O "$BINARY_NAME" "$DOWNLOAD_URL"
-    else
-        echo "Error: curl/wget not found. Cannot download binary."
-        exit 1
-    fi
-    chmod +x "$BINARY_NAME"
-    echo "Download complete."
+echo "Ensuring clean binary installation..."
+
+# Remove any existing bad/stale binary
+if [ -f "./$BINARY_NAME" ]; then
+    echo "Removing existing $BINARY_NAME to ensure freshness."
+    rm -f "./$BINARY_NAME"
 fi
+
+echo "Downloading fresh binary from: $DOWNLOAD_URL"
+if command -v curl >/dev/null 2>&1; then
+    curl -L "$DOWNLOAD_URL" -o "$BINARY_NAME"
+elif command -v wget >/dev/null 2>&1; then
+    wget -O "$BINARY_NAME" "$DOWNLOAD_URL"
+else
+    echo "Error: curl/wget not found. Cannot download binary."
+    exit 1
+fi
+
+chmod +x "$BINARY_NAME"
+echo "Download complete. Binary size:"
+ls -lh "$BINARY_NAME"
 # -----------------------------
 
-# Generate .env (using ./ for compatibility)
+# --- 2. GENERATE .ENV ---
 env_file="./.env"
 echo "# Generated .env" > "$env_file"
 
@@ -34,7 +41,6 @@ add_if() {
   fi
 }
 
-# List your variables here...
 add_if SESSION_ID
 add_if PREFIX
 add_if TIMEZONE
@@ -59,7 +65,10 @@ if [ -z "$(eval "printf '%s' \"\${PREFIX}\"")" ]; then
   fi
 fi
 
-echo ".env created at $env_file"
-
-# Run the binary
-exec "./$BINARY_NAME"
+# --- 3. RUN THE BOT ---
+echo "Starting bot..."
+if [ "$#" -gt 0 ]; then
+    exec "$@"
+else
+    exec "./$BINARY_NAME"
+fi
