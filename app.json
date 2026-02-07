@@ -16,7 +16,7 @@
     },
     "PREFIX": {
       "description": "Command prefixes (comma separated, leave empty for no prefix)",
-      "value": ".,!,?,),(,;,:\"",
+      "value": ".",
       "required": false
     },
     "TIMEZONE": {
