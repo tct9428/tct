@@ -1,0 +1,75 @@
+{
+  "name": "TCT",
+  "description": "A fast WA bot built with Go",
+  "keywords": [
+    "tct",
+    "go",
+    "whatsapp",
+    "whatsmeow",
+    "bot"
+  ],
+  "stack": "heroku-24",
+  "env": {
+    "SESSION_ID": {
+      "description": "Your WhatsApp session ID (REQUIRED)",
+      "value": "",
+      "required": true
+    },
+    "PREFIX": {
+      "description": "Command prefixes (comma separated, leave empty for no prefix)",
+      "value": ".,!,?,),(,;,:\"",
+      "required": false
+    },
+    "TIMEZONE": {
+      "description": "Your timezone (e.g., Africa/Nairobi, America/New_York)",
+      "value": "Africa/Nairobi",
+      "required": false
+    },
+    "DB_BATCH_SIZE": {
+      "description": "Database batch size for performance",
+      "value": "400",
+      "required": false
+    },
+    "DB_FLUSH_INTERVAL": {
+      "description": "Database flush interval in milliseconds",
+      "value": "3000",
+      "required": false
+    },
+    "DB_CACHE_MAX_BYTES": {
+      "description": "Database cache size in bytes",
+      "value": "67108864",
+      "required": false
+    },
+    "DB_BUSY_TIMEOUT_MS": {
+      "description": "Database busy timeout in milliseconds",
+      "value": "12000",
+      "required": false
+    },
+    "CLOUDINARY_CLOUD_NAME": {
+      "description": "Your Cloudinary cloud name",
+      "value": "",
+      "required": false
+    },
+    "CLOUDINARY_API_KEY": {
+      "description": "Your Cloudinary API key",
+      "value": "",
+      "required": false
+    },
+    "CLOUDINARY_API_SECRET": {
+      "description": "Your Cloudinary API secret",
+      "value": "",
+      "required": false
+    },
+    "OPENWEATHER_API_KEY": {
+      "description": "OpenWeather API key for weather commands (optional)",
+      "value": "",
+      "required": false
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
+}

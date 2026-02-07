@@ -1,0 +1,31 @@
+DB_BATCH_SIZE: 300
+DB_FLUSH_INTERVAL: "5000"       # milliseconds or duration string like "5s"
+DB_CACHE_MAX_BYTES: 134217728   # 128MB
+DB_USE_WAL: true
+DB_BUSY_TIMEOUT_MS: 15000
+
+ALIVE_IMAGES:
+  - "https://i-tct.com/media/alive.jpg"
+  - "https://i-tct.com/media/alive1.jpg"
+  - "https://i-tct.com/media/alive2.jpg"
+  - "https://i-tct.com/media/alive3.jpg"
+  - "https://i-tct.com/media/alive4.jpg"
+  - "https://i-tct.com/media/alive5.jpg"
+  - "https://i-tct.com/media/alive6.jpg"
+  - "https://i-tct.com/media/alive7.jpg"
+  - "https://i-tct.com/media/alive8.jpg"
+  - "https://i-tct.com/media/alive9.jpg"
+  - "https://i-tct.com/media/alive10.jpg"
+  - "https://i-tct.com/media/alive11.jpg"
+
+LOCK_SYSTEM:
+   MAX_WARNS: 3
+   SHOW_TRIGGER_IN_REASON: true
+   DELETE_WARN_AFTER: 3
+
+
+
+#CLOUDINARY:
+#  CLOUD_NAME: "your_cloud_name"
+#  API_KEY: "your_api_key"
+#  API_SECRET: "your_api_secret"
