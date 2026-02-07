@@ -10,13 +10,12 @@ function downloadBinary() {
   if (!fs.existsSync(programPath)) {
     console.log("Binary not found. Downloading from GitHub Releases...");
     try {
-      // Check if curl exists, otherwise you might need a different method
       execSync(`curl -L "${DOWNLOAD_URL}" -o "${programPath}"`);
       execSync(`chmod +x "${programPath}"`);
       console.log("Download complete and marked as executable.");
     } catch (err) {
       console.error("Failed to download binary:", err);
-      process.exit(1); // Exit if we can't get the binary
+      process.exit(1); 
     }
   }
 }
