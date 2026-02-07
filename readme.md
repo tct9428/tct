@@ -21,7 +21,7 @@
 - **Russian (ru)** 🇷🇺
 - **Indonesian (id)** 🇮🇩
 
-> To change the bot’s language, use the .lang command followed by the language code:
+> To change the bot’s language, use the **.lang** command followed by the language code:
 ie
 ```
 .lang en 
