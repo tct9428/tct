@@ -12,13 +12,14 @@
 
 ## Supported Languages
 
-- **Arabic (ar)** 🇸🇦  
-- **English (en)** 🇺🇸  
-- **Spanish (es)** 🇪🇸  
-- **French (fr)** 🇫🇷  
-- **Hindi (hi)** 🇮🇳  
-- **Portuguese (pt)** 🇵🇹  
-- **Russian (ru)** 🇷🇺  
+- **Arabic (ar)** 🇸🇦
+- **English (en)** 🇺🇸
+- **Spanish (es)** 🇪🇸
+- **French (fr)** 🇫🇷
+- **Hindi (hi)** 🇮🇳
+- **Portuguese (pt)** 🇵🇹
+- **Russian (ru)** 🇷🇺
+- **Indonesian (id)** 🇮🇩
 
 > To change the bot’s language, use the .lang command followed by the language code:
 ie
