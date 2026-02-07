@@ -24,6 +24,38 @@ LOCK_SYSTEM:
    DELETE_WARN_AFTER: 3
 
 
+KICK_SYSTEM:
+  PHRASES:
+    - "👢 {user} has been removed. Bye!"
+    - "🚪 {user} exited by order. Goodbye!"
+    - "👢 Expelled! {user} launched into the void, echoes fade behind."
+    - "🧹 The broom has spoken — {user} swept clean from the stage."
+    - "🚪 Door slammed, curtain dropped. {user}’s act is over."
+    - "🌪️ Tornado twist — {user} spun right out of orbit."
+    - "🪦 Another soul archived. {user} rests in the group’s memory vault."
+    - "🔕 Silence restored. {user}’s noise unplugged."
+    - "🧊 Frozen out — {user} iced from the circle."
+    - "🧨 Boom! {user} detonated, fragments scattered."
+    - "🕊️ Released — {user} flies free, group breathes easier."
+    - "🛸 Abducted by the Kick-o-tron. Farewell, {user}."
+    - "✒️ Excommunicated! {user} erased from the ledger of names."
+    - "⚖️ Justice served — {user} removed, balance restored."
+    - "🔮 The oracle decrees: {user}’s chapter ends here."
+    - "🗡️ Severed ties — {user} cut clean from the chain."
+    - "🧭 Misaligned compass — {user} redirected elsewhere."
+    - "🎶 The chorus sings lighter now, {user}’s verse deleted."
+    - "🧙 Abracadabra! {user} vanished into thin air."
+    - "📜 History rewritten — {user} omitted from the scroll."
+    - "🤫 Ssssh! Silence restored. {user} is gone."
+    - "🚷 No entry. {user} blocked."
+    - "💤 Hush now… {user} gone."
+    - "🎭 Curtain closed. {user} exits."
+    - "🧹 Sweep complete. {user} removed, group tidy."
+    - "🔕 Ding-dong, silence mode: {user} removed."
+    - "🪄 Poof! {user} vanished."
+    - "🛑 Halted. {user} kicked."
+    - "🌪️ Whoosh! {user} blown away."
+    - "🧊 Freeze. {user} iced out."
 
 #CLOUDINARY:
 #  CLOUD_NAME: "your_cloud_name"

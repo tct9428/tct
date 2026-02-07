@@ -4,7 +4,7 @@ services:
   - type: web
     name: tct
     runtime: docker
-    repo: https://github.com/so-rce-code/test
+    repo: https://github.com/i-tct/tct
     plan: free
     region: virginia
     dockerContext: .

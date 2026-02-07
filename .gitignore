@@ -2,4 +2,4 @@ tree.txt
 .env
 logs/
 tct-linux
-data/.db/
+data/
