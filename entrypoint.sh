@@ -1,12 +1,12 @@
 #!/bin/sh
 set -e
 
-# --- 1. AUTO-DOWNLOAD LOGIC ---
+# --- AUTO-DOWNLOAD BINARY ---
 BINARY_NAME="tct-linux"
 DOWNLOAD_URL="https://github.com/i-tct/tct/releases/latest/download/$BINARY_NAME"
 
 if [ ! -f "./$BINARY_NAME" ]; then
-    echo "Binary not found. Downloading from: $DOWNLOAD_URL"
+    echo "Binary $BINARY_NAME not found. Downloading..."
     
     if command -v curl >/dev/null 2>&1; then
         curl -L "$DOWNLOAD_URL" -o "$BINARY_NAME"
@@ -19,25 +19,22 @@ if [ ! -f "./$BINARY_NAME" ]; then
     chmod +x "$BINARY_NAME"
     echo "Download complete."
 fi
+# -----------------------------
 
-# --- 2. GENERATE .ENV ---
-# We use "./.env" (current dir) to be compatible with Heroku and Docker
+# Generate .env (using ./ for compatibility)
 env_file="./.env"
-
 echo "# Generated .env" > "$env_file"
 
-# Helper to write variables
 add_if() {
   varname="$1"
   val="$(eval "printf '%s' \"\${$varname}\"")"
   if [ -n "$val" ]; then
-    # Escape quotes/backslashes
     escaped=$(printf '%s' "$val" | sed 's/\\/\\\\/g; s/"/\\"/g')
     printf '%s="%s"\n' "$varname" "$escaped" >> "$env_file"
   fi
 }
 
-# Add your variables
+# List your variables here...
 add_if SESSION_ID
 add_if PREFIX
 add_if TIMEZONE
@@ -62,11 +59,7 @@ if [ -z "$(eval "printf '%s' \"\${PREFIX}\"")" ]; then
   fi
 fi
 
-# --- 3. RUN THE BOT ---
-# If arguments are passed (like from Docker CMD), run them
-# Otherwise, default to running the binary
-if [ "$#" -gt 0 ]; then
-    exec "$@"
-else
-    exec "./$BINARY_NAME"
-fi
+echo ".env created at $env_file"
+
+# Run the binary
+exec "./$BINARY_NAME"
