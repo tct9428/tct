@@ -28,6 +28,6 @@ services:
       - key: DASHBOARD_PASS
         sync: false
 
-      # Defaults provided (optional, can be overridden)
+      
       - key: server_port
         value: "3010"
