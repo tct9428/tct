@@ -1,4 +1,4 @@
-DB_BATCH_SIZE: 400
+DB_BATCH_SIZE: 300
 DB_FLUSH_INTERVAL: "5000"       # milliseconds or duration string like "5s"
 DB_CACHE_MAX_BYTES: 134217728   # 128MB
 DB_USE_WAL: true
